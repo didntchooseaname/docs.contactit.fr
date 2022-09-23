@@ -1,0 +1,29 @@
+input: .
+output: .retype
+url: https://docs.contactit.fr
+branding:
+  title: contactit.fr
+  logo: contactit.webp
+  label: Docs
+links:
+- text: Accueil
+  link: https://contactit.fr
+  icon: three-bars
+- text: Windows Server & LDAP (AD)
+  link: /windows_server_ldap/windows_server/installation-d-un-serveur-windows/
+  icon: table
+- text: Réseaux Cisco/Alcatel
+  link: /reseaux/cisco/la-hierarchie-du-cli-cisco/
+  icon: server
+- text: GNU/Linux
+  link: /linux/debian-install/
+  icon: terminal
+- text: Liens Utiles
+  link: /liens_utiles/
+  icon: link
+- text: Mentions Légales
+  link: /mentions_legales/
+  target: blank
+  icon: law
+footer:
+  copyright: "Hier, aujourd'hui ( {{ year }} ) et demain..."
