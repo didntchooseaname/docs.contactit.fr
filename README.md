@@ -36,7 +36,7 @@ Et pourquoi pas continuer sur un mastère 2 après 😉.
 👉 Le projet est disponible sur github à cette adresse: https://github.com/retypeapp/retype  
 👉 La documentation sur le site: https://retype.com/  
 
-🤜 L'intégralité de docs.contactit.fr est libre (licence MIT) et disponible sur gitlab à cette adresse: https://gitlab.com/arandomgui/docs.contactit.fr
+🤜 L'intégralité de docs.contactit.fr est libre (licence MIT) et disponible sur gitlab à cette adresse: https://gitlab.com/contactit/docs.contactit.fr
 
 ---
 

@@ -37,7 +37,7 @@ Je me suis dit pourquoi pas le mettre en ligne et partager ces connaissances ave
 :icon-arrow-right: Le projet est disponible sur github à cette adresse: https://github.com/retypeapp/retype  
 :icon-arrow-right: La documentation sur le site: https://retype.com/
 
-:icon-code-of-conduct: L'intégralité de `docs.contactit.fr` est **libre** (licence MIT) et disponible sur **gitlab** à cette adresse: https://gitlab.com/arandomgui/docs.contactit.fr
+:icon-code-of-conduct: L'intégralité de `docs.contactit.fr` est **libre** (licence MIT) et disponible sur **gitlab** à cette adresse: https://gitlab.com/contactit/docs.contactit.fr
 
 === :icon-chevron-right: Intéressant, je peux t'écrire un mot ?
 
