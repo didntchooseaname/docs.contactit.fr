@@ -44,15 +44,3 @@ Je me suis dit pourquoi pas le mettre en ligne et partager ces connaissances ave
 :icon-arrow-right: Bien sur 😃 ! Je suis joignable par [mail](mailto:contactit.yarka@slmail.me).
 
 ===
-
-
-
-
-
-
-
-
-
-
-
- 
