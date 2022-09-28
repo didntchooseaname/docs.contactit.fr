@@ -1,7 +1,7 @@
 ---
 icon: download
 description: Installation d'un serveur windows avec le rôle AD DS (Controleur de domaine).
-image: images/advignette.webp
+image: images/adins.webp
 categories: [Active directory]
 date: 2021-11-12
 tags: [Windows server, Active directory, AD, AD DS, domain controler, domain, controleur de domaine]

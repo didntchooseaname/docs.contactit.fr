@@ -1,6 +1,6 @@
 ---
 description: Active directory, installation, controleur de domaine, partages et autorisations.
-image: images/advignette.webp
+image: images/ad.webp
 title: Active Directory multi-sites, partages réseaux et gestion des droits utilisateur
 icon: codespaces
 categories: [Active directory]
