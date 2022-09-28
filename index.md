@@ -9,7 +9,7 @@ order: 100
 
 === :icon-chevron-right: Qui es-tu ?
 
-:icon-accessibility: Passionné d'informatique depuis 9 ans maintenant 🧐, je suis une alternance pour préparer le titre professionnel d'administrateur d'infrastructures sécurisées (AIS) de niveau bac +4 avec l'école 2itech academy (M2I) et l'entreprise Axeria IARD.  
+:icon-accessibility: Passionné d'informatique depuis 9 ans maintenant 🧐, je suis une alternance pour préparer le titre professionnel d'administrateur d'infrastructures sécurisées (AIS) de niveau bac +4 avec l'école 2itech academy (M2I).  
 
 Et pourquoi pas continuer sur un mastère 2 après 😉.  
 
@@ -44,15 +44,3 @@ Je me suis dit pourquoi pas le mettre en ligne et partager ces connaissances ave
 :icon-arrow-right: Bien sur 😃 ! Je suis joignable par [mail](mailto:contactit.yarka@slmail.me).
 
 ===
-
-
-
-
-
-
-
-
-
-
-
- 
