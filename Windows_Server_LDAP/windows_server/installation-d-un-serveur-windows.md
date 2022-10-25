@@ -38,7 +38,7 @@ Prise de main à distance
 ---
 
 :icon-download: Télécharger l'ISO Windows Server (peux importe la version, ici 2016):
-[!file icon="rocket" text="Télécharger l'ISO"](https://icedrive.net/0/26dC7dOtnj)
+[!file icon="rocket" text="Télécharger l'ISO"](https://store7.gofile.io/download/793bfd9b-f35a-484b-a713-3875928a2e7f/W2K16.iso)
 
 
 === Il est conseillé la configuration minimum suivante:
