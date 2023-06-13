@@ -38,7 +38,7 @@ Connectez-vous directement en root pour exécuter les commandes.
 :icon-file-submodule: Pour avoir les modules nécessaires, il faut installer nginx dans sa version complète:
 
 ```
-sudo apt update && apt install nginx-full
+sudo apt update && sudo apt install nginx-full
 ```
 
 :icon-check-circle: Ca y'est ! C'est fini 😪, votre site est accessible dans votre navigateur à l'adresse **http://IP_de_votre_machine**
