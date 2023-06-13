@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/docs.contactit.fr/
+    - export DEPLOYPATH=./docs.contactit.fr/
     - /bin/cp -R categories $DEPLOYPATH
     - /bin/cp -R liens_utiles $DEPLOYPATH
     - /bin/cp -R linux $DEPLOYPATH
@@ -12,5 +12,5 @@ deployment:
     - /bin/cp -R Windows_Server_LDAP $DEPLOYPATH
     - /bin/cp deploy.cpanel.yml $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
-      /bin/cp 404.html $DEPLOYPATH
+    /bin/cp 404.html $DEPLOYPATH
 
