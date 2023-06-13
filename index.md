@@ -9,9 +9,11 @@ order: 100
 
 === :icon-chevron-right: Qui es-tu ?
 
-:icon-accessibility: Passionné d'informatique depuis 9 ans maintenant 🧐, je suis une alternance pour préparer le titre professionnel d'administrateur d'infrastructures sécurisées (AIS) de niveau bac +4 avec l'école 2itech academy (M2I).  
+:icon-accessibility: Passionné d'informatique depuis 9 ans maintenant 🧐, je suis en première année de Master Of Science (M2) Expert cybersécurité avec Guardia Cybersecurity school en alternance.
 
-Et pourquoi pas continuer sur un mastère 2 après 😉.  
+De part les rencontres et les nombreuses discussions que j'au pu avoir avec de nombreux acteurs, venant d'un cursus systèmes et réseaux, j'ai décidé de me spécialisé en cybersécurité.
+
+Ma première experience dans le domaine à été 1 an en tant qu'alternant dans une compagnie d'assurance pour professionnels. J'ai pu assister le Responsable Sécurité du Système d'Information pour la gestion des déploiements des mises à jour systèmes serveurs et posts utilisateur, la gestion de la surface d'attaque et des vulnérabilités de l'entreprise et la mise en place et suivi du projet supervision du SI.
 
 === :icon-chevron-right: Qu'est-ce que docs.contactit.fr ?
 
@@ -37,7 +39,7 @@ Je me suis dit pourquoi pas le mettre en ligne et partager ces connaissances ave
 :icon-arrow-right: Le projet est disponible sur github à cette adresse: https://github.com/retypeapp/retype  
 :icon-arrow-right: La documentation sur le site: https://retype.com/
 
-:icon-code-of-conduct: L'intégralité de `docs.contactit.fr` est **libre** (licence MIT) et disponible sur **gitlab** à cette adresse: https://gitlab.com/contactit/docs.contactit.fr
+:icon-code-of-conduct: L'intégralité de `docs.contactit.fr` est **libre** (licence MIT) et disponible sur **github** à cette adresse: https://github.com/didntchooseaname/docs.contactit.fr
 
 === :icon-chevron-right: Intéressant, je peux t'écrire un mot ?
 
