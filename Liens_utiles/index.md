@@ -7,6 +7,7 @@ date: 2020-11-08
 tags: [Liens, externes, utiles]
 visibility: public
 order: 2
+locale: fr
 ---
 
 # :icon-link: Liens utiles
