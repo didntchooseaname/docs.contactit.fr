@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/docs.contactit.fr
+    - export DEPLOYPATH=/docs.contactit.fr/
     - /bin/cp -R categories $DEPLOYPATH
     - /bin/cp -R liens_utiles $DEPLOYPATH
     - /bin/cp -R linux $DEPLOYPATH
