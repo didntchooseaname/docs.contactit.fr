@@ -3,6 +3,7 @@ description: Bienvenue sur mon journal de bord.
 date: 2022-09-09
 visibility: public
 order: 100
+locale: fr
 ---
 
 # :rocket: Bienvenue sur mon journal de bord 😃
