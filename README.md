@@ -4,8 +4,11 @@
 
 ## 🤔 Qui es-tu ?
 
-Passionné d'informatique depuis 9 ans maintenant 🧐, je suis une alternance pour préparer le titre professionnel d'administrateur d'infrastructures sécurisées (AIS) de niveau bac +4 avec l'école 2itech academy (M2I).
-Et pourquoi pas continuer sur un mastère 2 après 😉.
+Passionné d'informatique depuis 9 ans maintenant 🧐, je suis en première année de Master Of Science (M2) Expert cybersécurité avec Guardia Cybersecurity school en alternance.
+
+De part les rencontres et les nombreuses discussions que j'au pu avoir avec de nombreux acteurs, venant d'un cursus systèmes et réseaux, j'ai décidé de me spécialisé en cybersécurité.
+
+Ma première experience dans le domaine à été 1 an en tant qu'alternant dans une compagnie d'assurance pour professionnels. J'ai pu assister le Responsable Sécurité du Système d'Information pour la gestion des déploiements des mises à jour systèmes serveurs et posts utilisateur, la gestion de la surface d'attaque et des vulnérabilités de l'entreprise et la mise en place et suivi du projet supervision du SI.
 
 ---
 
