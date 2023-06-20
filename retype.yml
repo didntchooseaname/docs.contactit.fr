@@ -23,7 +23,8 @@ footer:
   copyright: "Hier, aujourd'hui ( {{ year }} ) et demain..."
 locale: fr
 edit:
-  repo: "https://github.com/didntchooseaname/docs.contactit.fr.git"
+  repo: "https://github.com/didntchooseaname/docs.contactit.fr"
+  branch: master
 search:
   placeholder: Rechercher
   noResultsFoundMsg: Pas de résultats.
