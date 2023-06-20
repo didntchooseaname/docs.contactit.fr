@@ -3,3 +3,4 @@ expanded: false
 icon: server
 order: 100
 visibility: public
+locale: fr
