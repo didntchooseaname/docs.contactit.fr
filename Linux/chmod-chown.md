@@ -10,7 +10,7 @@ date: 2021-11-03
 tags: [GNU/Linux, debian, chmod, chown, droits, permissions]
 visibility: public
 order: 30
-locale: fr
+
 ---
 
 # 🔨 La gestion des droits sous GNU/Linux

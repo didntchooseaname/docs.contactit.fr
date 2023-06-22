@@ -3,16 +3,23 @@ title: Liens utiles
 icon: link
 description: Liste des liens regroupant un grand nombre d'informations sur la sécurité, la vie privée, les failles de securitée etc...
 categories: [Liens externes]
-date: 2020-11-08
+date: 08-11-2020
 tags: [Liens, externes, utiles]
 visibility: public
 order: 2
-locale: fr
 ---
 
 # :icon-link: Liens utiles
 
 :icon-shield-check: Cette page est un mémo qui recense plusieurs projets axés sur la vie privée au sens large et la sécurité de l'utilisateur.  
+
+---
+
+## :icon-chevron-right: HardeningKitty
+
+Audit et déploiement de mesures de durcissement systeme et utilisateur (powershell & GPO).
+Se base sur les listes du: CIS, DoD STIG, Microsoft baselines, SiSyPHus...
+[!ref target="blank" text="Repo github"](https://github.com/0x6d69636b/windows_hardening)
 
 ---
 

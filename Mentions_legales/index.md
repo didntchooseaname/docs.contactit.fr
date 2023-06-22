@@ -4,7 +4,7 @@ icon: law
 date: 2020-11-03
 visibility: public
 order: 1
-locale: fr
+
 ---
 
 # :icon-law: Mentions légales
