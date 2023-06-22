@@ -1,9 +1,7 @@
 ---
 description: Bienvenue sur mon journal de bord.
 date: 2022-09-09
-visibility: public
 order: 100
-
 ---
 
 # :rocket: Bienvenue sur mon journal de bord 😃
@@ -12,9 +10,11 @@ order: 100
 
 :icon-accessibility: Passionné d'informatique depuis 9 ans maintenant 🧐, je suis en première année de Master Of Science (M2) Expert cybersécurité avec Guardia Cybersecurity school en alternance.
 
-De part les rencontres et les nombreuses discussions que j'au pu avoir avec de nombreux acteurs, venant d'un cursus systèmes et réseaux, j'ai décidé de me spécialisé en cybersécurité.
+:arrow_right: De par les rencontres et les nombreuses discussions que j'ai pu avoir avec de nombreux acteurs, venant d'un cursus systèmes et réseaux, j'ai décidé de me spécialisé en cybersécurité.
 
-Ma première experience dans le domaine à durée 1 an, en tant qu'alternant dans une compagnie d'assurance pour professionnels. J'ai pu assister le Responsable Sécurité du Système d'Information pour la gestion des déploiements des mises à jour systèmes serveurs et posts utilisateur, la gestion de la surface d'attaque et des vulnérabilités de l'entreprise et la mise en place et suivi du projet supervision du SI. J'ai également pu migrer des systèmes obsolètes vers une version plus récentes, incluant windows server (+applicatifs) et des contrôleurs de domaine (Active directory) avec du DHCP Failover.
+:arrow_right: Ma première experience dans le domaine à duré 1 an, en tant qu'alternant dans une compagnie d'assurance pour professionnels. J'ai pu assister le Responsable Sécurité du Système d'Information pour la gestion des déploiements des mises à jour systèmes serveurs et posts utilisateur, la gestion de la surface d'attaque et des vulnérabilités de l'entreprise, ainsi que la mise en place et suivi/déploiement du projet supervision du SI. 
+
+:arrow_right: J'ai également pu migrer des systèmes obsolètes vers une version plus récente, incluant windows server (+applicatifs) et des contrôleurs de domaine (Active directory) avec du DHCP Failover.
 
 === :icon-chevron-right: Qu'est-ce que docs.contactit.fr ?
 
