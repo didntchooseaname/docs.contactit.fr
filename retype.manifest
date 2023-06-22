@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-06-20T09:51:01Z",
+  "created": "2023-06-22T08:41:11Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -37,6 +37,9 @@
     },
     {
       "path": "CNAME"
+    },
+    {
+      "path": "contactit.webp"
     },
     {
       "path": "index.html"
