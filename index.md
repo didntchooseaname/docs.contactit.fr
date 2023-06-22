@@ -14,11 +14,11 @@ order: 100
 
 De part les rencontres et les nombreuses discussions que j'au pu avoir avec de nombreux acteurs, venant d'un cursus systèmes et réseaux, j'ai décidé de me spécialisé en cybersécurité.
 
-Ma première experience dans le domaine à été 1 an en tant qu'alternant dans une compagnie d'assurance pour professionnels. J'ai pu assister le Responsable Sécurité du Système d'Information pour la gestion des déploiements des mises à jour systèmes serveurs et posts utilisateur, la gestion de la surface d'attaque et des vulnérabilités de l'entreprise et la mise en place et suivi du projet supervision du SI.
+Ma première experience dans le domaine à durée 1 an, en tant qu'alternant dans une compagnie d'assurance pour professionnels. J'ai pu assister le Responsable Sécurité du Système d'Information pour la gestion des déploiements des mises à jour systèmes serveurs et posts utilisateur, la gestion de la surface d'attaque et des vulnérabilités de l'entreprise et la mise en place et suivi du projet supervision du SI. J'ai également pu migrer des systèmes obsolètes vers une version plus récentes, incluant windows server (+applicatifs) et des contrôleurs de domaine (Active directory) avec du DHCP Failover.
 
 === :icon-chevron-right: Qu'est-ce que docs.contactit.fr ?
 
-:icon-note: Un mémo des formations que j'ai suivi, des conseils d'intervenants, des éxperiences théoriques et pratiques, c'est un peux de tout finalement. 
+:icon-note: Un mémo des formations que j'ai suivi, des conseils d'intervenants et formateurs et des éxperiences théoriques et pratiques.. 
 Je me suis dit pourquoi pas le mettre en ligne et partager ces connaissances avec tous.
 
 === :icon-chevron-right: Pourquoi docs.contactit.fr ?
