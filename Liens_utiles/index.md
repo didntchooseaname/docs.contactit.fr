@@ -5,13 +5,21 @@ description: Liste des liens regroupant un grand nombre d'informations sur la s�
 categories: [Liens externes]
 date: 08-11-2020
 tags: [Liens, externes, utiles]
-visibility: public
 order: 2
 ---
 
 # :icon-link: Liens utiles
 
 :icon-shield-check: Cette page est un mémo qui recense plusieurs projets axés sur la vie privée au sens large et la sécurité de l'utilisateur.  
+
+---
+
+# :books: Veille sécurité informatique
+
+:bookmark_tabs:  Mon flux RSS de veille infosec en ligne: [inoreader.com](https://www.inoreader.com/stream/user/1004726604/tag/Infosec/view/html?t=0rion_%27s%20RSS%20feed&l=https%3A%2F%2Fdocs.contactit.fr%2Fcontactit.webp&cs=m)
+
+:bookmark: Fichier OPML: [ici](https://www.inoreader.com/reader/subscriptions/export/user/1004726604/label/Infosec)
+
 
 ---
 
