@@ -1,1 +1,4 @@
 .htaccess
+node_modules
+_src
+.retype
