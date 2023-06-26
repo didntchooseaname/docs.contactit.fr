@@ -3,18 +3,12 @@ description: Créer un serveur openVPN sur debian et s'y connecter avec un clien
 categories: [GNU/Linux]
 date: 2021-10-21
 tags: [GNU/Linux, debian, openvpn, vpn, server, client]
-visibility: public
 order: 45
 ---
 
 # :closed_lock_with_key: Installation d'un serveur OpenVPN sur debian
 
 ==- :icon-report: Mises en garde
-
-!!! Warning Cette documentation est en cours d'écriture :writing_hand:
-Il pourrait il y avoir quelques erreures.  
-Si vous en remarquez une, contactez-moi [ici](mailto:contactit.yarka@slmail.me) :slightly_smiling_face:
-!!!
 
 !!! primary
 Vous pouvez directement utiliser la barre de recherche.  
