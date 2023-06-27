@@ -2,9 +2,7 @@
 title: Mentions légales
 icon: law
 date: 2020-11-03
-visibility: public
 order: 1
-
 ---
 
 # :icon-law: Mentions légales

@@ -3,7 +3,6 @@ description: Mise en place et configuration basique d'un serveur DNS Bind9.
 categories: [GNU/Linux]
 date: 2021-10-20
 tags: [GNU/Linux, debian, dns]
-visibility: public
 order: 48
 ---
 

@@ -3,9 +3,7 @@ description: Installation basique de debian.
 categories: [GNU/Linux]
 date: 2021-10-22
 tags: [GNU/Linux, debian, installation]
-visibility: public
 order: 49
-
 ---
 
 # :zap: Installation de debian 11

@@ -5,7 +5,6 @@ description: Installation du rôle Windows Deployment Services et serveur de dé
 categories: [Windows server]
 date: 2021-11-30
 tags: [Windows server, serveur, boot, pxe, master, iso, wds, service, deploiement]
-visibility: public
 order: 37
 ---
 

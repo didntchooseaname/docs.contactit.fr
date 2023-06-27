@@ -5,7 +5,6 @@ description: Appliquer un quota sur des repertoires partagés en réseau.
 categories: [Active directory]
 date: 2020-11-30
 tags: [Active directory, AD, AD DS, domain, domain controller, controleur de domaine, share, permissions, quota]
-visibility: public
 order: 48
 ---
 

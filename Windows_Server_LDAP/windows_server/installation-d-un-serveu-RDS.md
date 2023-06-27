@@ -5,7 +5,6 @@ description: Installation d'un serveur Remote Desktop Protocol.
 categories: [Windows server]
 date: 2021-11-22
 tags: [Windows server, serveur, rds, remote, desktop]
-visibility: public
 order: 39
 ---
 

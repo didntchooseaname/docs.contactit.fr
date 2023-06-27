@@ -6,7 +6,6 @@ icon: codespaces
 categories: [Active directory]
 date: 2021-12-20
 tags: [Windows server, Active directory, AD, DS, domain, share, permissions, domain controler, controleur de domaine]
-visibility: public
 order: 49
 ---
 

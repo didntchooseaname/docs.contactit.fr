@@ -8,7 +8,6 @@ authors:
 categories: [GNU/Linux]
 date: 2021-11-03
 tags: [GNU/Linux, debian, chmod, chown, droits, permissions]
-visibility: public
 order: 30
 
 ---

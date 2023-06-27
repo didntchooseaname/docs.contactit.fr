@@ -3,7 +3,6 @@ description: Initiation à Git & Github.
 categories: [GNU/Linux]
 date: 2022-09-05
 tags: [git, github, gitlab]
-visibility: public
 order: 20
 ---
 

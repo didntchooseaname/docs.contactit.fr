@@ -5,9 +5,7 @@ description: Commandes utiles pour switch Alcatel.
 categories: [Reseaux]
 date: 2021-11-12
 tags: [alcatel, networks]
-visibility: public
 order: 99
-locale: fr
 ---
 
 # :gloves: Configuration d'un switch Alcatel
