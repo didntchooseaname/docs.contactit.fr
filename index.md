@@ -12,7 +12,7 @@ order: 100
 
 :arrow_right: De par les rencontres et les nombreuses discussions que j'ai pu avoir avec de nombreux acteurs, venant d'un cursus systèmes et réseaux, j'ai décidé de me spécialisé en cybersécurité.
 
-:arrow_right: Ma première experience dans le domaine à duré 1 an, en tant qu'alternant dans une compagnie d'assurance pour professionnels. J'ai pu assister le Responsable Sécurité du Système d'Information pour la gestion des déploiements des mises à jour systèmes serveurs et posts utilisateur, la gestion de la surface d'attaque et des vulnérabilités de l'entreprise, ainsi que la mise en place et suivi/déploiement du projet supervision du SI. 
+:arrow_right: Ma première expérience en sécurité a duré un an, en tant qu'alternant dans une compagnie d'assurance pour professionnels. J'ai pu assister le Responsable Sécurité du Système d'Information pour la gestion des déploiements des mises à jour systèmes serveurs et posts utilisateur, la gestion de la surface d'attaque et des vulnérabilités de l'entreprise, la mise en place d'une compliance avec des standards CIS intune et windows server et la gestion, mise en place et suivi du projet supervision du SI.
 
 :arrow_right: J'ai également pu migrer des systèmes obsolètes vers une version plus récente, incluant windows server (+applicatifs) et des contrôleurs de domaine (Active directory) avec du DHCP Failover.
 
