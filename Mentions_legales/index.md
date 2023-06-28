@@ -7,6 +7,11 @@ order: 1
 
 # :icon-law: Mentions légales
 
+- 0 cookie
+- 0 pubs
+- 0 tracking/analyse
+- 0 tierce-partie
+
 ## :icon-checklist: Définitions
 
 Client : tout professionnel ou personne physique capable au sens des articles 1123 et suivants du Code civil, ou personne morale, qui visite le Site objet des présentes conditions générales.  
@@ -30,7 +35,7 @@ Propriétaire : contactit.yarka@slmail.me
 Responsable publication : contactit.yarka@slmail.me  
 Le responsable publication est une personne physique ou une personne morale.  
 Webmaster : contactit.yarka@slmail.me  
-Hébergeur : O2switch – 222 Bd Gustave Flaubert 63000 Clermont-Ferrand 04 44 44 60 40  
+Hébergeur : vercel & O2switch – 222 Bd Gustave Flaubert 63000 Clermont-Ferrand 04 44 44 60 40  
 Délégué à la protection des données : contactit.yarka@slmail.me  
 
 ## 2. Conditions générales d’utilisation du site et des services proposés.  
