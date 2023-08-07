@@ -1,5 +1,4 @@
 ---
-title: Liens utiles
 icon: link
 description: Liste des liens regroupant un grand nombre d'informations sur la sécurité, la vie privée, les failles de securitée etc...
 categories: [Liens externes]
@@ -25,8 +24,8 @@ order: 2
 
 ## :icon-chevron-right: HardeningKitty
 
-Audit et déploiement de mesures de durcissement systeme et utilisateur (powershell & GPO).
-Se base sur les listes du: CIS, DoD STIG, Microsoft baselines, SiSyPHus...
+Audit et déploiement de mesures de durcissement système et utilisateur (PowerShell & GPO).
+Se base sur les listes du : CIS, DoD STIG, Microsoft baselines, SiSyPHus...
 [!ref target="blank" text="Repo github"](https://github.com/0x6d69636b/windows_hardening)
 
 ---
@@ -85,7 +84,7 @@ Diffuser la vie privée et la sécurité auprès du grand public.
 
 Il s'agit d'un guide maintenu dans le but de fournir une introduction à diverses techniques de traçage en ligne,
 des techniques de vérification d'identité en ligne, et des conseils détaillés pour créer et maintenir des identités en ligne
-(réellement) anonymes.  
+anonymes.  
 
 Il est écrit avec espoir pour les activistes, les journalistes, les scientifiques, les avocats,  
 les lanceurs d'alerte et les bonnes gens opprimés, censurés, harcelés où que ce soit !  
@@ -173,6 +172,6 @@ Formation GNU/Linux interactive en ligne
 
 ---
 
-:icon-diff-renamed: Dernière modification: 15/09/2022 - 12h00
+:icon-diff-renamed: Dernière modification: 07/08/23 - 11h03
 
 
