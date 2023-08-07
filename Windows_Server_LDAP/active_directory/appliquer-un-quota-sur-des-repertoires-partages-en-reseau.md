@@ -8,7 +8,7 @@ tags: [Active directory, AD, AD DS, domain, domain controller, controleur de dom
 order: 48
 ---
 
-# :icon-meter: Appliquer un quota sur des repertoires partagés en réseau
+# :icon-meter: Appliquer un quota sur des répertoires partagés en réseau
 
 ![](images/quota/quota.webp)
 
@@ -21,7 +21,7 @@ En se basant sur la configuration du précédent tutoriel:
 
 [!ref Active Directory multi-sites, partages réseaux et gestion des droits utilisateur](active-directory-tp-uo-ou-gg-gl-partages-et-droits-utilisateurs.md)
 
-Nous allons appliquer des "quota" aux partages de dossiers sur le serveur de Chassignieu par exemple.
+Nous allons appliquer des "quotas" aux partages de dossiers sur le serveur de Chassignieu par exemple.
 
 Voici l'arborescence des dossiers partagés:
 
@@ -39,7 +39,7 @@ Voici l'arborescence des dossiers partagés:
 └── 📁DBASE-CHA
 ```
 
-Voici les éxigences de l'entreprise:
+Voici les exigences de l'entreprise:
 
 Techniciens | commun | Administratifs | commun | Techniciens de Chassignieu | Administratifs de Chassignieu | Direction
 --- | --- | --- | --- | --- | --- | ---
