@@ -1,7 +1,6 @@
 ---
-description: Active directory, installation, controleur de domaine, partages et autorisations.
+description: Active directory, installation, contrôleur de domaine, partages et autorisations.
 image: images/ad.webp
-title: Active Directory multi-sites, partages réseaux et gestion des droits utilisateur
 icon: codespaces
 categories: [Active directory]
 date: 2021-12-20
@@ -12,6 +11,7 @@ order: 49
 # :key: Active Directory multi-sites, partages réseaux et gestion des droits utilisateur
 
 ![](images/ad.webp)
+
 ---
 
 ## :receipt: Contexte
