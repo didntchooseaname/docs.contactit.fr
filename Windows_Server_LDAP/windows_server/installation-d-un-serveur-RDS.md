@@ -72,7 +72,7 @@ Permet de ne pas avoir le message d'erreur de certificat.
 
 ## :ballot_box_with_check: Connexion sur le client RDS
 
-Vous pouvez maintenant tester votre serveur et vous connecter en bureau à disatance avec votre client.
+Vous pouvez maintenant tester votre serveur et vous connecter en bureau à distance avec votre client.
 
 ---
 
