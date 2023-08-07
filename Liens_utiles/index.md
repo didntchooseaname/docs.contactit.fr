@@ -3,7 +3,7 @@ title: Liens utiles
 icon: link
 description: Liste des liens regroupant un grand nombre d'informations sur la sécurité, la vie privée, les failles de securitée etc...
 categories: [Liens externes]
-date: 08-11-2020
+date: 2020-11-08
 tags: [Liens, externes, utiles]
 order: 2
 ---
