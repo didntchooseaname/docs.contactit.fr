@@ -10,11 +10,11 @@ order: 40
 
 # :icon-download: Installation d'un serveur windows
 
-:icon-info: Un Serveur windows permet à une entreprise de gérer un ou plusieurs rôles.  
+:icon-info: Un Serveur Windows permet à une entreprise de gérer un ou plusieurs rôles.  
 
-:icon-chevron-right: Le `rôle` est un terme propre a windows server qui désigne une fonctionnalité ajoutée après son installation.  
+:icon-chevron-right: Le `rôle` est un terme propre a Windows server qui désigne une fonctionnalité ajoutée après son installation.  
 
-=== Voici quelques rôles fréquemments utilisés:
+=== Voici quelques rôles fréquemment utilisés :
 
  AD DS | DNS | DHCP
 --- | --- | ---
