@@ -1,6 +1,6 @@
 ---
 icon: download
-description: Installation d'un serveur windows avec le rôle AD DS (Controleur de domaine).
+description: Installation d'un serveur Windows avec le rôle AD DS (Controleur de domaine).
 image: images/adins.webp
 categories: [Active directory]
 date: 2021-11-12
@@ -12,10 +12,12 @@ order: 50
 
 ![](images/adins.webp)
 
-Un Active Directory ou controleur de domaine, c'est un rôle ou une fonctionnalité ajoutée au serveur windows après sont installation.
+---
+
+Un Active Directory ou contrôleur de domaine, c'est un rôle ou une fonctionnalité ajoutée au serveur Windows après sont installation.
 
 
-Si vous n'avez pas encore installer votre serveur windows vous pouvez trouver un tutoriel étape par étape ici:
+Si vous n'avez pas encore installer votre serveur Windows vous pouvez trouver un tutoriel étape par étape ici:
 
 [!ref Installer un serveur windows server](https://windows.contactit.fr/windows-server/install-ws.md)
 
@@ -24,7 +26,7 @@ Si vous n'avez pas encore installer votre serveur windows vous pouvez trouver un
 
 ## :exclamation: Fixer l'adresse IP et le nom de la machine
 
-![`Win + R` (menu éxécuter) et entrez: `ncpa.cpl`  
+![`Win + R` (menu exécuter) et entrer: `ncpa.cpl`  
 (ouvre directement les paramètres des adaptateurs réseaux)](images/install-ad/1.webp)
 
 ---
@@ -40,7 +42,7 @@ Si vous n'avez pas encore installer votre serveur windows vous pouvez trouver un
 `Passerelle par défaut:` `IP_PASSERELLE`  
 
 :icon-info: Pour ce qui est du DNS celui-ci se mettra tout seul en loopback.
-Quand le serveur windows serveur est promu contrôleur de domaine, il installe le rôle DNS automatiquement et devient donc, aussi son propre DNS
+Quand le serveur Windows serveur est promu contrôleur de domaine, il installe le rôle DNS automatiquement et devient donc, aussi son propre DNS
 
 ---
 
@@ -59,7 +61,7 @@ Quand le serveur windows serveur est promu contrôleur de domaine, il installe l
 ## Ajouter la fonctionnalité "AD DS"
 
 !!!
-Celle-ci ajoutera automatiquement la fonctionnalité DNS, puique l'AD en a besoin pour fonctionner.
+Celle-ci ajoutera automatiquement la fonctionnalité DNS, puisque l'AD en a besoin pour fonctionner.
 !!!
 
 ![](images/install-ad/7.webp)
@@ -77,7 +79,7 @@ Celle-ci ajoutera automatiquement la fonctionnalité DNS, puique l'AD en a besoi
 ## :ballot_box_with_ballot: Promouvoir le serveur en contrôleur de domaine
 
 !!!
-Lors de la promulugation du serveur en contrôleur de domaine, celui-ci retire tous les utilisateurs locaux.
+Lors de la promulgation du serveur en contrôleur de domaine, celui-ci retire tous les utilisateurs locaux.
 !!!
 
 ![](images/install-ad/10.webp)
@@ -112,7 +114,7 @@ Lors de la promulugation du serveur en contrôleur de domaine, celui-ci retire t
 
 ---
 
-![Le serveur va redemarrer.](images/install-ad/18.webp)
+![Le serveur redémarre.](images/install-ad/18.webp)
 
 ---
 
