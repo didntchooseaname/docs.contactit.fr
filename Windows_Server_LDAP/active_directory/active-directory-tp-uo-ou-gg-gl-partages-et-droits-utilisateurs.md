@@ -8,7 +8,7 @@ tags: [Windows server, Active directory, AD, DS, domain, share, permissions, dom
 order: 49
 ---
 
-# :key: Active Directory multi-sites, partages réseaux et gestion des droits utilisateur
+# :key: Active Directory multisites, partages réseaux et gestion des droits utilisateur
 
 ![](images/ad.webp)
 
@@ -16,7 +16,7 @@ order: 49
 
 ## :receipt: Contexte
 
-Une entreprise possède 3 sites, chacun d'entre-eux ont 1 serveur windows:  
+Une entreprise possède 3 sites, chacun d'entre-eux possède 1 serveur Windows :  
 - SRV-CHA (AD) sur Chassignieu (siège de l'entreprise)  
 - SRV-VIR sur Virieu  
 - SRV-BLA sur Blandin  
@@ -113,13 +113,13 @@ Chaque utilisateur appartient au GG de son service.
 
 Nous allons nous baser sur la topologie ci-dessus, pour l'ensemble de ce TP.
 
-Les étapes détaillées ci-dessous vous indique la démarche à suivre pour créer chacun des éléments.  
+Les étapes détaillées ci-dessous indiquent la démarche à suivre pour créer chacun des éléments.  
 
 ---
 
 ## :heavy_plus_sign: Création d'une OU
 
-`OU` Organisation Unit en anglais ou `UO` Unité d'organisation en francais est un élément dans l'active directory, qui nous permet de gérer un ensemble d'éléments.
+`OU` Organisation Unit en anglais ou `UO` Unité d'organisation en français est un élément dans l'active directory, qui nous permet de gérer un ensemble d'éléments.
 Sur le schéma ci-dessus, nous pouvons remarquer qu'il ya des "sous Unités d'organisation":  
 
 Par exemple: L'utilisateur: PDG se trouve dans `SRV-CHA > Direction`  
@@ -132,7 +132,7 @@ Donc dans la sous OU `Direction` qui dépend de `SRV-CHA`
 
 ![](images/ad_multisites/1.webp)
 
-![Décochez la case `Protéger le conteneur contre une supression accidentelle`](images/ad_multisites/2.webp)
+![Décochez la case `Protéger le conteneur contre une suppression accidentelle`](images/ad_multisites/2.webp)
 
 ---
 
@@ -152,7 +152,7 @@ Un `Groupe global` permet de rassembler un ou plusieurs utilisateurs.
 
 ![](images/ad_multisites/6.webp)
 
-![Définir un mot de passe qui respècte votre stratégie de sécurité](images/ad_multisites/7.webp)
+![Définir un mot de passe qui respecte votre stratégie de sécurité](images/ad_multisites/7.webp)
 
 ![](images/ad_multisites/8.webp)
 
@@ -175,7 +175,7 @@ Les `GL (Groupes de Domaine Local)` appliquent les droits aux ressources.
 
 ---
 
-## :heavy_plus_sign: Création du repertoire partagé "DATA"
+## :heavy_plus_sign: Création du répertoire partagé "DATA"
 
 ![](images/ad_multisites/17.webp)
 
@@ -251,7 +251,7 @@ Les `GL (Groupes de Domaine Local)` appliquent les droits aux ressources.
 
 ## :part_alternation_mark: Dossier de base
 
-:icon-info: Le dossier de base est simplement un repertoire vide pour chaque utilisateur, ou il peut y stocker ses documents par exemple.  
+:icon-info: Le dossier de base est simplement un répertoire vide pour chaque utilisateur, ou il peut y stocker ses documents par exemple.  
 Ce dossier est dans un chemin partagé.
 
 ==- :icon-diff-added: Créer le partage réseau
@@ -319,11 +319,11 @@ net use Z: \\SRV-BLA\DATA-BLA$
 
 :icon-chevron-right: Prennons l'exmeple d'un utilisateur sur Blandin:
 
-`X:` contiendra le repertoire partagé `\\SRV-BLA\DBASE-BLA$\NOM_UTILISATEUR` 
+`X:` contiendra le répertoire partagé `\\SRV-BLA\DBASE-BLA$\NOM_UTILISATEUR` 
 
-`Y:` contiendra le repertoire commun partagé `\\SRV-CHA\DATA-CHA$` (l'utilisateur ne pourra voir que les dossiers ou il aura un accès (minimum en lécture) du partage commun).  
+`Y:` contiendra le répertoire commun partagé `\\SRV-CHA\DATA-CHA$` (l'utilisateur ne pourra voir que les dossiers ou il aura un accès (minimum en lecture) du partage commun).  
 
-`Z:` contiendra le repertoire partagé `\\SRV-BLA\DATA-BLA$` si je suis à Blandin (l'utilisateur ne pourra voir que les dossiers ou il aura un accès (minimum en lécture), cloisonnement par site).  
+`Z:` contiendra le répertoire partagé `\\SRV-BLA\DATA-BLA$` si je suis à Blandin (l'utilisateur ne pourra voir que les dossiers ou il aura un accès (minimum en lecture), cloisonnement par site).  
 
 ==- :ballot_box_with_ballot: Création des scripts
 
@@ -350,9 +350,9 @@ net use Z: \\SRV-BLA\DATA-BLA$
 ## :curly_loop: Profils itinérants
 
 Les Profils itinérants, facilitent le changement de machine ou de locaux.  
-Le profil utilisateur est stocké de manière distante sur un repertoire partagé.  
+Le profil utilisateur est stocké de manière distante sur un répertoire partagé.  
 
-==- :ballot_box_with_ballot: Créer le repertoire partagé
+==- :ballot_box_with_ballot: Créer le répertoire partagé
 
 ![](images/ad_multisites/47.webp)
 
@@ -366,7 +366,7 @@ Le profil utilisateur est stocké de manière distante sur un repertoire partag�
 
 ==-
 
-==- :link: Lier le profil à l'urilisateur
+==- :link: Lier le profil à l'utilisateur
 
 ![](images/ad_multisites/52.webp)
 
