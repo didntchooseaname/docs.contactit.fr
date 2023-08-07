@@ -1,5 +1,4 @@
 ---
-title: Mentions légales
 icon: law
 date: 2020-11-03
 order: 1
@@ -14,7 +13,7 @@ order: 1
 
 ## :icon-checklist: Définitions
 
-Client : tout professionnel ou personne physique capable au sens des articles 1123 et suivants du Code civil, ou personne morale, qui visite le Site objet des présentes conditions générales.  
+Client : Tout professionnel ou personne physique capable au sens des articles 1123 et suivants du Code civil, ou personne morale, qui visite le Site objet des présentes conditions générales.  
 Prestations et Services : https://contactit.fr met à disposition des Clients :  
 
 Contenu : Ensemble des éléments constituants l’information présente sur le Site, notamment textes – images – vidéos.  
