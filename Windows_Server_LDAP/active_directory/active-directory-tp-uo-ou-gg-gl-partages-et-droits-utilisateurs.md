@@ -8,7 +8,7 @@ tags: [Windows server, Active directory, AD, DS, domain, share, permissions, dom
 order: 49
 ---
 
-# :key: Active Directory multisites, partages réseaux et gestion des droits utilisateur
+# :icon-codespaces: Active Directory multisites, partages réseaux et gestion des droits utilisateur
 
 ![](images/ad.webp)
 
