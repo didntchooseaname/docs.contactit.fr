@@ -42,7 +42,7 @@ Router#show ?
 ```
 
 :top: Ici le `?` montre les commandes possibles avec **show**.  
-- le `--More--` indique qu'il y a trop de commandes pour la fenêtre d'affichage.  
+- Le `--More--` indique qu'il y a trop de commandes pour la fenêtre d'affichage.  
 - La touche `Entrer` permet de faire défiler ligne par ligne.  
 - La touche `Espace` permet de faire défiler bloc par bloc.  
 
@@ -55,8 +55,8 @@ Voici quelques exemples:
 - `sh <tabulation>` devient `show`
 - `int` devient `interface`
 
-Vous pouvez commencer à tapper la commande et faire TAB dès que possible.Il se peut qu'il y ait une ambiguïté.
-Il faut donc continuer à tapper la commande, pour préciser au système la commande en question.
+Vous pouvez commencer à écrire la commande et faire TAB dès que possible. Il se peut qu'il y ait une ambiguïté.
+Il faut donc continuer à écrire celle-ci, pour préciser au système la commande en question.
 Pour qu'il puisse la compléter correctement.
 
 ---
@@ -72,7 +72,7 @@ interface GigabitEthernet0/0/2
 interface Vlan1
 ```
 
-:icon-chevron-right: Ici `include` filtre le résultat qui inclus le mot `interface`.
+:icon-chevron-right: Ici `include` filtre le résultat qui inclut le mot `interface`.
 
 ---
 
