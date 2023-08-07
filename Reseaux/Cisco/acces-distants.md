@@ -94,13 +94,13 @@ SW1(config-if)#exit
 SW1(config)#ip default-gateway 192.168.1.1  /*Passerelle LAN
 ```
 
-- Il est nécessaire de renseigner un nom de domaine:
+- Il est nécessaire de renseigner un nom de domaine :
 
 ```
 SW1(config)#ip domain-name 1234.com
 ```
 
-- Génération des clés de chiffrement RSA:
+- Génération des clés de chiffrement RSA :
 
 ```
 SW1(config)#crypto key generate rsa
@@ -114,19 +114,19 @@ How many bits in the modulus [512]: 2048
 ```
 
 !!! Warning
-Pour éviter les failles de sécurité répandues avec SSH v1, passez en version 2:
+Pour éviter les failles de sécurité répandues avec SSH v1, passez en version 2 :
 ```
 SW1(config)#ip ssh version 2
 ```
 !!!
 
-- Configuration d'un login/mot de passe:
+- Configuration d'un login/mot de passe :
 
 ```
 SW1(config)#username admin password MON_MDP
 ```
 
-- Configuration de la ligne 0, pour déclarer que seul 1 utilisateur sur le protocole SSH sera autorisé:
+- Configuration de la ligne 0, pour déclarer que seul 1 utilisateur sur le protocole SSH sera autorisé :
 
 ```
 SW1(config)#line vty 0 1
@@ -138,7 +138,7 @@ SW1(config-line)#transport input ssh
 
 ### :bookmark_tabs: Résumé des commandes SSH
 
-Copier/coller directement ces lignes (en adaptant votre configuration), dans votre terminal:
+Copier/coller directement ces lignes (en adaptant votre configuration), dans votre terminal :
 
 ```
 conf t
