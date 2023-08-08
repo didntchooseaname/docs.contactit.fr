@@ -8,7 +8,7 @@ order: 49
 
 # :zap: Installation de debian 11
 
-![](images/debianinst.webp)
+![](images/debianinst.webp){width="250px"}
 
 ==- :icon-report: Mises en garde
 
