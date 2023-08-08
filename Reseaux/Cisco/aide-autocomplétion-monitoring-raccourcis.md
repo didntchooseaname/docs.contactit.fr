@@ -90,7 +90,7 @@ int g0/0 | interface GigabitEthernet0/0
 
 ---
 
-## :x: Le signalement d'érreures
+## :x: Le signalement d'érreurs
 
 L’environnement indique l’endroit ou il y a une erreur.  
 Syntaxe incorrecte ou mauvais mode (do « commande »).
@@ -113,11 +113,11 @@ CTRL-P ou bas | Commande précédente
 CTRL-N ou haut | Commande suivante
 CTRL-F ou droite | Curseur vers la droite
 CTRL-B ou gauche | Curseur vers la gauche
-CTRL-Z | Retour au mode privilége
+CTRL-Z | Retour au mode privilège
 CRTL-C | Interruption
 CTRL-SHIFT-6 / CTRL-SHIFTS | Interruption forcée
 TAB | Compléte une commande
-Backspace | Efface un caractére vers la gauche
+Backspace | Efface un caractère vers la gauche
 CTRL-R | Réaffichage de la ligne 
 CTRL-U | Efface la ligne
 CTRL-W | Efface un mot 
@@ -143,7 +143,7 @@ Building configuration...
 
 ## :name_badge: Désactivation des recherches DNS
 
-Avec résolution DNS (présente par défaut), une frappe erronée ne correspondant pas à une commande peut être interprétée, en mode privilège, comme une tentative de connexion distante SSH et bloquer un certain temps la console :
+Avec résolution DNS (présente par défaut), une frappe erronée ne correspondant pas à une commande peut être interprétée, en mode privilège, comme une tentative de connexion à un domaine distant et bloquer un certain temps la console :
 
 ```
 Switch#showe
@@ -163,7 +163,7 @@ no ip domain-lookup
 À chaque fois que vous changez l'état d'une interface (allumer(up), éteindre(down), etc...)  
 L'équipement écrit un message dans le CLI, vous indiquant ce qui a changé.
 Ce qui peut être dérangeant, lorsque l'on écrit des commandes.
-Il est possible désactiver ses annonces:
+Il est possible de désactiver ces annonces:
 
 ```
 %LINK-1-CHANGED: Interface FastEthernet0/1, changed state to up
@@ -286,5 +286,4 @@ Router(config)#no router ospf
 
 ---
 
-:icon-diff-renamed: Dernière modification: 14/09/2022 - 12h00
-
+:icon-diff-renamed: Dernière modification: 08/08/2023 - 10h03
