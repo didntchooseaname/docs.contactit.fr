@@ -97,7 +97,7 @@ Cette zone s'aditionne à la précédente et **inclut différents changements de
 ## 🔐 ZONE 3 (avancé)
 
 !!!danger
-Cette zone s'additionne aux précédentes et présente des **concepts avancés** pour limiter la surface d'exposition de votre compte Discord.
+Cette zone s'additionne aux précédentes et présente des **concepts avancés** pour créer un compte Discord sans données personnelles.
 !!!
 
 ==- ↘️ Déplier la zone
