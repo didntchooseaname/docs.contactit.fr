@@ -110,8 +110,3 @@ Cette zone s'additionne aux précédentes et présente des **concepts avancés**
 
 ===
 
-<style type="text/css">
-    img {
-        width: 600px;
-    }
-</style>
