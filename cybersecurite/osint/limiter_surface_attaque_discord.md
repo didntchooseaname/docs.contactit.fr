@@ -1,5 +1,4 @@
 ---
-icon: alert
 description: Avez-vous déjà entendu parler de "DOX/DOXXING/SWAT", si oui vous êtes au bon endroit pour comprendre le fonctionnement de ces pratiques et vous en protéger !
 categories: [Cybersécurité, osint]
 date: 2023-08-18
