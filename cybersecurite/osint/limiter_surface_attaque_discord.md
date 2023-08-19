@@ -16,12 +16,12 @@ order: 100
 
 :icon-tools: Le principe technique qui se cache derrière ce terme est l'**OSINT**. L'**Open Source Intelligence** est une pratique de **reconnaissance légale** visant à **récolter des informations sur une entité physique ou morale** à partir de **sources ouvertes**. Elle est utilisée par les professionnels de la cybersécurité, les agences gouvernementales, les autorités... Ce n'est pas une niche mais une pratique très puissante.  
 
-:icon-milestone: Les sources utilisées en OSINT sont nombreuses :  
+:icon-milestone: Les sources utilisées en OSINT sont nombreuses, par exemple :  
 
 - Les sites/applications et réseaux sociaux (vos **comptes** sur ces derniers) et donc par extension, le contenu que vous partagez sur ceux-ci.
 - Les bases de données leaks (services/sites compromis dont des informations ont fuité en ligne).
 - Les pages blanches/jaunes.
-- Les sites et outils spécialisés (Mr.Holmes, Maigret, Holehe...).
+- Les sites et outils spécialisés (Mr.Holmes, Maigret, Holehe, Maltego...)...
 
 :icon-shield-check: Comme vous l'avez compris l'OSINT est un **processus d'investigation** à la base **PASSIF** ( ont exclu ici le phishing ou "token grab").  
 
