@@ -27,7 +27,7 @@ order: 100
 
 Cet article vise à donner des éléments pour **prévenir la récolte d'informations** et **maîtriser l'exposition de votre profil Discord**.  
 
-✅ Pour faire court, le gros du travail peut être fais en utilisant une fausse identité et en partageant le minimum d'informations possibles.
+✅ Pour faire court, le gros du travail peut être fais en utilisant une fausse identité et en partageant le minimum d'informations possibles, pour réduire votre empreinte numérique au moins sur Discord.
 
 ➡️ Il existe différent points d'entrée :  
 
