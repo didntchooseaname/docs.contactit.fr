@@ -7,7 +7,7 @@ tags: [cybersécurité, osint, prevention, discord]
 order: 100
 ---
 
-# Limiter sa surface d'attaque sur Discord
+# 🙅‍♂️ Limiter sa surface d'attaque sur Discord
 
 ![Source : daily-sun.com](images/Discord.png)
 
