@@ -114,6 +114,6 @@ Cette zone s'additionne aux précédentes et présente des **concepts avancés**
 - Utilisez un mot de passe respectant [!button corners="pill" size="s" target="blank" text="Les éxigences de l'ANSSI :icon-link-external:"](https://www.ssi.gouv.fr/guide/recommandations-relatives-a-lauthentification-multifacteur-et-aux-mots-de-passe/) (complexité, stockage et cycles de vie, gestionnaire de mot de passe fortement recommandé (ex. [KeePass](https://keepassxc.org)) et activez **l'authentification multifacteurs**.
 - Pour la 2FA utilisez un **numéro de téléphone unique à Discord** (ex. [onoff](https://www.onoff.app)).
 
-
 ===
 
+---
