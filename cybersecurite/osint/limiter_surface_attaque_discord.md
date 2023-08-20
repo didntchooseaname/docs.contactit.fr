@@ -1,6 +1,6 @@
 ---
 description: Avez-vous déjà entendu parler de "DOX/DOXXING/SWAT", si oui vous êtes au bon endroit pour comprendre le fonctionnement de ces pratiques et vous en protéger !
-categories: [Cybersécurité, osint]
+categories: [OSINT]
 date: 2023-08-18
 tags: [cybersécurité, osint, prevention, discord]
 order: 100
@@ -8,7 +8,7 @@ order: 100
 
 # 🙅‍♂️ Limiter sa surface d'attaque sur Discord
 
-![Source : daily-sun.com](images/Discord.png)
+![Source : daily-sun.com](images/discord.webp)
 
 ==- :wrench: Révisions
 
@@ -87,7 +87,7 @@ Cette zone s'aditionne à la précédente et **inclut différents changements de
 
 - Si vous partagez votre écran, activez le mode streameur :
 
-![](images/discord_streamer.png)
+![](images/discord_streamer.webp)
 
 - S'assurer que **"Filtrer tous les messages privés"** (spam) soit activé :
 
