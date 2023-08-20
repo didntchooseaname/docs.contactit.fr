@@ -1,5 +1,4 @@
 ---
-icon: alert
 description: Avez-vous déjà entendu parler de "DOX/DOXXING/SWAT", si oui vous êtes au bon endroit pour comprendre le fonctionnement de ces pratiques et vous en protéger !
 categories: [Cybersécurité, osint]
 date: 2023-08-18
@@ -7,7 +6,7 @@ tags: [cybersécurité, osint, prevention, discord]
 order: 100
 ---
 
-# Limiter sa surface d'attaque sur Discord
+# 🙅‍♂️ Limiter sa surface d'attaque sur Discord
 
 ![Source : daily-sun.com](images/Discord.png)
 
@@ -23,20 +22,20 @@ contactit.fr | 20/08/2023
 
 ➡️ Le fait de "DOX" est de **partager des informations personnelles** sur une personne **sans son consentement**, dans le but de nuire.
 
-:icon-tools: Le principe technique qui se cache derrière ce terme est l'**OSINT**. L'**Open Source Intelligence** est une pratique de **reconnaissance légale** visant à **récolter des informations sur une entité physique ou morale** à partir de **sources ouvertes**. Elle est utilisée par les professionnels de la cybersécurité, les agences gouvernementales, les autorités... Comme vous l'avez compris ce n'est pas une niche mais une pratique qui peut être très puissante.  
+:icon-tools: Le principe technique qui se cache derrière ce terme est l'**OSINT**. L'**Open Source Intelligence** est une pratique de **reconnaissance légale** visant à **récolter des informations sur une entité physique ou morale** à partir de **sources ouvertes**. Elle est utilisée par les professionnels de la cybersécurité, les agences gouvernementales, les autorités... Ce n'est pas une niche mais une pratique très puissante.  
 
-:icon-milestone: Les sources utilisées en OSINT sont nombreuses :  
+:icon-milestone: Les sources utilisées en OSINT sont nombreuses, par exemple :  
 
 - Les sites/applications et réseaux sociaux (vos **comptes** sur ces derniers) et donc par extension, le contenu que vous partagez sur ceux-ci.
 - Les bases de données leaks (services/sites compromis dont des informations ont fuité en ligne).
 - Les pages blanches/jaunes.
-- Les sites et outils spécialisés (Mr.Holmes, Maigret, Holehe...).
+- Les sites et outils spécialisés (Mr.Holmes, Maigret, Holehe, Maltego...)...
 
 :icon-shield-check: Comme vous l'avez compris l'OSINT est un **processus d'investigation** à la base **PASSIF** ( ont exclu ici le phishing ou "token grab").  
 
 Cet article vise à donner des éléments pour **prévenir la récolte d'informations** et **maîtriser l'exposition de votre profil Discord**.  
 
-✅ Pour faire court, le gros du travail peut être fais en utilisant une fausse identité et en partageant le minimum d'informations possibles.
+✅ Pour faire court, le gros du travail peut être fais en utilisant une fausse identité et en partageant le minimum d'informations possibles, pour réduire votre empreinte numérique au moins sur Discord.
 
 ➡️ Il existe différent points d'entrée :  
 
@@ -105,7 +104,7 @@ Cette zone s'aditionne à la précédente et **inclut différents changements de
 ## 🔐 ZONE 3 (avancé)
 
 !!!danger
-Cette zone s'additionne aux précédentes et présente des **concepts avancés** pour limiter la surface d'exposition de votre compte Discord.
+Cette zone s'additionne aux précédentes et présente des **concepts avancés** pour créer un compte Discord sans données personnelles.
 !!!
 
 ==- ↘️ Déplier la zone
