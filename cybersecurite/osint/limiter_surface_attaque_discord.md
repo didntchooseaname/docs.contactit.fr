@@ -11,6 +11,14 @@ order: 100
 
 ![Source : daily-sun.com](images/Discord.png)
 
+==- :wrench: Révisions
+
+Auteur | Date
+--- | ---
+contactit.fr | 20/08/2023
+
+===
+
 :icon-info: Avez-vous déjà entendu parler de **"DOX/DOXXING/SWAT"**, si oui vous êtes au bon endroit pour **comprendre le fonctionnement de ces pratiques et vous en protéger !** 
 
 ➡️ Le fait de "DOX" est de **partager des informations personnelles** sur une personne **sans son consentement**, dans le but de nuire.
