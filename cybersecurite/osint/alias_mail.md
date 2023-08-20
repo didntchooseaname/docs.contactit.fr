@@ -6,7 +6,7 @@ tags: [Cybersécurité, mail, messagerie, alias, proton, simplelogin]
 order: 99
 ---
 
-# :incoming_envelope: Alias mail, recevoir et envoyer des mails anonymement
+# :incoming_envelope: Alias mails, recevoir et envoyer des mails anonymement
 
 ![(Source : SimpleLogin)](images/eamailaliases.webp)
 
@@ -24,7 +24,7 @@ Les alias mails avec les '+' ne seront pas traités dans cet article, beaucoup d
 
 :information_source: Un alias mail fonctionne de manière similaire au transfert de mails. Un intermédiaire se charge de recevoir le mail et de le tranférer au destinataire.  
 
-:arrow_right: Ici, c'est donc un service intermédiaire qui va se charger de faire ces tâches de manière transparente. Pour citer les 2 services d'alias mail les plus connus : [SimpleLogin (by Proton)](https://simplelogin.io) et [Addy (précédemment AnonAddy)](https://addy.io) . Ces services proposent d'ailleurs 15 adresses (alias) mails pour leurs plans gratuits respectifs. Comme vous l'avez compris, ce n'est plus votre principale que vous allez donner à un service, une personne... mais plutôt une adresses générée par le biai du service en question.  
+:arrow_right: Ici, c'est donc un service intermédiaire qui va se charger de faire ces tâches de manière transparente. Pour citer les 2 services d'alias mails les plus connus : [SimpleLogin (by Proton)](https://simplelogin.io) et [Addy (précédemment AnonAddy)](https://addy.io) . Ces services proposent d'ailleurs 15 adresses (alias) mails pour leurs plans gratuits respectifs. Ce n'est donc plus votre adresse mail principale que vous allez donner à un service, une personne ou lors de votre inscription, mais plutôt une adresse unique générée par le biai du service en question.  
 
 ![Schéma logique du fonctionnement d'un alias mail (exemple avec Discord)](images/alias_mail.webp)
 
