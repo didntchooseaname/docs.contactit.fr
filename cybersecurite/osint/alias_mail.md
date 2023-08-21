@@ -34,7 +34,7 @@ Les alias mails avec les '+' ne seront pas traités dans cet article, beaucoup d
 ## :white_check_mark: Les avantages
 
 - Dans le cas d'un leak d'un service, le mail principal ne fuite pas.
-- Vous gardez votre mail principal, mais vous avez des dizaines d'adresses facilement manageable.    
+- Votre adresse mail principale reste inconnue de vos destinataires. Vous possédez plusieurs adresses facilement manageables.  
 - Possibilité de désactiver ou supprimer une adresse en cas de spam.  
 - Prise en charge de la fonctionnalité catch-all pour votre domaine.  
 - Possibilité de transférer les mails reçus d'un alias mail, vers plusieurs adresses mails automatiquement (liste de diffusion).  
