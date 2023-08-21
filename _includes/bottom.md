@@ -7,5 +7,3 @@
     (d.head || d.body).appendChild(s);
     })();
 </script>
-
-<script id="dsq-count-scr" src="//docs-contactit-fr-1.disqus.com/count.js" async></script>
