@@ -72,8 +72,8 @@ Cette zone est destinée aux néophytes qui souhaiteraient adopter quelques bonn
 ==- ↘️ Déplier la zone
 
 - Ne pas utiliser le même pseudo sur toutes vos plateformes, privilégiez un pseudo unique à Discord.
-- Limitez-vous au strict nécessaire dans votre biographie, pas de <a href="https://linktr.ee" target="_blank">Linktr.ee</a>) ou de liens vers vos réseaux sociaux.
-- Évitez les tokens grab, cookie stealer ou iplogger : **ne cliquez sur AUCIN LIEN dans Discord**, ouvrez-le dans un autre navigateur (si possible prévu à cet effet (sandbox ou mieux un <a href="https://www.browserling.com" target="_blank">service en ligne</a>).
+- Limitez-vous au strict nécessaire dans votre biographie, pas de <a href="https://linktr.ee" target="_blank">Linktr.ee</a> ou de liens vers vos réseaux sociaux.
+- Évitez les tokens grab, cookie stealer ou iplogger : **ne cliquez sur AUCIN LIEN dans Discord**, ouvrez-le dans un autre navigateur (si possible prévu à cet effet (sandbox ou mieux un <a href="https://www.browserling.com" target="_blank">service en ligne</a>)).
 - Ne liez pas vos comptes de jeux et sites à Discord ! Si vous devez lier un ou plusieurs comptes, décochez l'affichage sur votre profil :  
 
 ![Réduire la visibilité publique des comptes liés à Disord](images/discord_private.png)
@@ -100,7 +100,7 @@ Cette zone s'aditionne à la précédente et **inclut différents changements de
 
 ![](images/discord_spam.png)
 
-- S'assurer qu'**"Autoriser les messages privés venant des membres du serveur"** et **"Autoriser les demandes de messages en provenance des membres du serveur que tu pourrais ne pas connaître"** soient désactivés :
+- S'assurer que **"Autoriser les messages privés venant des membres du serveur"** et **"Autoriser les demandes de messages en provenance des membres du serveur que tu pourrais ne pas connaître"** soient désactivés :
 
 ![](images/discord_messages.png)
 
@@ -119,8 +119,8 @@ Cette zone s'additionne aux précédentes et présente des **concepts avancés**
 - Recréez un compte avec une fausse identité (<a href="https://www.fakenamegenerator.com" target="_blank">fakenamegenerator</a> (par exemple) pallie le potentiel risque de leaks de l'ancien compte).
 - Utilisez un **email unique** pour Discord (alias recommandés ex. <a href="https://simplelogin.io" target="_blank">SimpleLogin</a>) [!button variant="primary" size="xs" target="blank" icon="arrow-up-right" iconAlign="right" text="Consulter l'article à ce sujet"](alias_mail.md)
 
-- Utilisez un mot de passe respectant [!button corners="pill" size="s" target="blank" text="Les éxigences de l'ANSSI :icon-link-external:"](https://www.ssi.gouv.fr/guide/recommandations-relatives-a-lauthentification-multifacteur-et-aux-mots-de-passe/) (complexité, stockage et cycles de vie, gestionnaire de mot de passe fortement recommandé (ex. [KeePass](https://keepassxc.org)) et activez **l'authentification multifacteurs**.
-- Pour la 2FA utilisez un **numéro de téléphone unique à Discord** (ex. <a href="https://www.onoff.app" target="_blank">OnOff</a>)).
+- Utilisez un mot de passe respectant [!button corners="pill" size="s" target="blank" text="Les éxigences de l'ANSSI :icon-link-external:"](https://www.ssi.gouv.fr/guide/recommandations-relatives-a-lauthentification-multifacteur-et-aux-mots-de-passe/) (complexité, stockage et cycles de vie, gestionnaire de mot de passe fortement recommandé (ex. [KeePass](https://keepassxc.org))) et activez **l'authentification multifacteurs**.
+- Pour la 2FA utilisez un **numéro de téléphone unique à Discord** (ex. <a href="https://www.onoff.app" target="_blank">OnOff</a>).
 
 ===
 
