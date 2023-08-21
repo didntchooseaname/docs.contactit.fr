@@ -46,7 +46,7 @@ Cet article vise à donner des éléments pour **prévenir la récolte d'informa
 - Les comptes liés (réseaux sociaux, Spotify, jeux...).
 - L'ID utilisateur (accessible depuis les developer tools) . 
 
-!!!info
+!!!info Date de création du compte
 La date de création du compte ainsi que la date à laquelle vous avez rejoint un serveur, donnent des informations sur la récence de votre compte, donc par extension des informations vous concernant.
 !!!
 
@@ -55,8 +55,8 @@ La date de création du compte ainsi que la date à laquelle vous avez rejoint u
 - Ne partagez pas d'information (oral, écrit, partage d'écran et webcam) à caractère personnel sur Discord.  
 ⚠️ **À PERSONNE** (ni amis, ni "connaissances", ni même à votre famille ou collègues) !!!
 
-!!!primary
-Si vous voulez malgré tout partager une information sensible sur Discord, mais de façon éphémère et sans traces, utilisez un service de partage de texte en ligne, chiffré de bout en bout, avec un mot de passe et une expiration comme : [PrivateBin](https://privatebin.net).
+!!!primary Partager des informations sensibles sur Discord
+Si vous voulez malgré tout partager une information sensible sur Discord, mais de façon éphémère et sans traces, utilisez un service de partage de texte en ligne, chiffré de bout en bout, avec un mot de passe et une expiration comme : [PrivateBin](https://privatebin.net). De cette manière l'accès à la donnée n'est autorisé qu’une seule fois ou nécessite un mot de passe et expire après une date définie.
 !!!
 
 ---
@@ -120,5 +120,9 @@ Cette zone s'additionne aux précédentes et présente des **concepts avancés**
 - Pour la 2FA utilisez un **numéro de téléphone unique à Discord** (ex. [onoff](https://www.onoff.app)).
 
 ===
+
+!!!danger Note de fin
+Dans le cas où vous appliquez toutes ces mesures, le seul point d'entrée pour vous atteindre est alors en dehors de Discord. C'est d'ailleurs l'un des moyens privilégié pour récolter des informations sur vous, vous faire installer un programme malveillant ou vous subtiliser un cookie de session (comme votre token Discord).
+!!!
 
 ---
