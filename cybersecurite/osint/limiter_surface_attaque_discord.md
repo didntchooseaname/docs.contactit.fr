@@ -56,7 +56,7 @@ La date de création du compte ainsi que la date à laquelle vous avez rejoint u
 ⚠️ **À PERSONNE** (ni amis, ni "connaissances", ni même à votre famille ou collègues) !!!
 
 !!!primary Partager des informations sensibles sur Discord
-Si vous voulez malgré tout partager une information sensible sur Discord, mais de façon éphémère et sans traces, utilisez un service de partage de texte en ligne, chiffré de bout en bout, avec un mot de passe et une expiration comme : [PrivateBin](https://privatebin.net). De cette manière l'accès à la donnée n'est autorisé qu’une seule fois ou nécessite un mot de passe et expire après une date définie.
+Si vous voulez malgré tout partager une information sensible sur Discord, mais de façon éphémère et sans traces, utilisez un service de partage de texte en ligne, chiffré de bout en bout, avec un mot de passe et une expiration comme : <a href="https://privatebin.net" target="_blank">PrivateBin</a>. De cette manière l'accès à la donnée n'est autorisé qu’une seule fois ou nécessite un mot de passe et expire après une date définie.
 !!!
 
 ---
@@ -70,8 +70,8 @@ Cette zone est destinée aux néophytes qui souhaiteraient adopter quelques bonn
 ==- ↘️ Déplier la zone
 
 - Ne pas utiliser le même pseudo sur toutes vos plateformes, privilégiez un pseudo unique à Discord.
-- Limitez-vous au strict nécessaire dans votre biographie, pas de [Linktr.ee](https://linktr.ee/) ou de liens vers vos réseaux sociaux.
-- Évitez les tokens grab, cookie stealer ou iplogger : **ne cliquez sur AUCIN LIEN dans Discord**, ouvrez-le dans un autre navigateur (si possible prévu à cet effet (sandbox ou mieux un [service en ligne](https://www.browserling.com/))). 
+- Limitez-vous au strict nécessaire dans votre biographie, pas de <a href="https://linktr.ee" target="_blank">Linktr.ee</a>) ou de liens vers vos réseaux sociaux.
+- Évitez les tokens grab, cookie stealer ou iplogger : **ne cliquez sur AUCIN LIEN dans Discord**, ouvrez-le dans un autre navigateur (si possible prévu à cet effet (sandbox ou mieux un <a href="https://www.browserling.com" target="_blank">service en ligne</a>).
 - Ne liez pas vos comptes de jeux et sites à Discord ! Si vous devez lier un ou plusieurs comptes, décochez l'affichage sur votre profil :  
 
 ![Réduire la visibilité publique des comptes liés à Disord](images/discord_private.png)
@@ -114,10 +114,11 @@ Cette zone s'additionne aux précédentes et présente des **concepts avancés**
 
 ==- ↘️ Déplier la zone
 
-- Recréez un compte avec une fausse identité (https://www.fakenamegenerator.com pallie le potentiel risque de leaks de l'ancien compte).
-- Utilisez un **email unique** pour Discord (alias recommandés ex. [simplelogin](https://simplelogin.io/)).
+- Recréez un compte avec une fausse identité (<a href="https://www.fakenamegenerator.com" target="_blank">fakenamegenerator</a> (par exemple) pallie le potentiel risque de leaks de l'ancien compte).
+- Utilisez un **email unique** pour Discord (alias recommandés ex. <a href="https://simplelogin.io" target="_blank">SimpleLogin</a>) [!button variant="primary" size="xs" target="blank" icon="arrow-up-right" iconAlign="right" text="Consulter l'article à ce sujet"](alias_mail.md)
+
 - Utilisez un mot de passe respectant [!button corners="pill" size="s" target="blank" text="Les éxigences de l'ANSSI :icon-link-external:"](https://www.ssi.gouv.fr/guide/recommandations-relatives-a-lauthentification-multifacteur-et-aux-mots-de-passe/) (complexité, stockage et cycles de vie, gestionnaire de mot de passe fortement recommandé (ex. [KeePass](https://keepassxc.org)) et activez **l'authentification multifacteurs**.
-- Pour la 2FA utilisez un **numéro de téléphone unique à Discord** (ex. [onoff](https://www.onoff.app)).
+- Pour la 2FA utilisez un **numéro de téléphone unique à Discord** (ex. <a href="https://www.onoff.app" target="_blank">OnOff</a>)).
 
 ===
 
