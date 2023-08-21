@@ -12,9 +12,10 @@ order: 99
 
 ==- :wrench: Révisions
 
-Auteur | Date
---- | ---
-contactit.fr | Initial push
+Auteur | Date | Changes
+--- | --- | ---
+contactit.fr | 21/08/2023 | Révisions (<a href="https://github.com/didntchooseaname/docs.contactit.fr/commit/5c029529f32254c3fad2d1f06cd42d1c5f5ccc1b">5c02952</a>)
+contactit.fr | 20/08/2023 | Initial push (<a href="https://github.com/didntchooseaname/docs.contactit.fr/commit/531de0a1d2af9fba09309993d74c499a6da9f696">531de0a</a>)
 
 ===
 
