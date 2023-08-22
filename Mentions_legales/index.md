@@ -6,10 +6,18 @@ order: 1
 
 # :icon-law: Mentions légales
 
-- 0 cookie
-- 0 pubs
-- 0 tracking/analyse
-- 0 tierce-partie
+==- :wrench: Révisions majeures
+
+Auteur | Date | Changes
+--- | --- | ---
+contactit.fr | 03/11/2023 | Initial push (<a href="https://github.com/didntchooseaname/docs.contactit.fr/commit/251805d26eec472e6d7409dd51f42811e266b762">251805d</a>)
+
+===
+
+:x: 0 cookie
+:x: 0 pubs
+:x: 0 tracking/analyse
+:shushing_face: 1 tierce-partie (Disqus, compte non obligatoire)
 
 ## :icon-checklist: Définitions
 
