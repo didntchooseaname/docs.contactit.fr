@@ -28,3 +28,5 @@ edit:
 search:
   placeholder: Rechercher
   noResultsFoundMsg: Pas de résultats.
+exclude:
+  - "README.md"
