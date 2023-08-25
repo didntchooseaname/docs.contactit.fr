@@ -42,11 +42,12 @@ Cet article vise à donner des éléments pour **prévenir la récolte d'informa
 ➡️ Il existe différent points d'entrée :  
 
 - Le pseudo.
+- Tous vos anciens pseudos.
 - La biographie.
 - La photo de profil.
 - Le mail utilisé lors de l'inscription sur Discord.
 - Les comptes liés (réseaux sociaux, Spotify, jeux...).
-- L'ID utilisateur (accessible depuis les developer tools) . 
+- L'ID utilisateur (accessible depuis les developer tools). 
 
 !!!info Date de création du compte
 La date de création du compte ainsi que la date à laquelle vous avez rejoint un serveur, donnent des informations sur la récence de votre compte, donc par extension des informations vous concernant.
@@ -58,7 +59,7 @@ La date de création du compte ainsi que la date à laquelle vous avez rejoint u
 ⚠️ **À PERSONNE** (ni amis, ni "connaissances", ni même à votre famille ou collègues) !!!
 
 !!!primary Partager des informations sensibles sur Discord
-Si vous voulez malgré tout partager une information sensible sur Discord, mais de façon éphémère et sans traces, utilisez un service de partage de texte en ligne, chiffré de bout en bout, avec un mot de passe et une expiration comme : <a href="https://privatebin.net" target="_blank">PrivateBin</a>. De cette manière l'accès à la donnée n'est autorisé qu’une seule fois ou nécessite un mot de passe et expire après une date définie.
+Si vous voulez malgré tout partager une information sensible sur Discord, mais de façon éphémère et sans traces, utilisez un service de partage de texte en ligne, chiffré de bout en bout, avec un mot de passe et une expiration comme : <a href="https://privatebin.net" target="_blank">PrivateBin</a>. De cette manière l'accès à la donnée n'est autorisé qu’une seule fois ou nécessite un mot de passe et expire après une date définie. Pour les fichiers, vous pouvez utiliser un service comme <a href="https://proton.me/fr/drive" target="_blank">Protondrive</a> (nécessite un compte et est limité à 1Go gratuit) ou <a href="https://www.swisstransfer.com/fr-fr" target="_blank">Swisstransfer</a> (ne nécessite pas de compte et est limité à 50Go gratuits).
 !!!
 
 ---
