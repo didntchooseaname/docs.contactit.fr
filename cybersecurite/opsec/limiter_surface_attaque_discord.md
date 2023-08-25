@@ -74,8 +74,13 @@ Cette zone est destinée aux néophytes qui souhaiteraient adopter quelques bonn
 
 - Ne pas utiliser le même pseudo sur toutes vos plateformes, privilégiez un pseudo unique à Discord.
 - Limitez-vous au strict nécessaire dans votre biographie, pas de <a href="https://linktr.ee" target="_blank">Linktr.ee</a> ou de liens vers vos réseaux sociaux.
-- Évitez les tokens grab, cookie stealer ou iplogger : **ne cliquez sur AUCIN LIEN dans Discord**, ouvrez-le dans un autre navigateur (si possible prévu à cet effet (sandbox ou mieux un <a href="https://www.browserling.com" target="_blank">service en ligne</a>)).
-- Ne liez pas vos comptes de jeux et sites à Discord ! Si vous devez lier un ou plusieurs comptes, décochez l'affichage sur votre profil :  
+- Évitez les tokens grab, cookie stealer ou iplogger : **ne cliquez sur AUCIN LIEN dans Discord** (même youtube ! copiez/collez le titre à la place), ouvrez-le dans un autre navigateur (si possible prévu à cet effet (sandbox ou mieux un <a href="https://www.browserling.com" target="_blank">service de sandbox en ligne</a>)).
+- Ne liez pas vos comptes de jeux et sites à Discord ! Toutes applications liées à votre profil, comme des bots ou des comptes verront les informations de celui-ci (notamment les comptes liés, ce qui peut faire fuiter votre profil, mail, nom/prénom...).
+
+<center><iframe width="750" height="400" src="https://www.youtube-nocookie.com/embed/-lEg13LKJxE?si=6YhpIhZzKjO4ukvk&amp;start=234" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+
+:arrow_right: ~~Si vous devez lier un ou plusieurs comptes, décochez l'affichage sur votre profil :~~  
+</center>  
 
 ![Réduire la visibilité publique des comptes liés à Disord](images/discord_private.png)
 
@@ -128,7 +133,7 @@ Cette zone s'additionne aux précédentes et présente des **concepts avancés**
 
 ==- ↘️ Déplier la zone
 
-- Recréez un compte avec une fausse identité (<a href="https://www.fakenamegenerator.com" target="_blank">fakenamegenerator</a> (par exemple) pallie le potentiel risque de leaks de l'ancien compte).
+- Recréez un compte avec une fausse identité (<a href="https://www.fakenamegenerator.com" target="_blank">fakenamegenerator</a> (par exemple) pallie le potentiel risque de fuite de données de l'ancien compte).
 - Utilisez un **email unique** pour Discord (alias recommandés ex. <a href="https://simplelogin.io" target="_blank">SimpleLogin</a>) [!button variant="primary" size="xs" target="blank" icon="arrow-up-right" iconAlign="right" text="Consulter l'article à ce sujet"](alias_mail.md)  
 
 <center><blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Another breach including Discord OAuth2 Data.<br><br>So many Discord apps will ask for your e-mail under the guise of anti-abuse. Do not trust random Discord apps to keep your data secure or not misuse it.<br><br>And please, use a unique e-mail &amp; password for every service you use. <a href="https://t.co/59m8CUaHQQ">https://t.co/59m8CUaHQQ</a></p>&mdash; Panley (@panley01) <a href="https://twitter.com/panley01/status/1691184136889708545?ref_src=twsrc%5Etfw">August 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
