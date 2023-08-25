@@ -78,6 +78,14 @@ Cette zone est destinée aux néophytes qui souhaiteraient adopter quelques bonn
 
 ![Réduire la visibilité publique des comptes liés à Disord](images/discord_private.png)
 
+!!!warning :thinking_face: Update du 17 août 2023 - Discord à affiché vos comptes (même si ceux-ci sont cachés).
+Discord à affiché tous les comptes liés à un profil, indépendamment de la configuration (caché ou non dans les paramètres), source: cet <a target="blank" href="https://discordpreviews.com/private-connections-bug">article</a> et ce <a target="blank" href="https://twitter.com/panley01/status/1692036545539101049">Thread X</a> :  
+
+<center><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Between 01:50 - 03:00 GMT today, Discord exposed ALL user connections, regardless of visibility settings.<br><br>The data exposed included usernames on private connections like PayPal (default private) &amp; Facebook.<br><br>This is concerning, but not hugely so. Read this thread for more info. <a href="https://t.co/TvRFU0jwFt">pic.twitter.com/TvRFU0jwFt</a></p>&mdash; Panley (@panley01) <a href="https://twitter.com/panley01/status/1692036545539101049?ref_src=twsrc%5Etfw">August 17, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><center>
+
+:unamused: Ne liez tous simplement pas vos comptes à Discord !
+!!!
+
 - N'utilisez aucun selfbot, injection client (betterdiscord like) ou tout autre modifications du client.
 - Ne vous connectez jamais à un site qui propose de vous connecter avec Discord (dans le cas où la base de données du site fuite, des informations tels que : votre pseudo, ID Discord, email, hash de mot de passe... seront disponibles en ligne. Un exemple récent avec <a target="blank" href="https://web.archive.org/web/20230823102446/https://discord.io">discord.io</a>).
 
