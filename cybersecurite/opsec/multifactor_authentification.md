@@ -8,7 +8,7 @@ order: 98
 
 # :closed_lock_with_key: L'authentification multifacteurs
 
-![(Source : apog.net)](MFA.webp)
+![(Source : apog.net)](images/MFA.webp)
 
 ==- :wrench: Révisions
 
@@ -20,11 +20,11 @@ contactit.fr | 30/08/2023 | Initial push
 
 :information_source: La multifactor authentication (MFA), en français : authentification à plusieurs facteurs ou A2F/2FA (Authentification à 2 facteurs), est une méthode de sécurité informatique qui exige que l'utilisateur fournisse au moins deux types d'informations distincts pour vérifier son identité. Ces facteurs se répartissent généralement en trois catégories :  
 
-![(Source : apog.net)](MFA-know.webp)
+![(Source : apog.net)](images/MFA-know.webp)
 
 - **Quelque chose que vous savez** : Il s'agit généralement d'un mot de passe ou d'un code PIN.  
 
-- **Quelque chose que vous avez** : Un appareil physique, comme un téléphone ou une clé de sécurité (ex: <a target="_blank" href="https://www.yubico.com/la-cle-yubikey/?lang=fr>yubikey</a> ), qui génère un code unique ou reçoit un message d'authentification.  
+- **Quelque chose que vous avez** : Un appareil physique, comme un téléphone ou une clé de sécurité (ex: <a href="https://www.yubico.com/la-cle-yubikey/?lang=fr" target="_blank">yubikey</a> ), qui génère un code unique ou reçoit un message d'authentification.  
 
 - **Quelque chose que vous êtes** : Caractéristiques biométriques, comme les empreintes digitales, la reconnaissance faciale ou l'analyse de l'iris.  
 
