@@ -1,6 +1,6 @@
 ---
 description: Ne donnez plus jamais votre adresse mail !
-categories: [OSINT]
+categories: [OPSEC]
 date: 2023-08-20
 tags: [Cybersécurité, mail, messagerie, alias, proton, simplelogin]
 order: 99
