@@ -8,7 +8,7 @@ order: 100
 
 # 🙅‍♂️ Limiter sa surface d'attaque sur Discord
 
-![Source : daily-sun.com](images/discord.webp)
+![Source : daily-sun.com](images/limiter_surface_attaque_discord/discord.webp)
 
 ==- :wrench: Révisions
 
@@ -82,7 +82,7 @@ Cette zone est destinée aux néophytes qui souhaiteraient adopter quelques bonn
 :arrow_right: ~~Si vous devez lier un ou plusieurs comptes, décochez l'affichage sur votre profil :~~  
 </center>  
 
-![Réduire la visibilité publique des comptes liés à Disord](images/discord_private.png)
+![Réduire la visibilité publique des comptes liés à Disord](images/limiter_surface_attaque_discord/discord_private.png)
 
 !!!warning :thinking_face: Update du 17 août 2023 - Discord à affiché vos comptes (même si ceux-ci sont cachés).
 Discord à affiché tous les comptes liés à un profil, indépendamment de la configuration (caché ou non dans les paramètres), source: cet <a target="blank" href="https://discordpreviews.com/private-connections-bug">article</a> et ce <a target="blank" href="https://twitter.com/panley01/status/1692036545539101049">Thread X</a> :  
@@ -111,15 +111,15 @@ Cette zone s'aditionne à la précédente et **inclut différents changements de
 
 - Si vous partagez votre écran, activez le mode streameur :
 
-![](images/discord_streamer.webp)
+![](images/limiter_surface_attaque_discord/discord_streamer.webp)
 
 - S'assurer que **"Filtrer tous les messages privés"** (spam) soit activé :
 
-![](images/discord_spam.png)
+![](images/limiter_surface_attaque_discord/discord_spam.png)
 
 - S'assurer que **"Autoriser les messages privés venant des membres du serveur"** et **"Autoriser les demandes de messages en provenance des membres du serveur que tu pourrais ne pas connaître"** soient désactivés :
 
-![](images/discord_messages.png)
+![](images/limiter_surface_attaque_discord/discord_messages.png)
 
 ===
 

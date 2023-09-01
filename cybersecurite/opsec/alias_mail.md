@@ -8,7 +8,7 @@ order: 99
 
 # :incoming_envelope: Alias mails, recevoir et envoyer des mails anonymement
 
-![(Source : SimpleLogin)](images/eamailaliases.webp)
+![(Source : SimpleLogin)](images/alias_mail/eamailaliases.webp)
 
 ==- :wrench: Révisions
 
@@ -27,7 +27,7 @@ Les alias mails avec les '+' ne seront pas traités dans cet article, beaucoup d
 
 :arrow_right: Ici, c'est donc un service intermédiaire qui va se charger de faire ces tâches de manière transparente. Pour citer les 2 services d'alias mails les plus connus : <a href="https://simplelogin.io" target="_blank">SimpleLogin (by Proton)</a> et <a href="https://addy.io" target="_blank">Addy (précédemment AnonAddy)</a>. Ces services proposent d'ailleurs 15 adresses (alias) mails pour leurs plans gratuits respectifs. Ce n'est donc plus votre adresse mail principale que vous allez donner à un service, une personne ou lors de votre inscription, mais plutôt une adresse unique générée par le biai du service en question.  
 
-![Schéma logique du fonctionnement d'un alias mail (exemple avec Discord)](images/alias_mail.webp)
+![Schéma logique du fonctionnement d'un alias mail (exemple avec Discord)](images/alias_mail/alias_mail.webp)
 
 ---
 
@@ -70,10 +70,10 @@ SimpleLogin continue à vous proposer ses services même après la fin de votre 
 
 SimpleLogin | Addy
 :---: | :---:
-[![](images/simplelogin.webp)](images/simplelogin.webp) | [![](images/addy.png)](images/addy.png)
+[![](images/alias_mail/simplelogin.webp)](images/alias_mail/simplelogin.webp) | [![](images/alias_mail/addy.png)](images/alias_mail/addy.png)
 
 :arrow_right: Je recommande SimpleLogin qui présente le plus de fonctionnalités par rapport à ses concurrents. De plus, le service a été racheté par Proton et est gratuit (avec premium) pour les abonnés.
 
-[![Interface d'un alias mail dans simpleLogin](images/sl_interface.webp)](images/sl_interface.webp)
+[![Interface d'un alias mail dans simpleLogin](images/alias_mail/sl_interface.webp)](images/alias_mail/sl_interface.webp)
 
 ---
