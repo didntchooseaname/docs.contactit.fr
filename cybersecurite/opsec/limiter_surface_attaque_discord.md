@@ -56,7 +56,9 @@ La date de création du compte ainsi que la date à laquelle vous avez rejoint u
 :icon-thumbsup: **Le bon sens est tout aussi important** :
 
 - Ne partagez pas d'information (oral, écrit, partage d'écran et webcam) à caractère personnel sur Discord.  
-⚠️ **À PERSONNE** (ni amis, ni "connaissances", ni même à votre famille ou collègues) !!!
+⚠️ **À PERSONNE** (ni amis, ni "connaissances", ni même à votre famille ou collègues) !!!  
+
+- Ne scannez aucun **qrcode** surtout si ce dernier vous ai proposé à des fins de vérifications sur un serveur.
 
 !!!primary Partager des informations sensibles sur Discord
 Si vous voulez malgré tout partager une information sensible sur Discord, mais de façon éphémère et sans traces, utilisez un service de partage de texte en ligne, chiffré de bout en bout, avec un mot de passe et une expiration comme : <a href="https://privatebin.net" target="_blank">PrivateBin</a>. De cette manière l'accès à la donnée n'est autorisé qu’une seule fois ou nécessite un mot de passe et expire après une date définie. Pour les fichiers, vous pouvez utiliser un service comme <a href="https://proton.me/fr/drive" target="_blank">Protondrive</a> (nécessite un compte et est limité à 1Go gratuit) ou <a href="https://www.swisstransfer.com/fr-fr" target="_blank">Swisstransfer</a> (ne nécessite pas de compte et est limité à 50Go gratuits).
@@ -76,6 +78,8 @@ Cette zone est destinée aux néophytes qui souhaiteraient adopter quelques bonn
 - Limitez-vous au strict nécessaire dans votre biographie, pas de <a href="https://linktr.ee" target="_blank">Linktr.ee</a> ou de liens vers vos réseaux sociaux.
 - Évitez les tokens grab, cookie stealer ou iplogger : **ne cliquez sur AUCIN LIEN dans Discord** (même youtube ! copiez/collez le titre à la place), ouvrez-le dans un autre navigateur (si possible prévu à cet effet (sandbox ou mieux un <a href="https://www.browserling.com" target="_blank">service de sandbox en ligne</a>)).
 - Ne liez pas vos comptes de jeux et sites à Discord ! Toutes applications liées à votre profil, comme des bots ou des comptes verront les informations de celui-ci (notamment les comptes liés, ce qui peut faire fuiter votre profil, mail, nom/prénom...).
+
+![](images/limiter_surface_attaque_discord/linkedaccounts.webp)
 
 <center><iframe width="750" height="400" src="https://www.youtube-nocookie.com/embed/-lEg13LKJxE?si=6YhpIhZzKjO4ukvk&amp;start=234" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
 
@@ -120,6 +124,10 @@ Cette zone s'aditionne à la précédente et **inclut différents changements de
 - S'assurer que **"Autoriser les messages privés venant des membres du serveur"** et **"Autoriser les demandes de messages en provenance des membres du serveur que tu pourrais ne pas connaître"** soient désactivés :
 
 ![](images/limiter_surface_attaque_discord/discord_messages.png)
+
+- Vérifiez l'accès des applications/bots/comptes à vos informations, à savoir : quelles informations peuvent ils récolter, quelles sont les permissions qui leur sont accordés et si possible, retirez toutes les autorisations.
+
+![](images/limiter_surface_attaque_discord/discord_autorisations.webp)
 
 ===
 
