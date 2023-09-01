@@ -1,10 +1,10 @@
 ---
-description: Bienvenue sur mon journal de bord.
-date: 2022-09-09
+description: Alternant en master cybersécurité je partage les connaissances que j'ai pu acquérir grâce aux formateurs, professionnels, apprenants. Le but de ce site est de proposer du concret et de présenter les choses tels qu'elles sont. Pas de fioritures ni de longs paragraphes !
+date: 2022-09-01
 order: 100
 ---
 
-# :rocket: Bienvenue sur mon journal de bord 😃
+# :rocket: Documentations et tutoriels sur la sécurité et la vie privée
 
 === :icon-chevron-right: Qui es-tu ?
 
