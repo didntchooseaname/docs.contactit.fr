@@ -1,5 +1,5 @@
 ---
-description: Avez-vous déjà entendu parler de "DOX/DOXXING/SWAT", si oui vous êtes au bon endroit pour comprendre le fonctionnement de ces pratiques et vous en protéger !
+description: Avez-vous déjà entendu parler de DOX/DOXXING/SWAT, si oui vous êtes au bon endroit pour comprendre le fonctionnement de ces pratiques et vous en protéger !
 categories: [OPSEC]
 date: 2023-08-18
 tags: [cybersécurité, osint, prevention, discord]
