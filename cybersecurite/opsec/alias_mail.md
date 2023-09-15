@@ -1,21 +1,22 @@
 ---
-description: Ne donnez plus jamais votre adresse mail !
+description: Ne donnez plus jamais votre adresse mail ! Prémunissez vous des spams et fuites d'adresses mail et envoyez des mails sans compromettre votre identité.
 categories: [OPSEC]
 date: 2023-08-20
 tags: [Cybersécurité, mail, messagerie, alias, proton, simplelogin]
 order: 99
 ---
 
-# :incoming_envelope: Alias mails, recevoir et envoyer des mails anonymement
+# :incoming_envelope: Les Alias mails, recevoir et envoyer des mails sans compromettre son identité.
 
 ![(Source : SimpleLogin)](images/alias_mail/eamailaliases.webp)
 
 ==- :wrench: Révisions
 
-Auteur | Date | Changes
---- | --- | ---
-contactit.fr | 21/08/2023 | Révisions (<a href="https://github.com/didntchooseaname/docs.contactit.fr/commit/5c029529f32254c3fad2d1f06cd42d1c5f5ccc1b">5c02952</a>)
-contactit.fr | 20/08/2023 | Initial push (<a href="https://github.com/didntchooseaname/docs.contactit.fr/commit/531de0a1d2af9fba09309993d74c499a6da9f696">531de0a</a>)
+Date | Changes
+--- | ---
+15/06/2023 | Révisions
+21/08/2023 | Révisions 
+20/08/2023 | Initial push
 
 ===
 
@@ -25,7 +26,7 @@ Les alias mails avec les '+' ne seront pas traités dans cet article, beaucoup d
 
 :information_source: Un alias mail fonctionne de manière similaire au transfert de mails. Un intermédiaire se charge de recevoir le mail et de le tranférer au destinataire.  
 
-:arrow_right: Ici, c'est donc un service intermédiaire qui va se charger de faire ces tâches de manière transparente. Pour citer les 2 services d'alias mails les plus connus : <a href="https://simplelogin.io" target="_blank">SimpleLogin (by Proton)</a> et <a href="https://addy.io" target="_blank">Addy (précédemment AnonAddy)</a>. Ces services proposent d'ailleurs 15 adresses (alias) mails pour leurs plans gratuits respectifs. Ce n'est donc plus votre adresse mail principale que vous allez donner à un service, une personne ou lors de votre inscription, mais plutôt une adresse unique générée par le biai du service en question.  
+:arrow_right: Ici, c'est donc un service intermédiaire qui va se charger de faire ces tâches de manière transparente. Pour citer les 2 services d'alias mails les plus connus : <a href="https://simplelogin.io" target="_blank">SimpleLogin (by Proton)</a> et <a href="https://addy.io" target="_blank">Addy (précédemment AnonAddy)</a>. Ces services proposent d'ailleurs 15 adresses (alias) mails pour leurs plans gratuits respectifs. Ce n'est donc plus votre adresse mail principale que vous allez donner à un service, une personne ou lors de votre inscription, mais plutôt une adresse unique générée par le biai du service en question. Ce qui revient à scinder vos identités liées à vos adresses mails, puisqu'en plus de pouvoir choisir le début de l'adresse mail générée, vous pouvez également mettre n’importe quel nom de contact (celui-ci sera affiché lors de la réception d'un mail de votre part).  
 
 ![Schéma logique du fonctionnement d'un alias mail (exemple avec Discord)](images/alias_mail/alias_mail.webp)
 
