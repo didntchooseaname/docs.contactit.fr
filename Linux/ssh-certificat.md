@@ -8,7 +8,16 @@ order: 43
 
 # :ballot_box_with_ballot: Connexion SSH avec clé publique
 
-:icon-list-unordered: Se connecter avec une clé publqiue plutôt qu'un user/password représente plusieurs avantages:
+==- :wrench: Révisions
+
+Date | Changes
+--- | ---
+20/09/2023 | Révisions
+21/10/2021 | Initial push
+
+===
+
+:icon-list-unordered: Se connecter avec une clé publique plutôt qu'un user/password représente plusieurs avantages:
 
 :icon-triangle-right: Une clé générée sera toujours plus robuste qu'un mot de passe de manière générale  
 :icon-triangle-right: Il n'y a pas besoin d'utiliser de mot de passe pour se connecter en ssh  
@@ -32,7 +41,7 @@ ssh-keygen -t ed25519
 Il est recommandé d'utiliser `ed25519` qui correspond au standard actuel en terme de sécurité.
 !!!
 
-``` ssh-keygen ed25519
+``` ssh-keygen -t ed25519
 Generating public/private ed25519 key pair.
 Enter file in which to save the key (/home/contact/.ssh/id_ed25519):
 Created directory '/home/contact/.ssh'.
