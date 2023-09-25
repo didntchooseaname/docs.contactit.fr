@@ -1,9 +1,16 @@
-<div id="disqus_thread"></div>
-<script>
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://docs-contactit-fr-1.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
+<script src="https://giscus.app/client.js"
+        data-repo="didntchooseaname/giscus"
+        data-repo-id="R_kgDOKYFVQQ"
+        data-category="Commentaires"
+        data-category-id="DIC_kwDOKYFVQc4CZmyK"
+        data-mapping="og:title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="fr"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
 </script>
