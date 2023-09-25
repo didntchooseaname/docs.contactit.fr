@@ -17,7 +17,6 @@ contactit.fr | 03/11/2023 | Initial push (<a href="https://github.com/didntchoos
 :x: 0 cookie  
 :x: 0 pubs  
 :x: 0 tracking/analyse  
-:shushing_face: 1 tierce-partie (Disqus, compte non obligatoire)  
 
 ## :icon-checklist: Définitions
 
