@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "retypeapp": "^3.4.0"
+    "retypeapp": "^3.5.0"
   }
 }
