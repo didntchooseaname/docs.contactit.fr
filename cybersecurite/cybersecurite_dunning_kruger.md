@@ -12,6 +12,8 @@ order: 10
 
 L'effet Dunning-Kruger est un phénomène psychologique qui décrit la tendance des individus peu compétents dans un domaine particulier à surestimer leurs compétences, tandis que ceux qui sont compétents ont tendance à sous-estimer les leurs. Dans le contexte de la sécurité informatique, cet effet peut avoir des implications significatives.
 
+---
+
 ## L'Effet Dunning-Kruger en Cybersécurité : Les Risques de la Surestimation et de la Sous-estimation
 
 ### Introduction
