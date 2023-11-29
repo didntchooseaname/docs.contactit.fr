@@ -14,6 +14,8 @@ L’effet Dunning-Kruger est un type de biais cognitif dans lequel les personnes
 
 En d’autres termes, les personnes ayant un faible niveau de compétence ne possèdent pas les compétences nécessaires pour reconnaître leur propre incompétence. Cette combinaison de mauvaise conscience de soi et de faible capacité cognitive les amène à surestimer leurs capacités.
 
+![](images/cybersecurite_dunning_kruger/salt.gif)
+
 ---
 
 ## L'Effet Dunning-Kruger en Cybersécurité : Les Risques de la Surestimation et de la Sous-estimation
