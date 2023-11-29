@@ -10,7 +10,7 @@ order: 10
 
 ![(Source : fourweekmba.com)](images/cybersecurite_dunning_kruger/dunning-kruger.webp)
 
-L’effet Dunning-Kruger est un type de biais cognitif dans lequel les personnes pensent qu’elles sont plus "intelligente"s" et plus "capables" qu’elles ne le sont en réalité[^1], cet effet peut avoir des implications significatives.  
+L’effet Dunning-Kruger est un type de biais cognitif dans lequel les personnes pensent qu’elles sont plus "intelligente"s" et plus "capables" qu’elles ne le sont en réalité, cet effet peut avoir des implications significatives.  
 
 En d’autres termes, les personnes ayant un faible niveau de compétence ne possèdent pas les compétences nécessaires pour reconnaître leur propre incompétence. Cette combinaison de mauvaise conscience de soi et de faible capacité cognitive les amène à surestimer leurs capacités.
 
@@ -48,7 +48,7 @@ En conclusion, la compréhension de l'effet Dunning-Kruger en cybersécurité es
 
 3. **OpenAI.** ChatGPT.
 
-[^1]: 4. **The Dunning-Kruger Effect and Why It Convolutes Cybersecurity.** https://truedigitalsecurity.com/blog/dunning-kruger-cybersecurity.
+4. **The Dunning-Kruger Effect and Why It Convolutes Cybersecurity.** https://truedigitalsecurity.com/blog/dunning-kruger-cybersecurity.
 
 5. **Microsoft.** Co-pilot
 
