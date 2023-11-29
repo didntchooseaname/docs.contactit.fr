@@ -3,12 +3,12 @@ description: L'effet dunning Kruger est appliquable au domaine de la cybersécur
 categories: [Cybersécurité]
 date: 2023-11-29
 tags: [Cybersécurité, dunning, kruger]
-order: 99
+order: 10
 ---
 
-# La cybersécurité et l'effet Dunning-Kruger
+# :zany_face: La cybersécurité et l'effet Dunning-Kruger
 
-![(Source : SimpleLogin)](images/cybersecurite_dunning_kruger/dunning-kruger.webp)
+![(Source : fourweekmba.com)](images/cybersecurite_dunning_kruger/dunning-kruger.webp)
 
 L'effet Dunning-Kruger est un phénomène psychologique qui décrit la tendance des individus peu compétents dans un domaine particulier à surestimer leurs compétences, tandis que ceux qui sont compétents ont tendance à sous-estimer les leurs. Dans le contexte de la sécurité informatique, cet effet peut avoir des implications significatives.
 
