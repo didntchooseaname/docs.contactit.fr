@@ -1,12 +1,12 @@
 ---
-description: What OS i run on, which environment, dot files ans workflow tips
+description: What hardware/OS i run on, which environment, dot files and workflow tips.
 categories: [Linux]
 date: 2023-12-15
 tags: [linux, config, dotfile, arch, hyprland]
 order: 1
 ---
 
-# My workstation configuration
+# 💻 My workstation configuration
 
 ---
 
@@ -39,6 +39,12 @@ If you want to take care about packages, configurations and scripts yourself Arc
 ArchLinux is a **"Rolling release"** distribution means that packages are upgraded on latest version when available, so there are no "releases". There is the "Arch Wiki" as well, who you can compare to the "Holy bible" of arch users (and yeah, it's pretty HUGE). The **"Arch user"** is **THE** smart guy (That what the users said not me 😀, lots of humor).
 
 The **"Arch Users Repository"** is a huge repository of packages provided by the community, it aims at complete the officials ones and permit to all developers to share their packages. Keep in mind that theses packages are unofficial.
+
+---
+
+### What about your desktop environment
+
+I love simple, modern and smart things.
 
 ---
 
