@@ -77,3 +77,9 @@ Where `test` is the container's name and `nightly` the docker image it's based o
 ### Virtualization ?
 
 Yes, with KVM/QEMU and VMWare Workstation (because its used a lots by the students, for export virtual machines in ova format properly). 
+
+### How do you manage programs ?
+
+**Pacman** take care of core packages, **yay** of **AUR**'s ones and i try to use as much as possible **AppImages**. To help me manage the shortcut (access in menus) and the updates (like a packets manager) I use [**AM-Application-Manager**](https://github.com/ivan-hc/AM-Application-Manager). The AppImage format provides a good way to use apps whitout actually installing it, so quick to install and remove.
+
+---
