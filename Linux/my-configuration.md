@@ -30,7 +30,7 @@ All specifications could be found [here](https://www.officexpress.fr/10145925-20
 
 ### What Operation System i use ?
 
-[](images/my-configuration/iusearchbtw.webp).
+![](images/my-configuration/iusearchbtw.webp)
 
 **So yeah, I use Arch btw......... :sunglasses: **
 
@@ -40,7 +40,9 @@ If you want to take care about packages, configurations and scripts yourself Arc
 
 ### What about pentesting tools ?
 
-When you want a pentesting environment you will think first about a GNU/Linux "Hacking" distribution like : Kali, Parrot, BlackArch or AthenaOS. The huge downside of theses distributions is you don't have the the control about the installed packages, the python projects implementation (are they installed properly in venv, with symlinks for convenience ?), the bloatwares (packages installed by default that you will never use and yeah, there are a lots !), oh, and yes again python dependacies that can get conflicts with the time. To conclude, separate the operation system from the tools used is the way to go. Its here than exegol enter. For thoses who aren't familiar with exegol, it's a French FOSS project made by Shutdown, Dramelac with the support of capgemini (A big tech company) and Hack The Box mainly. The goal is to keep the OS clean by managing containers with a docker backend. A python wrapper take care of all the "docker things" for you. So, in a container you have : all tools you need, you can attach a vpn to it (--vpn config.ovpn), attach usb devices, remote desktop into the container environment (in beta, with --desktop) and more (For all features look at [The Exegol Docs](https://exegol.readthedocs.io/en/latest/))
+When you want a pentesting environment you will think first about a GNU/Linux "Hacking" distribution like : Kali, Parrot, BlackArch or AthenaOS. The huge downside of theses distributions is you don't have the the control about the installed packages, the python projects implementation (are they installed properly in venv, with symlinks for convenience ?), the bloatwares (packages installed by default that you will never use and yeah, there are a lots !), oh, and yes again python dependacies that can get conflicts with the time. To conclude, separate the operation system from the tools used is the way to go.  
+
+Its here than exegol enter. For thoses who aren't familiar with exegol, it's a French FOSS project made by Shutdown, Dramelac with the support of capgemini (A big tech company) and Hack The Box mainly. The goal is to keep the OS clean by managing containers with a docker backend. A python wrapper take care of all the "docker things" for you. So, in a container you have : all tools you need, you can attach a vpn to it (--vpn config.ovpn), attach usb devices, remote desktop into the container environment (in beta, with --desktop) and more (For all features look at [The Exegol Docs](https://exegol.readthedocs.io/en/latest/))
 
 
 
