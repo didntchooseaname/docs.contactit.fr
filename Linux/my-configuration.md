@@ -36,7 +36,7 @@ All specifications could be found [here](https://www.officexpress.fr/10145925-20
 
 If you want to take care about packages, configurations and scripts yourself Arch is the way to go to keep control and mostly **LEARN** by doing and understand the way packages and GNU/Linux works. Since the OS is really minimal per default so **"DO IT YOURSELF"**.
 
-ArchLinux is a **"Rolling release"** distribution means that packages are upgraded on latest version when available, so there is no "releases". There is the "Arch Wiki" as well, who you can compare to the "Holy bible" of arch users (and yeah, it's pretty HUGE). The **"Arch user"** is **THE** smart guy (That what the users said not me 😀, lots of humor).
+ArchLinux is a **"Rolling release"** distribution means that packages are upgraded on latest version when available, so there are no "releases". There is the "Arch Wiki" as well, who you can compare to the "Holy bible" of arch users (and yeah, it's pretty HUGE). The **"Arch user"** is **THE** smart guy (That what the users said not me 😀, lots of humor).
 
 The **"Arch Users Repository"** is a huge repository of packages provided by the community, it aims at complete the officials ones and permit to all developers to share their packages. Keep in mind that theses packages are unofficial.
 
@@ -44,9 +44,9 @@ The **"Arch Users Repository"** is a huge repository of packages provided by the
 
 ### What about pentesting tools ?
 
-When you want a pentesting environment you will think first about a GNU/Linux "Hacking" distribution like : Kali, Parrot, BlackArch or AthenaOS. The huge downside of theses distributions is you don't have the the control about the installed packages, the python projects implementation (are they installed properly in venv, with symlinks for convenience ?), the bloatwares (packages installed by default that you will never use and yeah, there are a lots !), oh, and yes again python dependacies that can get conflicts with the time. To conclude, separate the operation system from the tools used is the way to go.  
+When you want a **pentesting environment**, you will think first about a GNU/Linux "Hacking" distribution like : Kali, Parrot, BlackArch or AthenaOS. The huge downside of theses distributions is you **don't have the the control about the installed packages, the python projects implementation** (are they installed properly in venv, with symlinks for convenience ?), **the bloatwares** (packages installed by default that you will never use and yeah, there are a lots !), oh, and yes again **python dependacies that can get conflicts with the time**. To conclude, separate the operation system from the tools used is the way to go.  
 
-Its here than exegol enter. For thoses who aren't familiar with exegol, it's a French FOSS project made by Shutdown, Dramelac with the support of capgemini (A big tech company) and Hack The Box mainly. The goal is to keep the OS clean by managing containers with a docker backend. A python wrapper take care of all the "docker things" for you. So, in a container you have : all tools you need, you can attach a vpn to it (--vpn config.ovpn), attach usb devices, remote desktop into the container environment (in beta, with --desktop) and more (For all features look at [The Exegol Docs](https://exegol.readthedocs.io/en/latest/)).
+Its here that **exegol** enter. For thoses who aren't familiar with exegol, it's a French FOSS project made by Shutdown, Dramelac with the support of capgemini (A big tech company) and Hack The Box mainly. The goal is to **keep the OS clean by managing containers with a docker backend**. A python wrapper take care of all the "docker things" for you. So, in a container you have : **all tools you need**, you can attach a **vpn** to it (--vpn config.ovpn), attach **usb devices**, **remote desktop into the container environment** (in beta, with --desktop) and more (For all features look at [The Exegol Docs](https://exegol.readthedocs.io/en/latest/)).
 
 The whole thing made easy as starting a container :
 
