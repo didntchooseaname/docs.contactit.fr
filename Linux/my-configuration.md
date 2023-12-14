@@ -22,7 +22,7 @@ Here is the precise model i have now :
 
 ![Lenovo ThinkPad P14s Gen 1 - 14" - Pitcure source : OfficeXpress](https://www.officexpress.fr/ws_userstuff/cnet/512x384_20Y1000QFR-4.jpg)
 
-All specifications could be found [here](https://www.officexpress.fr/10145925-20y1000qfr-lenovo-thinkpad-p14s-gen-20y1-amd-ryzen-pro-4750u-jusqu-ghz-win-pro-bits-radeon-graphics-ram-256-ssd-tcg-opal-encryption-ips-1920-1080-full-noir-clavier-fran-ais-3540260184357)
+All specifications could be found [here](https://www.officexpress.fr/10145925-20y1000qfr-lenovo-thinkpad-p14s-gen-20y1-amd-ryzen-pro-4750u-jusqu-ghz-win-pro-bits-radeon-graphics-ram-256-ssd-tcg-opal-encryption-ips-1920-1080-full-noir-clavier-fran-ais-3540260184357).
 
 **PS** : I thinked about thinkpad with IntelME disabled and libreboot 🕵️, but minifree.org don't provide recent machines, it is a T440p (a brick) and there is a significant gap betwteen the i7 4th gen and the Ryzen 7 4th gen.
 
@@ -30,11 +30,17 @@ All specifications could be found [here](https://www.officexpress.fr/10145925-20
 
 ### What Operation System i use ?
 
-**I use Arch btw...**
+[](images/my-configuration/iusearchbtw.webp).
+
+**So yeah, I use Arch btw......... :sunglasses: **
+
+If you want to take care about packages, configurations and scripts yourself Arch is the way to go to keep control and mostly **LEARN** by doing and understand the way packages and GNU/Linux works.
 
 ---
 
+### What about pentesting tools ?
 
+When you want a pentesting environment you will think first about a GNU/Linux "Hacking" distribution like : Kali, Parrot, BlackArch or AthenaOS. The huge downside of theses distributions is you don't have the the control about the installed packages, the python projects implementation (are they installed properly in venv, with symlinks for convenience ?), the bloatwares (packages installed by default that you will never use and yeah, there are a lots !), oh, and yes again python dependacies that can get conflicts with the time. To conclude, separate the operation system from the tools used is the way to go. Its here than exegol enter. For thoses who aren't familiar with exegol, it's a French FOSS project made by Shutdown, Dramelac with the support of capgemini (A big tech company) and Hack The Box mainly. The goal is to keep the OS clean by managing containers with a docker backend. A python wrapper take care of all the "docker things" for you. So, in a container you have : all tools you need, you can attach a vpn to it (--vpn config.ovpn), attach usb devices, remote desktop into the container environment (in beta, with --desktop) and more (For all features look at [The Exegol Docs](https://exegol.readthedocs.io/en/latest/))
 
 
 
