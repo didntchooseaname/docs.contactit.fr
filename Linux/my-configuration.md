@@ -18,7 +18,7 @@ As an IT worker for few years now, I noticed that a lot of enterprises (includin
 
 The context is said, after few weeks of search I found one feets my needs in a perfect condition. The storage was about **500GB**, so I commanded a new nvme of **1TB** at the same time.
 
-Here is the precise model i have now :
+Here is the precise model i have now : **Lenovo ThinkPad P14s Gen 1 - 14"**
 
 +++ Front
 ![Lenovo ThinkPad P14s Gen 1 - 14" - Pitcure source : OfficeXpress](https://www.officexpress.fr/ws_userstuff/cnet/512x384_20Y1000QFR-4.jpg)
