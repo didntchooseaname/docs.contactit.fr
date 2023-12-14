@@ -20,7 +20,11 @@ The context is said, after few weeks of search I found one feets my needs in a p
 
 Here is the precise model i have now :
 
++++ Front
 ![Lenovo ThinkPad P14s Gen 1 - 14" - Pitcure source : OfficeXpress](https://www.officexpress.fr/ws_userstuff/cnet/512x384_20Y1000QFR-4.jpg)
++++ Behind
+![Without any sticker 😉](https://www.officexpress.fr/ws_userstuff/cnet/512x384_20Y1000QFR-8.jpg)
++++
 
 CPU | RAM | ROM
 --- | --- | ---
