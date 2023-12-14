@@ -48,9 +48,9 @@ The **"Arch Users Repository"** is a huge repository of packages provided by the
 
 ### What about your desktop environment
 
-I love simple, modern and smart things. I discovered **Hyprland** few years ago and decided to give it a try on this laptop, so i searched about tutorials on youtube to see how peoples managed to install, customize it and the results. I land on the **Ja Kool.it**'s [youtube channel](https://www.youtube.com/@Ja.KooLit) and followed the "My Hyprland Dots v2 on Debian 13 Linux minimal using netinstaller and Debian-Hyprland install script" [video](https://www.youtube.com/watch?v=Qc4VP9JFh2Y). This config **blew my mind**, it worked out of the box, it was fast, responsive and eye candy !  
+I love simple, modern and smart things. I discovered **Hyprland** few years ago and decided to give it a try on this laptop, so I searched at tutorials on youtube to see how peoples managed to install, customize it and the results. I land on the **Ja Kool.it**'s [youtube channel](https://www.youtube.com/@Ja.KooLit) and followed the "My Hyprland Dots v2 on Debian 13 Linux minimal using netinstaller and Debian-Hyprland install script" [video](https://www.youtube.com/watch?v=Qc4VP9JFh2Y). This config **blew my mind**, it worked out of the box, it was fast, responsive and eyes candy!
 
-But wait, you said you're on Arch right now ! So, yes i switched few months later because of the **unsustainability of the SID realeas of debian**, the fact that some **core packages aren't maintained** and Ja would like to **stop the suport about his configurations on debian Trixie** for the moment.
+But wait, you said you're on Arch right now ! So yes, I switched few months later because of the **unsustainability of the SID realease of debian**, the fact that some **core packages aren't maintained** and Ja would like to **stop the support about his configurations on debian Trixie** for the moment.
 
 ---
 
