@@ -72,6 +72,8 @@ The whole thing made easy as starting a container :
 exegol start test nightly
 ```
 
+![](images/my-configuration/exegolstart.webp)
+
 Where `test` is the container's name and `nightly` the docker image it's based on. You can download exegol images easily with :
 
 ```sh
@@ -80,6 +82,7 @@ exegol install
 
 It will ask your for the name of the image you want to install as the table shows.
 
+![](images/my-configuration/exegolinstall.webp)
 
 ---
 
@@ -91,14 +94,18 @@ As mentionned earlier, we can open browser windows in our containers. Since I us
 
 I added as well, **uBlock Origin** to all containers to block annonyances (cookies prompts, ads, trackers...) by editing the following file :
 
-```sh vim /opt/my-resources/setup/firefox/addons.txt
-placeholder
+```sh vim ~/.exegol/my-resources/setup/firefox/addons.txt
+# This file can be used to install addons on the Firefox instance of Exegol.
+# The download links of the addons to be installed can be listed in this file (ie: https://addons.mozilla.org/fr/firefox/addon/foxyproxy-standard/).
+# All addons listed below will be downloaded and installed automatically when creating a new Exegol container.
+https://addons.mozilla.org/fr/firefox/addon/ublock-origin/
+https://addons.mozilla.org/fr/firefox/addon/rainbow-sparkle-animated-theme/
 ```
 
-I added a line in the `~/.zsh_history` for opening burpsuite and assign it a PID to let my shell usable (same as firefox command) :
+I added a line in the `~/.zsh_history` for opening burpsuite and assign it a PID to let my shell usable (same as firefox command but for burpsuite) :
 
-```sh vim /opt/my-resources/setup/zsh/history
-placeholder
+```sh vim ~/.exegol/my-resources/setup/zsh/history
+burpsuite &> /dev/null &
 ```
 
 ---
