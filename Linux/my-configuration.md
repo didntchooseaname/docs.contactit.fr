@@ -12,7 +12,7 @@ order: 100
 
 # 🔬 Which model you choosed ?
 
-Before naming the model, I would like to say first that I set some limits regarding the budget and the performance of the machine. I need a lpatop for the **school and events** and I want it to be as **powerful as possible** (I thinked about an i7 or Ryzen 7 and 16GB, seems good for few virtual machines and pentesting) for a budget around **$600** (550€). So, I looked for a **second hand computer** on famous marketplaces in order to get a good bang for the buck. Ideally I would like a **fingerprint sensor**, a **"cache camera"** included and a **lightweight** one (for mooving).
+Before naming the model, I would like to say first that I set some limits regarding the budget and the performance of the machine. I need laptop for the **school and events** and I want it to be as **powerful as possible** (I tought about an i7 or Ryzen 7 and 16GB, seems good for few virtual machines and pentesting) for a budget around **$600** (550€). So, I looked for a **second hand computer** on famous marketplaces in order to get a good bang for the buck. Ideally I would like a **fingerprint sensor**, a **"cache camera"** included and a **lightweight** one (for moving).
 
 As an IT worker for few years now, I noticed that a lot of enterprises (including the ones I was in) **switched from various brands to Lenovo Thinkpads** for good reasons as look, feel, performance/price, keyboard, functionalities and most of all stability and good support. I had many Thinkpads in hands and feel great. I will take one personnally.
 
@@ -54,13 +54,13 @@ The **"Arch Users Repository"** is a huge repository of packages provided by the
 
 I love simple, modern and smart things. I discovered **Hyprland** few years ago and decided to give it a try on this laptop, so I searched at tutorials on youtube to see how peoples managed to install, customize it and the results. I land on the **Ja Kool.it**'s [youtube channel](https://www.youtube.com/@Ja.KooLit) and followed the "My Hyprland Dots v2 on Debian 13 Linux minimal using netinstaller and Debian-Hyprland install script" [video](https://www.youtube.com/watch?v=Qc4VP9JFh2Y). This config **blew my mind**, it worked out of the box, it was fast, responsive and eyes candy!
 
-But wait, you said you're on Arch right now ! So yes, I switched few months later because of the **unsustainability of the SID realease of debian**, the fact that some **core packages aren't maintained** and Ja would like to **stop the support about his configurations on debian Trixie** for the moment.
+But wait, you said you're on Arch right now ! So yes, I switched few weeks later because of the **unsustainability of the SID realease of debian**, the fact that some **core packages aren't maintained** and Ja would like to **stop the support about his configurations on debian Trixie** for the moment.
 
 ---
 
 ### 🛠️ What about pentesting tools ?
 
-When you want a **pentesting environment**, you will think first about a GNU/Linux "Hacking" distribution like : Kali, Parrot, BlackArch or AthenaOS. The huge downside of theses distributions is you **don't have the the control about the installed packages, the python projects implementation** (are they installed properly in venv, with symlinks for convenience ?), **the bloatwares** (packages installed by default that you will never use and yeah, there are a lots !), oh, and yes again **python dependacies that can get conflicts with the time**. To conclude, separate the operation system from the tools used is the way to go.  
+When you want a **pentesting environment**, you will think first about a GNU/Linux "Hacking" distribution like : Kali, Parrot, BlackArch or AthenaOS. The huge downside of theses distributions is you **don't have the the control about the installed packages, the python projects implementation** (are they installed properly in venv, with symlinks for convenience ?), **the bloatwares** (packages installed by default that you will never use and yeah, there are a lots !), oh, and yes again **python dependancies that can get conflicts with the time**. To conclude, separate the operation system from the tools used is the way to go.  
 
 Its here that **exegol** enter. For thoses who aren't familiar with exegol, it's a French FOSS project made by Shutdown, Dramelac with the support of capgemini (A big tech company) and Hack The Box mainly. The goal is to **keep the OS clean by managing containers with a docker backend**. A python wrapper take care of all the "docker things" for you. So, in a container you have : **all tools you need**, you can attach a **vpn** to it (--vpn config.ovpn), open a browser and apps with a GUI, attach **usb devices**, **remote desktop into the container environment** (in beta, with --desktop) and more (For all features look at [The Exegol Docs](https://exegol.readthedocs.io/en/latest/)).
 
@@ -70,7 +70,14 @@ The whole thing made easy as starting a container :
 exegol start test nightly
 ```
 
-Where `test` is the container's name and `nightly` the docker image it's based on.
+Where `test` is the container's name and `nightly` the docker image it's based on. You can download exegol images easily with :
+
+```sh
+exegol install
+```
+
+It will ask your for the name of the image you want to install as the table shows.
+
 
 ---
 
