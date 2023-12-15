@@ -3,7 +3,7 @@ description: What hardware/OS i run on, which environment, dot files and workflo
 categories: [Linux]
 date: 2023-12-15
 tags: [linux, config, dotfile, arch, hyprland]
-order: 1
+order: 100
 ---
 
 # 💻 My workstation configuration
@@ -36,7 +36,7 @@ All specifications could be found [here](https://www.officexpress.fr/10145925-20
 
 ---
 
-### What Operation System you use ?
+### ⚙️ What Operation System you use ?
 
 -![](images/my-configuration/iusearchbtw.webp)
 
@@ -50,7 +50,7 @@ The **"Arch Users Repository"** is a huge repository of packages provided by the
 
 ---
 
-### What about your desktop environment
+### 📟 What about your desktop environment
 
 I love simple, modern and smart things. I discovered **Hyprland** few years ago and decided to give it a try on this laptop, so I searched at tutorials on youtube to see how peoples managed to install, customize it and the results. I land on the **Ja Kool.it**'s [youtube channel](https://www.youtube.com/@Ja.KooLit) and followed the "My Hyprland Dots v2 on Debian 13 Linux minimal using netinstaller and Debian-Hyprland install script" [video](https://www.youtube.com/watch?v=Qc4VP9JFh2Y). This config **blew my mind**, it worked out of the box, it was fast, responsive and eyes candy!
 
@@ -58,11 +58,11 @@ But wait, you said you're on Arch right now ! So yes, I switched few months late
 
 ---
 
-### What about pentesting tools ?
+### 🛠️ What about pentesting tools ?
 
 When you want a **pentesting environment**, you will think first about a GNU/Linux "Hacking" distribution like : Kali, Parrot, BlackArch or AthenaOS. The huge downside of theses distributions is you **don't have the the control about the installed packages, the python projects implementation** (are they installed properly in venv, with symlinks for convenience ?), **the bloatwares** (packages installed by default that you will never use and yeah, there are a lots !), oh, and yes again **python dependacies that can get conflicts with the time**. To conclude, separate the operation system from the tools used is the way to go.  
 
-Its here that **exegol** enter. For thoses who aren't familiar with exegol, it's a French FOSS project made by Shutdown, Dramelac with the support of capgemini (A big tech company) and Hack The Box mainly. The goal is to **keep the OS clean by managing containers with a docker backend**. A python wrapper take care of all the "docker things" for you. So, in a container you have : **all tools you need**, you can attach a **vpn** to it (--vpn config.ovpn), attach **usb devices**, **remote desktop into the container environment** (in beta, with --desktop) and more (For all features look at [The Exegol Docs](https://exegol.readthedocs.io/en/latest/)).
+Its here that **exegol** enter. For thoses who aren't familiar with exegol, it's a French FOSS project made by Shutdown, Dramelac with the support of capgemini (A big tech company) and Hack The Box mainly. The goal is to **keep the OS clean by managing containers with a docker backend**. A python wrapper take care of all the "docker things" for you. So, in a container you have : **all tools you need**, you can attach a **vpn** to it (--vpn config.ovpn), open a browser and apps with a GUI, attach **usb devices**, **remote desktop into the container environment** (in beta, with --desktop) and more (For all features look at [The Exegol Docs](https://exegol.readthedocs.io/en/latest/)).
 
 The whole thing made easy as starting a container :
 
@@ -74,12 +74,34 @@ Where `test` is the container's name and `nightly` the docker image it's based o
 
 ---
 
-### Virtualization ?
+#### 🔧 TIPS
 
-Yes, with KVM/QEMU and VMWare Workstation (because its used a lots by the students, for export virtual machines in ova format properly). 
+As mentionned earlier, we can open a browser in our containers. Since I use Firefox mainly and there is Firefox as default brower in containers, sometimes "in the action" I use the wrong browser window to download a thing on my host and instead it goes into the container. Because I use Hyprland, the titles of the windows don't appear anymore. To solve that i didn't bring back the titles, but i configure exegol to install a firefox theme in every container. That way the two windows are easily distinguishable as shown with the picture below.
 
-### How do you manage programs ?
+![Left browser is opened in exegol](images/my-configuration/browsers.webp)
 
-**Pacman** take care of core packages, **yay** of **AUR**'s ones and i try to use as much as possible **AppImages**. To help me manage the shortcut (access in menus) and the updates (like a packets manager) I use [**AM-Application-Manager**](https://github.com/ivan-hc/AM-Application-Manager). The AppImage format provides a good way to use apps whitout actually installing it, so quick to install and remove.
+I added as well, uBlock Origin to all containers to block annonyances (cookies prompt, ads, trackers...) by editing the following file :
+
+```sh vim /opt/my-resources/setup/firefox/addons.txt
+placeholder
+```
+
+I added a line in the `~/.zsh_history` for opening burpsuite and assign it a PID to let my shell usable :
+
+```sh vim /opt/my-resources/setup/zsh/history
+placeholder
+```
+
+---
+
+### 🗄️ And for Virtualization ?
+
+I use KVM/QEMU and VMWare Workstation (because its used a lots by students and permit the export of virtual machines in the ova format properly). 
+
+---
+
+### 🗃️ How do you manage programs ?
+
+**Pacman** take care of core packages, **yay** of **AUR**'s ones and i try to use as much as possible **AppImages**. To help me manage the shortcut (access in menus) and the updates (like a packets manager) I use [**AM-Application-Manager**](https://github.com/ivan-hc/AM-Application-Manager). The AppImage format provides a good way to use apps whitout actually installing it, so quick to install, remove and keep the OS clean without writing in system files.
 
 ---
