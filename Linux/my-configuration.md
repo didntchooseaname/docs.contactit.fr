@@ -84,6 +84,12 @@ It will ask your for the name of the image you want to install as the table show
 
 ![](images/my-configuration/exegolinstall.webp)
 
+The following tests are run within a container based on the nightly image :
+
+Idle consumption | Rustscan with -- -A parameter
+:---: | :---:
+![](images/my-configuration/dockerstatsidle.webp) | ![](images/my-configuration/dockerstatsrustscan.webp)
+
 ---
 
 #### 🔧 TIPS
