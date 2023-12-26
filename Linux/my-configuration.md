@@ -118,10 +118,14 @@ python3 -m http.server 80
 And personal aliases in the `~/.exegol/my-resources/setup/zsh/aliases` file :
 
 ```sh vim ~/.exegol/my-resources/setup/zsh/aliases
-python3 -m http.server 80
+alias http='python3 -m http.server 80'
 ```
 
 I use the package `ranger` as well to navigate and edit file easily in the directories :
+
+```sh $
+ranger
+```
 
 ![Ranger in action with the preview of the file `lsb_release`](images/my-configuration/ranger.webp)
 
