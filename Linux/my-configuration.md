@@ -92,7 +92,7 @@ Idle consumption | Rustscan with -- -A parameter
 
 ---
 
-#### 🔧 TIPS
+#### 🔧 Convenience TIPS
 
 As mentionned earlier, we can open browser windows in our containers. Since I use Firefox mainly and there is Firefox as the default brower in containers, sometimes "in the action" I use the wrong browser window to download a thing on my host and instead it goes into the container. Because I use Hyprland, the titles of the windows don't appear anymore. To solve that i didn't bring back the titles, but i configure exegol to **install a firefox theme in every container**. That way the two windows are easily distinguishable as shown with the picture below.
 
@@ -108,11 +108,22 @@ https://addons.mozilla.org/fr/firefox/addon/ublock-origin/
 https://addons.mozilla.org/fr/firefox/addon/rainbow-sparkle-animated-theme/
 ```
 
-I added a line in the `~/.zsh_history` for opening burpsuite and assign it a PID to let my shell usable (same as firefox command but for burpsuite) :
+I added some lines in `~/.exegol/my-resources/setup/zsh/history` for opening burpsuite and assign it a PID to let my shell usable (same as firefox command but for burpsuite) in all the containers :
 
 ```sh vim ~/.exegol/my-resources/setup/zsh/history
 burpsuite &> /dev/null &
+python3 -m http.server 80
 ```
+
+And personal aliases in the `~/.exegol/my-resources/setup/zsh/aliases` file :
+
+```sh vim ~/.exegol/my-resources/setup/zsh/aliases
+python3 -m http.server 80
+```
+
+I use the package `ranger` as well to navigate and edit file easily in the directories :
+
+![Ranger in action with the preview of the file `lsb_release`](images/my-configuration/ranger.webp)
 
 ---
 
