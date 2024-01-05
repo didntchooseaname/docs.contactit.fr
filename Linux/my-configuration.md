@@ -119,6 +119,7 @@ And personal aliases in the `~/.exegol/my-resources/setup/zsh/aliases` file :
 
 ```sh vim ~/.exegol/my-resources/setup/zsh/aliases
 alias http='python3 -m http.server 80'
+alias tun0='ip a sh dev tun0 | grep -oP "(?:[0-9]{1,3}\.){3}[0-9]{1,3}" | tr -d "\n" | xclip -sel c; tun0ip=$(xsel -ob); echo "\033[1;32m[+]\033[0m Successfully copied \033[1;32m$tun0ip\033[0m (tun0) to clipboard !"'
 ```
 
 I use the package `ranger` as well to navigate and edit file easily in the directories :
