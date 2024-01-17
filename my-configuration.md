@@ -3,7 +3,7 @@ description: What hardware/OS i run on, which environment, dot files and workflo
 categories: [Linux]
 date: 2023-12-14
 tags: [linux, config, dotfile, arch, hyprland]
-order: 100
+order: 99
 ---
 
 # 💻 My workstation configuration
@@ -21,9 +21,9 @@ The context is said, after few weeks of search I found one feets my needs in a p
 Here is the precise model i have now : **Lenovo ThinkPad P14s Gen 1 - 14"**
 
 +++ Front
-![Pitcures sources : OfficeXpress](images/my-configuration/laptop.webp)
+![Pitcures sources : OfficeXpress](Linux/images/my-configuration/laptop.webp)
 +++ Behind
-![Without any sticker 😉](images/my-configuration/laptopb.webp)
+![Without any sticker 😉](Linux/images/my-configuration/laptopb.webp)
 +++
 
 CPU | RAM | ROM
@@ -38,7 +38,7 @@ All specifications could be found [here](https://www.officexpress.fr/10145925-20
 
 ### ⚙️ What Operation System do you use ?
 
--![](images/my-configuration/iusearchbtw.webp)
+-![](Linux/images/my-configuration/iusearchbtw.webp)
 
 **So yeah, I use Arch btw.........** 😎
 
@@ -52,7 +52,7 @@ The **"Arch Users Repository"** is a huge repository of packages provided by the
 
 ### 📟 What about your desktop environment ?
 
-![](images/my-configuration/desktop.webp)-
+![](Linux/images/my-configuration/desktop.webp)-
 
 I love simple, modern and smart things. I discovered **Hyprland** few years ago and decided to give it a try on this laptop, so I searched at tutorials on youtube to see how peoples managed to install, customize it and the results. I land on the **Ja Kool.it**'s [youtube channel](https://www.youtube.com/@Ja.KooLit) and followed the "My Hyprland Dots v2 on Debian 13 Linux minimal using netinstaller and Debian-Hyprland install script" [video](https://www.youtube.com/watch?v=Qc4VP9JFh2Y). This config **blew my mind**, it worked out of the box, it was fast, responsive and eyes candy!
 
@@ -72,7 +72,7 @@ The whole thing made easy as starting a container :
 exegol start test nightly
 ```
 
-![](images/my-configuration/exegolstart.webp)
+![](Linux/images/my-configuration/exegolstart.webp)
 
 Where `test` is the container's name and `nightly` the docker image it's based on. You can download exegol images easily with :
 
@@ -82,13 +82,13 @@ exegol install
 
 It will ask your for the name of the image you want to install as the table shows.
 
-![](images/my-configuration/exegolinstall.webp)
+![](Linux/images/my-configuration/exegolinstall.webp)
 
 The following tests are run within a container based on the nightly image :
 
 Idle consumption | Rustscan with -- -A parameter
 :---: | :---:
-![](images/my-configuration/dockerstatsidle.webp) | ![](images/my-configuration/dockerstatsrustscan.webp)
+![](Linux/images/my-configuration/dockerstatsidle.webp) | ![](Linux/images/my-configuration/dockerstatsrustscan.webp)
 
 ---
 
@@ -96,7 +96,7 @@ Idle consumption | Rustscan with -- -A parameter
 
 As mentionned earlier, we can open browser windows in our containers. Since I use Firefox mainly and there is Firefox as the default brower in containers, sometimes "in the action" I use the wrong browser window to download a thing on my host and instead it goes into the container. Because I use Hyprland, the titles of the windows don't appear anymore. To solve that i didn't bring back the titles, but i configure exegol to **install a firefox theme in every container**. That way the two windows are easily distinguishable as shown with the picture below.
 
-![Left browser is opened in exegol](images/my-configuration/browsers.webp)
+![Left browser is opened in exegol](Linux/images/my-configuration/browsers.webp)
 
 I added as well, **uBlock Origin** to all containers to block annonyances (cookies prompts, ads, trackers...) by editing the following file :
 
@@ -128,7 +128,7 @@ I use the package `ranger` as well to navigate and edit file easily in the direc
 ranger
 ```
 
-![Ranger in action with the preview of the file `lsb_release`](images/my-configuration/ranger.webp)
+![Ranger in action with the preview of the file `lsb_release`](Linux/images/my-configuration/ranger.webp)
 
 ---
 
