@@ -146,14 +146,16 @@ I use **VMWare Workstation**, because its the principal type 2 hypervisor used b
 
 **Pacman** take care of core/extra packages, **yay** of **AUR**'s ones.
 
+---
+
 ## ☕ Auto snapshots configuration
 
 It is advisable to establish a "disaster recovery plan" for the operating system during the initial setup. Upgrades may sometimes conflict with each other or disrupt system packages, leading to potential boot/login issues. So I employed timeshift to create daily snapshots, retaining the last three days worth. Additionally, I have incorporated the timeshift-autosnap AUR package to automatically generate a timeshift snapshot when upgrades are initiated through pacman hooks.  
 
 Subsequently, I configured Grub to make these snapshots accessible, allowing for a direct boot into them. I Followed this [tutorial](https://discovery.endeavouros.com/encrypted-installation/btrfs-with-timeshift-snapshots-on-the-grub-menu/2022/02/).
 
-![Grub boot menu](Linux/images/my-configuration/menu.webp)
-
-![Snapshots](Linux/images/my-configuration/snapshot.webp)
+Grub boot menu | Snapshots list
+:---: | :---:
+![](Linux/images/my-configuration/menu.webp) | ![](Linux/images/my-configuration/snapshot.webp)
 
 ---
