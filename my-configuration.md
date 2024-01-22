@@ -122,24 +122,38 @@ alias http='python3 -m http.server 80'
 alias tun0='ip a sh dev tun0 | grep -oP "(?:[0-9]{1,3}\.){3}[0-9]{1,3}" | tr -d "\n" | xclip -sel c; tun0ip=$(xsel -ob); echo "\033[1;32m[+]\033[0m Successfully copied \033[1;32m$tun0ip\033[0m (tun0) to clipboard !"'
 ```
 
-I use the package `ranger` as well to navigate and edit file easily in the directories :
+!!!warning
+If you want to mount nfs shares within an exegol container, you need to start it with the `--privileged` option
+!!!
+
+I use the package `nvchad` (based on neovim) as well to navigate and edit file easily in the directories :
 
 ```sh $
-ranger
+nvim
 ```
 
-![Ranger in action with the preview of the file `lsb_release`](Linux/images/my-configuration/ranger.webp)
+![nvchad in action](Linux/images/my-configuration/nvchad.webp)
 
 ---
 
 ### 🗄️ And for Virtualization ?
 
-I use **KVM/QEMU** and **VMWare Workstation** (because its used a lot by students and permit the export of virtual machines in the ova format properly). 
+I use **VMWare Workstation**, because its the principal type 2 hypervisor used by students, have a good network manager and most of all, permit the export of virtual machines in the ova format properly. 
 
 ---
 
 ### 🗃️ How do you manage programs ?
 
-**Pacman** take care of core packages, **yay** of **AUR**'s ones and I try to use as much as possible **AppImages**. To help me manage shortcuts (access in menus) and updates (like a packets manager), I use [**AM-Application-Manager**](https://github.com/ivan-hc/AM-Application-Manager). The AppImage format provides a good way to use apps whitout actually installing it, quick to install, remove and **keep the OS clean without writing in system files.**
+**Pacman** take care of core/extra packages, **yay** of **AUR**'s ones.
+
+## ☕ Auto snapshots configuration
+
+It is advisable to establish a "disaster recovery plan" for the operating system during the initial setup. Upgrades may sometimes conflict with each other or disrupt system packages, leading to potential boot/login issues. So I employed timeshift to create daily snapshots, retaining the last three days worth. Additionally, I have incorporated the timeshift-autosnap AUR package to automatically generate a timeshift snapshot when upgrades are initiated through pacman hooks.  
+
+Subsequently, I configured Grub to make these snapshots accessible, allowing for a direct boot into them. I Followed this [tutorial](https://discovery.endeavouros.com/encrypted-installation/btrfs-with-timeshift-snapshots-on-the-grub-menu/2022/02/).
+
+![Grub boot menu](Linux/images/my-configuration/menu.webp)
+
+![Snapshots](Linux/images/my-configuration/snapshot.webp)
 
 ---
