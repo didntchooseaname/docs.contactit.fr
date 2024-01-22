@@ -16,6 +16,8 @@ order: 49
 
 ## :receipt: Contexte
 
+![Infrastructure](images/ad_multisites/infra-white.webp)
+
 Une entreprise possède 3 sites, chacun d'entre-eux possède 1 serveur Windows :  
 - SRV-CHA (AD) sur Chassignieu (siège de l'entreprise)  
 - SRV-VIR sur Virieu  
