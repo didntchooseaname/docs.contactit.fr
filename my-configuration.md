@@ -122,6 +122,19 @@ alias http='python3 -m http.server 80'
 alias tun0='ip a sh dev tun0 | grep -oP "(?:[0-9]{1,3}\.){3}[0-9]{1,3}" | tr -d "\n" | xclip -sel c; tun0ip=$(xsel -ob); echo "\033[1;32m[+]\033[0m Successfully copied \033[1;32m$tun0ip\033[0m (tun0) to clipboard !"'
 ```
 
+:icon-alert: Fix `Evil-Winrm` in exegol (to add in the `load_user_setup.sh`):
+
+```sh
+echo -e '[provider_sect]\n
+default = default_sect\n
+legacy = legacy_sect\n
+\n
+[default_sect]\n
+activate = 1\n
+[legacy_sect]\n
+activate = 1\n' >> /etc/ssl/openssl.cnf
+```
+
 !!!warning
 If you want to mount nfs shares within an exegol container, you need to start it with the `--privileged` option
 !!!
