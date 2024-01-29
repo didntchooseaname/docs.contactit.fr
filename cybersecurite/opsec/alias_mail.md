@@ -1,9 +1,9 @@
 ---
-description: Ne donnez plus jamais votre adresse mail ! Prémunissez vous des spams et fuites d'adresses mail et envoyez des mails sans compromettre votre identité.
+description: Ne donnez plus votre adresse mail ! Prémunissez vous des spams et fuites d'adresses mail et envoyez des mails sans compromettre votre identité.
 categories: [OPSEC]
 date: 2023-08-20
 tags: [Cybersécurité, mail, messagerie, alias, proton, simplelogin]
-order: 99
+order: 4
 ---
 
 # :incoming_envelope: Les Alias mails, recevoir et envoyer des mails sans compromettre son identité.

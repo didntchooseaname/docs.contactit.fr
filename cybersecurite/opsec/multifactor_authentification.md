@@ -3,7 +3,7 @@ description: Lorsque vous utilisez un service en ligne, faites un tour dans les 
 categories: [OPSEC]
 date: 2023-08-30
 tags: [2fa, multifactor, authentification, mfa]
-order: 98
+order: 2
 ---
 
 # :closed_lock_with_key: L'authentification multifacteurs

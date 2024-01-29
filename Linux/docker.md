@@ -13,7 +13,7 @@ order: 44
 ---
 
 !!!
-Si vous configurez votre serveur directement en root. N'oubliez pas de retirer le `sudo` de chaque commande.
+Si vous configurez votre serveur directement en root, n'oubliez pas de retirer le `sudo` de chaque commande.
 !!!
 
 !!! danger

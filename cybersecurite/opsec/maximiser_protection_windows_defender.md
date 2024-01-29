@@ -3,7 +3,7 @@ description: Maximisez la protection de Windows Defender ! Dans cet article vous
 categories: [OPSEC]
 date: 2023-09-01
 tags: [cybersécurité, opsec, sécurité, windows, defender, maps, application, guard]
-order: 97
+order: 3
 ---
 
 # :shield: Maximiser la protection de Windows Defender

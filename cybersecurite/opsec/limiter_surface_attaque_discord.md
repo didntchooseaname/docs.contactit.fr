@@ -3,7 +3,7 @@ description: Avez-vous déjà entendu parler de DOX/DOXXING/SWAT ? Comprendre le
 categories: [OPSEC]
 date: 2023-08-18
 tags: [cybersécurité, osint, prevention, discord]
-order: 100
+order: 5
 ---
 
 # 🙅‍♂️ Limiter sa surface d'attaque sur Discord
