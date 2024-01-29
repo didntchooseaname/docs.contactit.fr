@@ -3,7 +3,7 @@ description: Privacy isn't about hidding but losing, most of us have nothing to 
 categories: [OPSEC]
 date: 2024-01-29
 tags: [Cybersécurité]
-order: 1
+order: 100
 ---
 
 ==- :icon-report: Mises en garde
