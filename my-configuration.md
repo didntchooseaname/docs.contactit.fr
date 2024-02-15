@@ -94,6 +94,24 @@ Idle consumption | Rustscan with -- -A parameter
 
 #### 🔧 Convenience TIPS
 
+**Note**: When Arch was installed i experienced issue about the keybloard layout into the cryptsetup prompt (which was set to US). It seems to be an old issue for a lots of Arch users, here is the solution (in chroot after installation or enter your passphrase and think about QWERTY layout):
+
+```sh
+vim /etc/vconsole.conf
+```
+
+It seems to be an issue with the definition of the **KEYMAP** variable in `fr`, so need to switch to `fr-latin9` and rebuild the linux image:  
+
+```sh
+KEYMAP=fr-latin9
+```
+
+And then rebuild the image (need root privileges):
+
+```sh
+mkinitcpio -P
+```
+
 As mentionned earlier, we can open browser windows in our containers. Since I use Firefox mainly and there is Firefox as the default brower in containers, sometimes "in the action" I use the wrong browser window to download a thing on my host and instead it goes into the container. Because I use Hyprland, the titles of the windows don't appear anymore. To solve that i didn't bring back the titles, but i configure exegol to **install a firefox theme in every container**. That way the two windows are easily distinguishable as shown with the picture below.
 
 ![Left browser is opened in exegol](Linux/images/my-configuration/browsers.webp)
@@ -120,19 +138,6 @@ And personal aliases in the `~/.exegol/my-resources/setup/zsh/aliases` file :
 ```sh vim ~/.exegol/my-resources/setup/zsh/aliases
 alias http='python3 -m http.server 80'
 alias tun0='ip a sh dev tun0 | grep -oP "(?:[0-9]{1,3}\.){3}[0-9]{1,3}" | tr -d "\n" | xclip -sel c; tun0ip=$(xsel -ob); echo "\033[1;32m[+]\033[0m Successfully copied \033[1;32m$tun0ip\033[0m (tun0) to clipboard !"'
-```
-
-:icon-alert: Fix `Evil-Winrm` in exegol (to add in the `load_user_setup.sh`):
-
-```sh
-echo -e '[provider_sect]\n
-default = default_sect\n
-legacy = legacy_sect\n
-\n
-[default_sect]\n
-activate = 1\n
-[legacy_sect]\n
-activate = 1\n' >> /etc/ssl/openssl.cnf
 ```
 
 !!!warning
