@@ -126,6 +126,31 @@ https://addons.mozilla.org/fr/firefox/addon/ublock-origin/
 https://addons.mozilla.org/fr/firefox/addon/rainbow-sparkle-animated-theme/
 ```
 
+Exegol as an issue with the implementation of openssl when executing **Evil-WinRM**. To fix that you need to reinstall properly gem implementation and modifying the `/etc/ssl/openssl.cnf`:  
+
+Reinstall the openssl ruby package:  
+
+```sh
+rvm pkg install openssl
+```
+
+Reinstall ruby and pointing to `$HOME/.rvm/usr`:  
+
+```sh
+rvm reinstall ruby-3.2.2 --with-openssl-dir=$HOME/.rvm/usr
+```
+
+Update packages:  
+
+```sh
+gem update bundler
+bundle install
+```
+
+```sh
+rvm get stable --auto-dotfiles
+```
+
 I added some lines in `~/.exegol/my-resources/setup/zsh/history` for opening burpsuite and assign it a PID to let my shell usable (same as firefox command but for burpsuite) in all the containers :
 
 ```sh vim ~/.exegol/my-resources/setup/zsh/history
