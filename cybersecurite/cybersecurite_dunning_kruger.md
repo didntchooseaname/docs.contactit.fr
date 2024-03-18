@@ -42,14 +42,9 @@ En conclusion, la compréhension de l'effet Dunning-Kruger en cybersécurité es
 
 *Sources* : 
 
-1. **Dunning, D., & Kruger, J. (1999).** Unskilled and unaware of it: How difficulties in recognizing one's own incompetence lead to inflated self-assessments.
-
-2. **Smith, R. D. (2018).** Cybersecurity and the Dunning-Kruger Effect: A Metacognitive Perspective.
-
-3. **OpenAI.** ChatGPT.
-
-4. **The Dunning-Kruger Effect and Why It Convolutes Cybersecurity.** https://truedigitalsecurity.com/blog/dunning-kruger-cybersecurity.
-
-5. **Microsoft.** Co-pilot
-
-6. **verywellmind.com** https://www.verywellmind.com/an-overview-of-the-dunning-kruger-effect-4160740
+- **Dunning, D., & Kruger, J. (1999).** Unskilled and unaware of it: How difficulties in recognizing one's own incompetence lead to inflated self-assessments.
+- **Smith, R. D. (2018).** Cybersecurity and the Dunning-Kruger Effect: A Metacognitive Perspective.
+- **OpenAI.** ChatGPT.
+- **The Dunning-Kruger Effect and Why It Convolutes Cybersecurity.** https://truedigitalsecurity.com/blog/dunning-kruger-cybersecurity.
+- **Microsoft.** Co-pilot
+- **verywellmind.com** https://www.verywellmind.com/an-overview-of-the-dunning-kruger-effect-4160740
