@@ -90,9 +90,13 @@ Idle consumption | Rustscan with -- -A parameter
 :---: | :---:
 ![](Linux/images/my-configuration/dockerstatsidle.webp) | ![](Linux/images/my-configuration/dockerstatsrustscan.webp)
 
+You can follow installation steps and get some tips here :  
+
+[!ref icon="note"](cybersecurite/Pentest/Exegol_Cheat_Sheet.md)
+
 ---
 
-#### 🔧 Convenience TIPS
+#### 🔧 Important Notice
 
 **Note**: When Arch was installed i experienced issue about the keybloard layout into the cryptsetup prompt (which was set to US). It seems to be an old issue for a lots of Arch users, here is the solution (in chroot after installation or enter your passphrase and think about QWERTY layout):
 
@@ -112,55 +116,6 @@ And then rebuild the image (need root privileges):
 mkinitcpio -P
 ```
 
-As mentionned earlier, we can open browser windows in our containers. Since I use Firefox mainly and there is Firefox as the default brower in containers, sometimes "in the action" I use the wrong browser window to download a thing on my host and instead it goes into the container. Because I use Hyprland, the titles of the windows don't appear anymore. To solve that i didn't bring back the titles, but i configure exegol to **install a firefox theme in every container**. That way the two windows are easily distinguishable as shown with the picture below.
-
-![Left browser is opened in exegol](Linux/images/my-configuration/browsers.webp)
-
-I added as well, **uBlock Origin** to all containers to block annonyances (cookies prompts, ads, trackers...) by editing the following file :
-
-```sh vim ~/.exegol/my-resources/setup/firefox/addons.txt
-# This file can be used to install addons on the Firefox instance of Exegol.
-# The download links of the addons to be installed can be listed in this file (ie: https://addons.mozilla.org/fr/firefox/addon/foxyproxy-standard/).
-# All addons listed below will be downloaded and installed automatically when creating a new Exegol container.
-https://addons.mozilla.org/fr/firefox/addon/ublock-origin/
-https://addons.mozilla.org/fr/firefox/addon/rainbow-sparkle-animated-theme/
-```
-
-Exegol as an issue with the implementation of openssl when executing **Evil-WinRM**. To fix that we need to modify the `openssl.cnf` file (search for `[openssl_init]` and replace with the configuration below) :  
-
-```sh /etc/ssl/openssl.cnf
-[openssl_init]
-providers = provider_sect
-
-# List of providers to load
-[provider_sect]
-default = default_sect
-legacy = legacy_sect
-
-[default_sect]
-activate = 1
-[legacy_sect]
-activate = 1
-```
-
-I added some lines in `~/.exegol/my-resources/setup/zsh/history` for opening burpsuite and assign it a PID to let my shell usable (same as firefox command but for burpsuite) in all the containers :
-
-```sh vim ~/.exegol/my-resources/setup/zsh/history
-burpsuite &> /dev/null &
-python3 -m http.server 80
-```
-
-And personal aliases in the `~/.exegol/my-resources/setup/zsh/aliases` file :
-
-```sh vim ~/.exegol/my-resources/setup/zsh/aliases
-alias http='python3 -m http.server 80'
-alias tun0='ip a sh dev tun0 | grep -oP "(?:[0-9]{1,3}\.){3}[0-9]{1,3}" | tr -d "\n" | xclip -sel c; tun0ip=$(xsel -ob); echo "\033[1;32m[+]\033[0m Successfully copied \033[1;32m$tun0ip\033[0m (tun0) to clipboard !"'
-```
-
-!!!warning
-If you want to mount nfs shares within an exegol container, you need to start it with the `--privileged` option
-!!!
-
 I use the package `nvchad` (based on neovim) as well to navigate and edit file easily in the directories :
 
 ```sh $
@@ -173,7 +128,7 @@ nvim
 
 ### 🗄️ And for Virtualization ?
 
-I use **VMWare Workstation**, because its the principal type 2 hypervisor used by students, have a good network manager and most of all, permit the export of virtual machines in the ova format properly. 
+I use QEMU/KVM and a script to launch and RDP automatically a forensics Virtual Machine
 
 ---
 
