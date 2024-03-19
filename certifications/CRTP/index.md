@@ -1,7 +1,10 @@
 ---
-label: CRTP
+categories: [Cybersécurité]
+date: 2024-03-19
+tags: [Cybersécurité, crtp, altered, security, red, team, certification]
 icon: shield
 order: 98
+description: Retour d'experience concernant la CRTP, certification Red Team d'Altered Security en environnement Active Directory.
 ---
 
 # 🛡️ Certified Red Team Professionnal
