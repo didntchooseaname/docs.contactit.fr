@@ -14,23 +14,21 @@ Retour d'expérience sur la certification "Certified Red Team Professional" par 
 
 **Altered Security** (anciennement Pentester Academy) a été fondé par **Nikhil Mittal** Et propose des certifications axées **sécurité offensive** (Red Team) sur les environnements **Active Directory**. Nikhil est reconnu mondialement pour son expertise en Red Team sur les environnements Active Directory, il a d'ailleurs pu donner de nombreuses conférences comme celles à la DefCon [RACE - Minimal Rights and ACE for Active Directory Dominance](https://www.youtube.com/watch?v=F_Fy7M1AO_Q), [Powershell for Penetraton Testers](https://www.youtube.com/watch?v=PezFo2Y1BUA) ou [PowerPreter Post Exploitation Like a Boss](https://www.youtube.com/watch?v=NXydblaJaZQ).
 
-Les certifications qu'il propose avec Altered Security sont reconnues (en France également), en particulier par les entreprises spécialisées.
+Les certifications qu'il propose avec Altered Security sont **reconnues** (en France également), en particulier par les **entreprises spécialisées** (type ESN proposant des services de test d'intrusion à leurs clients).
 
 ---
 
 ## 📕 Le début
 
-Lorsque vous achetez le  CRTP (249$ ou 300$ avec le bootcamp) vous devez renseigner une adresse email, mettre une **adresse Gmail vous épargnera de devoir contacter le support par la suite**, puisque l'authentification à la plateforme d'apprentissage se fait uniquement via un **compte google**.
+Lorsque vous achetez la CRTP (249$ ou 300$ avec le bootcamp) vous devez renseigner une adresse email, mettre une **adresse Gmail vous épargnera de devoir contacter le support par la suite**, puisque l'authentification à la plateforme d'apprentissage se fait uniquement via un **compte google**.
 
 ![Interface de la plateforme d'apprentissage d'Altered Security](images/interface.webp)
 
-Vient notamment. Le cours en PDF manuel avec PowerShell.
+Vous aurez donc accès aux différentes ressources de la certification dans la section **"Access Lab Material"**, qui vous redirigera vers un lien onedrive dans lequel vous retrouverez les diagrammes, les vidéos éxplicatives (:warning: différents du bootcamp), le **"Lab Manual"** qui est le cours principal (même chôse que la section "Lab Manual"), le dossier **"Sliver_C2"** qui concerne l'application du cours, mais en utilisant le C2 et une archive renfermant tous les outils nécessaires à l'apprentissage de la certification.  
 
-Et le cours avec le C2 silver?
+Il est fortement recommandé de lire la section **"Frequently Asked Questions"** qui comme son nom l'indique, répondra à beaucoup de vos questions.
 
-Donc concernant le cours, le PDF et la plateforme sont similaires.
-
-Il y a 24 "Objectifs d'apprentissage", chacun d'entre eux vous indique un objectif à atteindre (une ou plusieurs informations à renseigner) par l'énumération/exploitation de l'environnement du lab.
+Concernant le cours, il y a **24 "Objectifs d'apprentissage"**, chacun d'entre eux vous indique un objectif à atteindre (une ou plusieurs informations à renseigner) par l'énumération/exploitation de l'environnement du lab.
 
 Celui-ci couvre de la reconnaissance/énumération/exploitation Kerberos aux attaques sur les certificats et l'exploitation de serveurs SQL tout en prenant en compte la gestion du bruit et de l'opsec.
 
