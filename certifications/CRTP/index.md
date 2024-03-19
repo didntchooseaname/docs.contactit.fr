@@ -1,4 +1,5 @@
 ---
+label: CRTP
 categories: [Cybersécurité]
 date: 2024-03-19
 tags: [Cybersécurité, crtp, altered, security, red, team, certification]
