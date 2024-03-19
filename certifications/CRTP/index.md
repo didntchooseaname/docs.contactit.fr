@@ -47,18 +47,18 @@ Quand vous compléterez l'ensemble des objectifs d'apprentissage avec succès, v
 
 ## 🛠️ Le bootcamp
 
-:icon-check-circle: Je recommande fortement de prendre le bootcamp (lives et vidéos) en complément de la certification si vous êtes débutant dans le domaine du Red Teaming et d'Active Directory. Le bootcamp se compose de 4 sessions vidéos en live avec Nikhil chaque dimanche pendant 4 heures (les rediffusions sont disponibles et téléchargeables).  
+:icon-check-circle: Je recommande fortement de prendre le **bootcamp** (lives et vidéos) en complément de la certification si vous êtes **débutant dans le domaine du Red Teaming et d'Active Directory**. Le bootcamp se compose de 4 sessions vidéos en **live avec Nikhil** chaque dimanche pendant **4 heures** (les rediffusions sont disponibles et téléchargeables).  
 
-:icon-zap: Il ajoute une réelle plus-value à l'apprentissage et permet d'avoir des bases solides et ira vraiment plus loin que le cours de la plateforme. Notamment en allant plus en profondeur dans les concepts de gestion des logs Windows et du bruit, afin de rester le plus possible non détecté par les solutions de sécurité. Cela passe par l'obfuscation de scripts communs comme "Mimikatz", la désactivation/Neutralisation des mesures de sécurité liées à PowerShell (ScriptBlock logging, Module logging, Transcription, AMSI) jusqu'à l'explication de chaque argument passé aux commandes et l'obfuscation de ceux-ci également.  
+:icon-zap: Il ajoute une **réelle plus-value** à l'apprentissage et permet d'avoir des bases solides et ira vraiment plus loin que le cours de la plateforme. Notamment en allant plus en profondeur dans les concepts de **gestion des logs Windows et du bruit**, afin de rester le plus possible non détecté par les solutions de sécurité. Cela passe par **l'obfuscation de scripts communs** comme **"Mimikatz"**, la **désactivation/Neutralisation des mesures de sécurité liées à PowerShell** (ScriptBlock logging, Module logging, Transcription, AMSI) jusqu'à **l'explication de chaque argument passé** aux commandes et l'obfuscation de ceux-ci également.  
 
-:icon-mute: La gestion du bruit est un élément qui vous suivra tout au long de ce bootcamp et Nikhil ne manquera pas de vous rappeler son importance et de vous donner à chaque fois plusieurs exemples sur le lab pratique. Il sera également à votre écoute et n'hésitera pas à lire vos questions dans le tchat, il vous en posera également à son tour, nous avons donc un réel échange entre l'enseignant et les étudiants. Le serveur Discord prévu à cet éffet centralisera les différentes informations du bootcamp et vous permettra également d'échanger avec les différents apprenants.
+:icon-mute: **La gestion du bruit est un élément qui vous suivra tout au long de ce bootcamp** et Nikhil ne manquera pas de vous rappeler son importance et de vous donner à chaque fois plusieurs exemples sur le lab pratique. Il sera également à votre écoute et n'hésitera pas à lire vos questions dans le tchat, il vous en posera également à son tour, nous avons donc **un réel échange entre l'enseignant et les étudiants**. Le serveur Discord prévu à cet éffet centralisera les différentes informations du bootcamp et vous permettra également **d'échanger avec les différents apprenants**.
 
-:icon-eye: Dans le package de la certification vous avez également un accès à une instance Microsoft defender for Endpoints (MDE) sur le périmètre qui vous permet de voir également une partie de la vue du côté défense. Mais également aussi une explication claire et détaillée de tous les outils utilisés et des paramètres rentrés en fonction de l'environnement.  
+:icon-eye: Dans le package de la certification vous avez également un **accès à une instance Microsoft defender for Endpoints (MDE) sur le périmètre** qui vous permet de voir également une partie de la vue du côté défense.
 
 ---
 
 ## 📋 Conclusion
 
-:icon-arrow-right: Avec des bases solides et un investissement conséquent, il est possible de passer la CRTP en (en moyenne) deux semaines. Toutefois si vous prenez un accès de 30 jours au Lab, vous bénéficierez de deux semaines supplémentaires offertes. Toutes les ressources sont accessibles à vie y compris les futurs mise à jour.
+:icon-arrow-right: Avec des bases solides et un investissement conséquent, il est possible de passer la CRTP en (en moyenne) deux semaines. Toutefois si vous prenez un accès de 30 jours au Lab, **vous bénéficierez de deux semaines supplémentaires offertes**. **Toutes les ressources sont accessibles à vie** y compris les futurs mise à jour.
 
 ---
