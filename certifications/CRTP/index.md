@@ -24,11 +24,11 @@ Retour d'expérience sur la certification "Certified Red Team Professional" par 
 
 ## 📕 Le début
 
-Lorsque vous achetez la CRTP (249$ ou 300$ avec le bootcamp) vous devez renseigner une adresse email, mettre une **adresse Gmail vous épargnera de devoir contacter le support par la suite**, puisque l'authentification à la plateforme d'apprentissage se fait uniquement via un **compte google**.
+Lorsque vous achetez la CRTP (249$ ou 300$ avec le bootcamp) vous devrez renseigner une adresse email, mettre une **adresse Gmail vous épargnera de devoir contacter le support par la suite**, puisque l'authentification à la plateforme d'apprentissage se fait uniquement via un **compte google**.
 
 ![Interface de la plateforme d'apprentissage d'Altered Security](images/interface.webp)
 
-:icon-milestone: Vous aurez donc accès aux différentes ressources de la certification dans la section **"Access Lab Material"**, qui vous redirigera vers un lien onedrive dans lequel vous retrouverez les diagrammes, les vidéos éxplicatives (:warning: différents du bootcamp), le **"Lab Manual"** qui est le cours principal (même chôse que la section "Lab Manual"), le dossier **"Sliver_C2"** qui concerne l'application du cours, mais en utilisant le C2 et une archive renfermant tous les outils nécessaires à l'apprentissage de la certification.  
+:icon-milestone: Vous aurez donc accès aux différentes ressources de la certification dans la section **"Access Lab Material"**, qui vous redirigera vers un lien onedrive dans lequel vous retrouverez les diagrammes, les vidéos éxplicatives (:warning: différents du bootcamp), le **"Lab Manual"** qui est le cours principal (même chôse que la section "Lab Manual"), le dossier **"Sliver_C2"** qui concerne l'application du cours, mais en utilisant un C2 et une archive renfermant tous les outils nécessaires à l'apprentissage de la certification.  
 
 :icon-alert: Il est fortement recommandé de lire la section **"Frequently Asked Questions"** qui comme son nom l'indique, répondra à beaucoup de vos questions.
 
@@ -43,7 +43,7 @@ L'entrée en matière de la CRTP commence d'ailleurs, avec le **contournement de
 -> TODO  
 
 
-Quand vous compléterez l'ensemble des objectifs d'apprentissage avec succès, vous pouvez télécharger un certificat :
+Quand vous compléterez l'ensemble des objectifs d'apprentissage avec succès, vous pourrez télécharger un certificat :
 
 ![Certificat de complétion du Lab](images/labcertificate.webp)
 
@@ -51,7 +51,7 @@ Quand vous compléterez l'ensemble des objectifs d'apprentissage avec succès, v
 
 ## 🛠️ Le bootcamp
 
-:icon-check-circle: Je recommande fortement de prendre le **bootcamp** (lives et vidéos) en complément de la certification si vous êtes **débutant dans le domaine du Red Teaming et d'Active Directory**. Le bootcamp se compose de 4 sessions vidéos en **live avec Nikhil** chaque dimanche pendant **4 heures** (les rediffusions sont disponibles et téléchargeables).  
+:icon-check-circle: Je recommande fortement de prendre le **bootcamp** (lives et vidéos) en complément de la certification que vous soyez **débutant dans le domaine du Red Teaming et d'Active Directory** ou non. Le bootcamp se compose de 4 sessions vidéos en **live avec Nikhil** chaque dimanche pendant **4 heures** (les rediffusions sont disponibles et téléchargeables).  
 
 :icon-zap: Il ajoute une **réelle plus-value** à l'apprentissage et permet d'avoir des bases solides et ira vraiment plus loin que le cours de la plateforme. Notamment en allant plus en profondeur dans les concepts de **gestion des logs Windows et du bruit**, afin de rester le plus possible non détecté par les solutions de sécurité. Cela passe par **l'obfuscation de scripts communs** comme **"Mimikatz"**, la **désactivation/Neutralisation des mesures de sécurité liées à PowerShell** (ScriptBlock logging, Module logging, Transcription, AMSI) jusqu'à **l'explication de chaque argument passé** aux commandes et l'obfuscation de ceux-ci également.  
 
