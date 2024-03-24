@@ -116,13 +116,23 @@ And then rebuild the image (need root privileges):
 mkinitcpio -P
 ```
 
-I use the package `nvchad` (based on neovim) as well to navigate and edit file easily in the directories :
+## 📷 Webcam fix
+
+The integrated webcam didn't work, i needed to install the missing firmware :
+
+```sh
+yay -S upd72020x-fw 
+```
+
+### 📒 IDE
+
+I use vdcode and `nvchad` (based on neovim) as well to navigate and edit file easily in directories :
 
 ```sh $
 nvim
 ```
 
-![nvchad in action](Linux/images/my-configuration/nvchad.webp)
+![nvchad](Linux/images/my-configuration/nvchad.webp)
 
 ---
 
