@@ -62,20 +62,38 @@ Le schéma suivant résume bien la sécurité informatique de manière général
 
 ---
 
-## ℹ️ Zone 1 : (basique)
+## ⚠️ Paranoïd setup
 
+Cette configuration augmente de manière significative l'utilisation des ressources (CPU/RAM) de la machine.  
+Il est nécessaire d'avoir une copie' **Windows 10/11 professionnel** ou plus valide afin de suivre cette procédure.  
 
+Rendez-vous dans les **"Group Policy Objects"** depuis le menu démarrer par exemple, puis dans `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus`. Toutes les configuration pésentées sont dans cette arborescence d'objets.  
 
----
+:icon-arrow-right: Sous la section **"MAPS"** :  
 
-## ⚠️ Zone 2 (intermédiaire)
+[![Microsoft's antivirus products and services (MAPS)](images/maximiser_protection_windows_defender/MAPS.png)](images/maximiser_protection_windows_defender/MAPS.png)
 
----
+[![Block at first Sight](images/maximiser_protection_windows_defender/blockatfirst.png)](images/maximiser_protection_windows_defender/blockatfirst.png)
 
-## 🔐 Zone 3 (avancée)
+[![Send all samples](images/maximiser_protection_windows_defender/sendallsamples.png)](images/maximiser_protection_windows_defender/sendallsamples.png)
 
+:icon-arrow-right: Sous la section **"MpEngine"** :  
 
+[![Cloud Protection Level](images/maximiser_protection_windows_defender/cloudprotectionlevel.png)](images/maximiser_protection_windows_defender/cloudprotectionlevel.png)
 
+[![Extended Cloud Check](images/maximiser_protection_windows_defender/extendeddcloudcheck.png)](images/maximiser_protection_windows_defender/extendeddcloudcheck.png)
+
+:icon-arrow-right: Sous la section **"Real-Time Protection"** :  
+
+[![](images/maximiser_protection_windows_defender/realtimeprotection.png)](images/maximiser_protection_windows_defender/realtimeprotection.png)
+
+:icon-arrow-right: Sous la section **"Scan"** :  
+
+[![](images/maximiser_protection_windows_defender/scan.png)](images/maximiser_protection_windows_defender/scan.png)
+
+:icon-arrow-right: Sous la section **"Security Intelligence Update"** :  
+
+[![](images/maximiser_protection_windows_defender/intelupdates.png)](images/maximiser_protection_windows_defender/intelupdates.png)
 
 
 ---
