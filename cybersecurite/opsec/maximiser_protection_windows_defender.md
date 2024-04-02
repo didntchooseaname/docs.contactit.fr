@@ -67,7 +67,7 @@ Le schéma suivant résume bien la sécurité informatique de manière général
 Cette configuration augmente de manière significative l'utilisation des ressources (CPU/RAM) de la machine.  
 Il est nécessaire d'avoir une copie' **Windows 10/11 professionnel** ou plus valide afin de suivre cette procédure.  
 
-Rendez-vous dans les **"Group Policy Objects"** depuis le menu démarrer par exemple, puis dans `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus`. Toutes les configuration pésentées sont dans cette arborescence d'objets.  
+Rendez-vous dans les **"Group Policy Objects"** depuis le menu démarrer par exemple, puis dans `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus`. Toutes les configuration pésentées sont dans cette arborescence d'objets. Les objets en **"Enabled"** sont à activer manuellement.  
 
 :icon-arrow-right: Sous la section **"MAPS"** :  
 
