@@ -22,7 +22,7 @@ Retour d'expérience sur la certification "Certified Red Team Professional" par 
 
 ---
 
-## 📕 Le début
+## 📕 Début
 
 Lorsque vous achetez la CRTP (249$ ou 300$ avec le bootcamp) vous devrez renseigner une adresse email, mettre une **adresse Gmail vous épargnera de devoir contacter le support par la suite**, puisque l'authentification à la plateforme d'apprentissage se fait uniquement via un **compte google**.
 
@@ -39,17 +39,13 @@ Tous les serveurs sont sous **Windows Server 2022** avec les **mises à jour de 
 
 L'entrée en matière de la CRTP commence d'ailleurs, avec le **contournement de ces protections**.  
 
-
--> TODO  
-
-
 Quand vous compléterez l'ensemble des objectifs d'apprentissage avec succès, vous pourrez télécharger un certificat :
 
 ![Certificat de complétion du Lab](images/labcertificate.webp)
 
 ---
 
-## 🛠️ Le bootcamp
+## 🛠️ Bootcamp
 
 :icon-check-circle: Je recommande fortement de prendre le **bootcamp** (lives et vidéos) en complément de la certification que vous soyez **débutant dans le domaine du Red Teaming et d'Active Directory** ou non. Le bootcamp se compose de 4 sessions vidéos en **live avec Nikhil** chaque dimanche pendant **4 heures** (les rediffusions sont disponibles et téléchargeables).  
 
@@ -61,10 +57,22 @@ Quand vous compléterez l'ensemble des objectifs d'apprentissage avec succès, v
 
 ---
 
+## 💻 Éxamen
+
+-> TO DO
+
+---
+
+## 📖 Rapport
+
+-> TO DO
+
+---
+
 ## 📋 Conclusion
 
 :icon-arrow-right: Il n'est pas forcément nécessaire de se préparer en faisant des boxs de plateformes en ligne (HackTheBox/ProLabs/TryHackMe...), si vous possédez déjà un background en **administration système en environnement Active Directory en production** et que vous avez déjà creusé le **fonctionnement** de ce dernier. Commencer par le bootcamp de la CRTP est tout à fait faisable. Si vous êtes vraiment débutant et que vous n'avez jamais été confronté à ces concepts, il sera préférable de **gagner de l'expérience**, soit par **la pratique en entreprise** si possible, soit par **l'apprentissage via les plateformes** précédemment énoncées.  
 
-:icon-hourglass: Avec des bases solides et un investissement conséquent, il est possible de passer la CRTP en (en moyenne) deux semaines. Toutefois si vous prenez un accès de 30 jours au Lab, **vous bénéficierez de deux semaines supplémentaires offertes**. **Toutes les ressources sont accessibles à vie** y compris les futurs mise à jour. À noter toutefois, que **le passage de la certification est moins complexe que le lab d'entraînement** (dû aux 24 heures d'activité de celui-ci). Il vous sera demandé par la suite, un **rapport de compromission en anglais**, détaillant l'ensemble des **observations, mauvaises configurations, outils utilisés, sources de POC et recommandations de remédiation pour chaque élément sur l'environnement** (les recommandations rapportent plus de points mais ne sont pas obligatoires). Ce rapport est rédigé est envoyé sous **24 heures maximum** après la fin d'activité du lab d'examen. Vous pouvez également préciser que l'anglais n'est pas votre langue natale, dans le cas où cela représente une gêne dans votre expression. L'équipe d'Altered Security en tiendra compte lors de la revue de votre rapport.
+:icon-hourglass: Avec des bases solides et un investissement conséquent, il est possible de passer la CRTP en (en moyenne) deux semaines. Toutefois si vous prenez un accès de 30 jours au Lab, **vous bénéficierez de deux semaines supplémentaires offertes**. **Toutes les ressources sont accessibles à vie** y compris les futurs mise à jour. À noter toutefois, que **le passage de la certification est moins complexe que le lab d'entraînement** (dû aux 24 heures d'activité de celui-ci). Il vous sera demandé par la suite, un **rapport de compromission en anglais**, détaillant l'ensemble des **observations, mauvaises configurations, outils utilisés, sources de POC et recommandations de remédiation pour chaque élément sur l'environnement** (les recommandations rapportent plus de points mais ne sont pas obligatoires). Ce rapport est rédigé et envoyé sous **24 heures maximum** après la fin d'activité du lab d'examen. Vous pouvez également préciser que l'anglais n'est pas votre langue natale, dans le cas où cela représente une gêne dans votre expression. L'équipe d'Altered Security en tiendra compte lors de la revue de votre rapport.
 
 ---
