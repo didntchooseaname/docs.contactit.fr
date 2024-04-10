@@ -1,5 +1,5 @@
 ---
-description: Maximisez la protection de Windows Defender ! Dans cet article vous verrez trois zones de protection de la plus facile à mettre en oeuvre à la plus complexe.
+description: Maximisez la protection de Windows Defender ! Dans cet article nous verrons la configuration que j'utilise pour augmenter les capacitiés de windows defender et ses différents modules.
 categories: [OPSEC]
 date: 2023-09-01
 tags: [cybersécurité, opsec, sécurité, windows, defender, maps, application, guard]
@@ -65,9 +65,9 @@ Le schéma suivant résume bien la sécurité informatique de manière général
 ## ⚠️ Paranoïd setup
 
 Cette configuration augmente de manière significative l'utilisation des ressources (CPU/RAM) de la machine.  
-Il est nécessaire d'avoir une copie' **Windows 10/11 professionnel** ou plus valide afin de suivre cette procédure.  
+Il est nécessaire d'avoir une copie **Windows 10/11 professionnel** ou plus, valide afin de suivre cette procédure.  
 
-Rendez-vous dans les **"Group Policy Objects"** depuis le menu démarrer par exemple, puis dans `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus`. Toutes les configuration pésentées sont dans cette arborescence d'objets. Les objets en **"Enabled"** sont à activer manuellement.  
+Rendez-vous dans les **"Group Policy Objects"** depuis le menu démarrer par exemple, puis dans `Computer Configuration > Administrative Templates > Windows Components > Microsoft Defender Antivirus`. Toutes les configuration pésentées sont dans cette arborescence d'objets. Les objets en **"Enabled"** sont à activer manuellement en suivant les captures d'ecran ci-dessous.  
 
 :icon-arrow-right: Sous la section **"MAPS"** :  
 
