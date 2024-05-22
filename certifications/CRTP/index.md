@@ -71,14 +71,13 @@ la méthode de compromission employée, enrichissant ainsi le rapport final.
 ## 📖 Rapport
 
 :icon-project-roadmap: Le rapport devra être rédigé intégralement en **anglais**. Il conviendra de suggérer des **mesures correctives pour les configurations inappropriées identifiées**, et d'ajouter des références à des **articles de blog** pour renforcer la crédibilité du document. Il est également essentiel d'expliquer le fonctionnement des outils utilisés et les raisons de leur choix. Mon rapport personnel suit une structure de type "write-up":
-
-- **Titre
-- Sommaire
-- Schéma de compromission
-- Description détaillée des étapes
-- Conclusion
-- Présentation des outils utilisés
-- Références aux articles de blog consultés**
+- **Titre**
+- **Sommaire**
+- **Schéma de compromission**
+- **Description détaillée des étapes**
+- **Conclusion**
+- **Présentation des outils utilisés**
+- **Références aux articles de blog consultés**
 
 ---
 
