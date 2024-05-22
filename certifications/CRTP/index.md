@@ -59,13 +59,26 @@ Quand vous compléterez l'ensemble des objectifs d'apprentissage avec succès, v
 
 ## 💻 Éxamen
 
--> TO DO
+:icon-desktop-download: Au cours de l'examen, le candidat aura pour mission de mener à bien une **exécution de commandes sur les cinq machines du lab**. Il n'est pas requis d'obtenir les droits d'administrateur local sur ces machines, d'autant plus qu'aucun flag n'est à collecter. Le candidat disposera de **24 heures**, incluant
+une heure supplémentaire allouée pour l'installation des outils nécessaires, afin de
+compromettre la totalité du lab et de réaliser des captures d'écran qui attestent de
+la méthode de compromission employée, enrichissant ainsi le rapport final.  
+
+:icon-shield-check: **Microsoft Defender est actif sur l'ensemble des machines**. Il peut être désactivé si vous disposez des privilèges d'administrateur local. Il est important de souligner qu'**une machine nécessitera son contournement**, par les moyens appris pendant le cours. Durant l'examen, les techniques telles que le bruteforce, le guessing, l'abus de certificats ou l'exploitation de vulnérabilités connues (CVE) ne sont pas utiles.
 
 ---
 
 ## 📖 Rapport
 
--> TO DO
+:icon-project-roadmap: Le rapport devra être rédigé intégralement en **anglais**. Il conviendra de suggérer des **mesures correctives pour les configurations inappropriées identifiées**, et d'ajouter des références à des **articles de blog** pour renforcer la crédibilité du document. Il est également essentiel d'expliquer le fonctionnement des outils utilisés et les raisons de leur choix. Mon rapport personnel suit une structure de type "write-up":
+
+- **Titre
+- Sommaire
+- Schéma de compromission
+- Description détaillée des étapes
+- Conclusion
+- Présentation des outils utilisés
+- Références aux articles de blog consultés**
 
 ---
 
