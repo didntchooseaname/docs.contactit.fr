@@ -12,6 +12,10 @@ description: Retour d'experience concernant la CRTP, certification Red Team d'Al
 
 ![Source : redteamdefense.org](images/redteam.webp)
 
+English version :
+
+[!ref](en.md)
+
 Retour d'expérience sur la certification "Certified Red Team Professional" par Altered Security.
 
 ## ▶️ Introduction
