@@ -1,5 +1,5 @@
 ---
-label: CRTP
+label: CRTP (fr)
 icon: shield-lock
 categories: [Cybersécurité]
 date: 2024-03-19
