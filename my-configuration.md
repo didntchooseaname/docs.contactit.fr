@@ -54,9 +54,11 @@ The **"Arch Users Repository"** is a huge repository of packages provided by the
 
 ![](Linux/images/my-configuration/desktop.webp)-
 
-I love simple, modern and smart things. I discovered **Hyprland** few years ago and decided to give it a try on this laptop, so I searched at tutorials on youtube to see how peoples managed to install, customize it and the results. I land on the **Ja Kool.it**'s [youtube channel](https://www.youtube.com/@Ja.KooLit) and followed the "My Hyprland Dots v2 on Debian 13 Linux minimal using netinstaller and Debian-Hyprland install script" [video](https://www.youtube.com/watch?v=Qc4VP9JFh2Y). This config **blew my mind**, it worked out of the box, it was fast, responsive and eyes candy!
+:paintbrush-ruby: I love simple, modern and smart things. I discovered **Hyprland** few years ago and decided to give it a try on this laptop, so I searched at tutorials on youtube to see how peoples managed to install, customize it and the results. I land on the **Ja Kool.it**'s [youtube channel](https://www.youtube.com/@Ja.KooLit) and followed the "My Hyprland Dots v2 on Debian 13 Linux minimal using netinstaller and Debian-Hyprland install script" [video](https://www.youtube.com/watch?v=Qc4VP9JFh2Y). This config **blew my mind**, it worked out of the box, it was fast, responsive and eyes candy!
 
-But wait, you said you're on Arch right now ! So yes, I switched few weeks later because of the **unsustainability of the SID realease of debian**, the fact that some **core packages aren't maintained** and Ja would like to **stop the support about his configurations on debian Trixie** for the moment.
+:icon-ruby: But wait, you said you're on Arch right now ! So yes, I switched few weeks later because of the **unsustainability of the SID realease of debian**, the fact that some **core packages aren't maintained** and Ja would like to **stop the support about his configurations on debian Trixie** for the moment. 
+
+:icon-pencil: **EDIT**: I switched to the [ML4W's dotfiles](https://gitlab.com/stephan-raabe/dotfiles), more updated, GUI to modify hyprland settings and better integrations.
 
 ---
 
@@ -90,7 +92,7 @@ Idle consumption | Rustscan with -- -A parameter
 :---: | :---:
 ![](Linux/images/my-configuration/dockerstatsidle.webp) | ![](Linux/images/my-configuration/dockerstatsrustscan.webp)
 
-You can follow installation steps and get some tips here :  
+You can follow installation steps and get some tips here:  
 
 [!ref icon="note"](cybersecurite/Pentest/Exegol_Cheat_Sheet.md)
 
@@ -126,7 +128,7 @@ yay -S upd72020x-fw
 
 ### 📒 IDE
 
-I use vdcode and `nvchad` (based on neovim) as well to navigate and edit file easily in directories :
+I use vscode and `nvchad` (based on neovim) as well to navigate and edit file easily in directories :
 
 ```sh $
 nvim
@@ -140,11 +142,94 @@ nvim
 
 I use QEMU/KVM and a script to launch and RDP automatically a forensics Virtual Machine
 
+**QEMU imstall:** Make sure you update your system with a `sudo pacman -Syu` BEFORE you install the dependencies:
+
+```sh
+sudo pacman -S qemu virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat ebtables iptables libguestfs
+```
+
+Edit /etc/libvirt/libvirtd.conf (Change the following Lines):
+
+```sh
+unix_sock_group = "libvirt"
+unix_sock_rw_perms = "0770"
+```
+
+Then add your user and create group:
+
+```sh
+sudo usermod -a -G libvirt $(whoami)
+```
+
+```sh
+newgrp libvirt
+```
+
+Source: [](https://christitus.com/setup-qemu-in-archlinux)
+
+And the **Remote Desktop script**:
+
+```sh
+#!/bin/bash
+
+# Thanks to Stephan Raabe for the script
+
+if [ -f ~/private/win11-credentials.sh ]; then
+	echo "Credential file exists. Using the file."
+	source ~/private/win11-credentials.sh
+else
+	win11user="USER"
+	win11pass="PASS"
+	win11ip="IP"
+	win11name="windows11"
+
+	echo "## Preparing to remotely access your Windows virtual machine ##"
+
+	echo -n "Please enter your virtual machine name [default: $win11name]: "
+	read vmname
+	vmname=${vmname:-$win11name}
+
+	echo -n "Please enter your virtual machine ip [default: $win11ip]: "
+	read vmip
+	vmip=${vmip:-$win11ip}
+
+	echo -n "Please enter your username [default: $win11user]: "
+	read user
+	user=${user:-$win11user}
+
+	echo -n "Please enter your password [default: $win11pass]: "
+	read password
+	password=${password:-$win11pass}
+fi
+
+# echo "Hello, $vmname, $vmip, $user, $password"
+
+tmp=$(virsh --connect qemu:///system list | grep " $vmname " | awk '{ print $3}')
+
+if ([ "x$tmp" == "x" ] || [ "x$tmp" != "xrunning" ]); then
+	echo "Virtual Machine $vmname is starting now... Waiting 30s before starting xfreerdp."
+	notify-send "Virtual Machine $vmname 11 is starting now..." "Waiting 30s before starting xfreerdp."
+	virsh --connect qemu:///system start $vmname
+	sleep 30
+else
+	notify-send "Virtual Machine $vmname is already running." "Launching xfreerdp now!"
+	echo "Starting xfreerdp now..."
+fi
+
+if command -v xfreerdp >/dev/null 2>&1; then
+	xfreerdp -grab-keyboard /v:$vmip /size:100% /cert-ignore /u:$user /p:$password /d: /dynamic-resolution /gfx-h264:avc444 +gfx-progressive /f &
+elif command -v xfreerdp3 >/dev/null 2>&1; then
+	xfreerdp3 -v:$vmip -u:$user -p:$password -d: -dynamic-resolution /cert:ignore /f /gfx:AVC444 &
+else
+	echo "'xfreerdp' or 'xfreerdp3' command not found."
+fi
+```
+
 ---
 
 ### 🗃️ How do you manage programs ?
 
-**Pacman** take care of core/extra packages, **yay** of **AUR**'s ones.
+**Pacman** take care of core/extra packages, **yay** of **AUR**'s ones.  
 
 ---
 
