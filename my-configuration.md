@@ -165,7 +165,7 @@ sudo usermod -a -G libvirt $(whoami)
 newgrp libvirt
 ```
 
-Source: [](https://christitus.com/setup-qemu-in-archlinux)
+Source: [christitus's blog](https://christitus.com/setup-qemu-in-archlinux)
 
 And the **Remote Desktop script**:
 
