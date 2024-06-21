@@ -25,7 +25,7 @@ Feedback on Altered Security's "Certified Red Team Expert" certification.
 
 This certification follows on from the CRTP, for which I have already given feedback:
 
-[!ref](CRTP/en.md)
+[!ref CRTP feeback](https://docs.contactit.fr/certifications/crtp/en/)
 
 It aims to deepen knowledge of Active Directory, particularly in an environment comprising several forests, evasion of security solutions (Defender, MDE, MDI) by obfuscation of binary/powershell scripts and fairly advanced opsec.
 

@@ -29,7 +29,7 @@ Retour d'expérience sur la certification "Certified Red Team Expert" par Altere
 
 Cette certification est proposée dans la continuité de la CRTP, pour laquelle j’ai déjà fait un retour d'expérience:
 
-[!ref](CRTP/fr.md)
+[!ref Retour d'experience CRTP](https://docs.contactit.fr/certifications/crtp/fr/)
 
 Elle vise à approfondir des connaissances en Active Directory, notamment dans un environnement comprenant plusieurs forêts, l'évasion de solutions de sécurité (Defender, MDE, MDI) par l'obfuscation de binaire/scripts powershell et une opsec assez poussée.
 
