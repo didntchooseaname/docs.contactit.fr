@@ -8,7 +8,7 @@ order: 2
 
 # 😐 Google Ads, une menace bien réelle
 
-![Source : arstechnica.com](images/google_ads_threat/google-ads.webp)
+![](images/google_ads_threat/google-ads.webp)
 
 Les publicités Google sont devenues un sérieux problème pour la sécurité informatique, servant de **vecteur de distribution** pour divers types de **logiciels malveillants**.
 Cette tendance alarmante exploite la confiance des utilisateurs envers l'ecosystème (et plateforme publicitaire) de Google pour propager des logiciels malveillants et
