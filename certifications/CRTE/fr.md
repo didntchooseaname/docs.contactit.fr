@@ -62,13 +62,13 @@ Quand vous compléterez l'ensemble des objectifs d'apprentissage avec succès, v
 
 :icon-desktop-download: Au cours de l'examen, le candidat aura pour mission de mener à bien une **exécution de commandes sur les cinq machines du lab** (au moins 4 pour réussir l'examen). Il n'est pas requis d'obtenir les droits d'administrateur local sur ces machines, d'autant plus qu'aucun flag n'est à collecter. Le candidat disposera de **48 heures**, incluant une heure supplémentaire allouée pour l'installation des outils nécessaires, afin de compromettre la totalité du lab et de réaliser des captures d'écran qui attestent de la méthode de compromission employée, enrichissant ainsi le rapport final qui doit être irréprochable.  
 
-:icon-shield-check: **Microsoft Defender est actif sur l'ensemble des machines, MDE sur une machine**. Defender peut être désactivé si vous disposez des privilèges d'administrateur local. Pour MDE, il faudra conformément au cours, utiliser la méthodologie adéquate pour le contourner.  
+:icon-shield-check: **Microsoft Defender est actif sur l'ensemble des machines**. Defender peut être désactivé si vous disposez des privilèges d'administrateur local, il faudra conformément au cours, bypass defender sur une machine.  
 
 !!! danger
 Suite aux retours des étudiants, Nikhil a accepté d'intégrer une méthode de contournement de MDE. Cependant, il est important de noter que cette approche pourrait devenir inefficace à tout instant. En effet, MDE s'enrichit continuellement de nouvelles données et pourrait, à n'importe quel moment, bloquer cette technique de contournement.
 !!!
 
-Durant l'examen, les techniques telles que le bruteforce, le guessing, l'abus de certificats ou l'exploitation de vulnérabilités connues (CVE) ne sont pas utiles.
+Durant l'examen, les techniques telles que le bruteforce, le guessing, bypass MDE, l'abus de certificats ou l'exploitation de vulnérabilités connues (CVE) ne sont pas utiles.
 
 ---
 

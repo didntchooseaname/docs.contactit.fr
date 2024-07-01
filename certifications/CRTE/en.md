@@ -58,13 +58,13 @@ When you successfully complete all the learning objectives, you'll be able to do
 
 :icon-desktop-download: During the exam, the candidate will be asked to carry out a **command execution on the five machines in the lab** (at least 4 to pass the exam). Local administrator rights are not required on these machines, as no flags are to be collected. The candidate will have **48 hours**, including an extra hour to install the necessary tools, to compromise the entire lab and take screenshots attesting to the method of compromise employed, thus enriching the final report, which must be beyond reproach.  
 
-icon-shield-check: **Microsoft Defender is active on all machines, MDE on one machine**. Defender can be disabled if you have local administrator privileges. For MDE, you will need to use the appropriate methodology to bypass it.  
+icon-shield-check: **Microsoft Defender is active on all machines**. Defender can be disabled if you have local administrator privileges and should be bypassed on a specific machine.
 
 !!! danger
 Following feedback from students, Nikhil has agreed to integrate a workaround for MDE. However, it is important to note that this approach could become ineffective at any time. In fact, MDE is continually being enriched with new data and could, at any moment, block this bypass technique.
 !!!
 
-Techniques such as bruteforce, guessing, certificate abuse or exploitation of known vulnerabilities (CVE) are not useful during the examination.
+Techniques such as bruteforce, guessing, MDE bypass, certificate abuse or exploitation of known vulnerabilities (CVE) are not used during the examination.
 
 ---
 
