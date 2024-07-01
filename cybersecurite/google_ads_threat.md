@@ -6,7 +6,7 @@ tags: [Cybersécurité, google, ads, threat]
 order: 2
 ---
 
-# Google Ads, une menace bien réelle
+# 😐 Google Ads, une menace bien réelle
 
 ![Source : arstechnica.com](images/google_ads_threat/google-ads.webp)
 
@@ -33,8 +33,8 @@ Ce point laisse penser qu'au mieux la firme ferme les yeux pour avoir des **reve
 
 - Sources :
 
-(https://arstechnica.com/security/2024/06/mac-info-stealer-malware-distributed-through-google-ads/)  
-[](https://latesthackingnews.com/2023/01/05/new-malware-campaign-spreads-by-exploiting-google-ads/)  
-[](https://www.schneier.com/blog/archives/2023/02/malware-delivered-through-google-search.html)  
-[](https://www.bleepingcomputer.com/news/security/ransomware-access-brokers-use-google-ads-to-breach-your-network/)  
-[](https://www.bleepingcomputer.com/news/security/hackers-push-malware-via-google-search-ads-for-vlc-7-zip-ccleaner/)  
+[https://arstechnica.com/security/2024/06/mac-info-stealer-malware-distributed-through-google-ads/](https://arstechnica.com/security/2024/06/mac-info-stealer-malware-distributed-through-google-ads/)  
+[https://latesthackingnews.com/2023/01/05/new-malware-campaign-spreads-by-exploiting-google-ads/](https://latesthackingnews.com/2023/01/05/new-malware-campaign-spreads-by-exploiting-google-ads/)  
+[https://www.schneier.com/blog/archives/2023/02/malware-delivered-through-google-search.html](https://www.schneier.com/blog/archives/2023/02/malware-delivered-through-google-search.html)  
+[https://www.bleepingcomputer.com/news/security/ransomware-access-brokers-use-google-ads-to-breach-your-network/](https://www.bleepingcomputer.com/news/security/ransomware-access-brokers-use-google-ads-to-breach-your-network/)  
+[https://www.bleepingcomputer.com/news/security/hackers-push-malware-via-google-search-ads-for-vlc-7-zip-ccleaner/](https://www.bleepingcomputer.com/news/security/hackers-push-malware-via-google-search-ads-for-vlc-7-zip-ccleaner/)  
