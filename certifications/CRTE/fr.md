@@ -10,7 +10,7 @@ description: Retour d'expérience concernant la CRTE, certification Red Team d'A
 
 # 🛡️ Certified Red Team Expert
 
-![Source : redteamdefense.org](images/lab.webp)
+![Source : redteamdefense.org](images/crte_lab.png)
 
 === :icon-report: 1er DRAFT
 !!! Warning Ce retex est en cours d'écriture :writing_hand:

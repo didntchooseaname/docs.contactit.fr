@@ -10,7 +10,7 @@ description: Experience feedback on CRTE, Altered Security's Red Team certificat
 
 # 🛡️ Certified Red Team Expert
 
-![Source : https://www.alteredsecurity.com/redteamlab](images/lab.webp)
+![Source : https://www.alteredsecurity.com/redteamlab](images/crte_lab.png)
 
 === :icon-report: First DRAFT
 !!! Warning This Experience feedback is actively written :writing_hand:
