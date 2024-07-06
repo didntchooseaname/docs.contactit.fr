@@ -35,7 +35,7 @@ It aims to deepen knowledge of Active Directory, particularly in an environment 
 
 When you purchase CRTE ($300), you'll be asked to enter an email address. It's best to use a Gmail address (for the learner) to avoid having to contact support later, as authentication on the learning platform is done exclusively via a Google account.  
 
-Altered Security learning platform interface](images/interface.webp)
+![Altered Security learning platform interface](images/interface.webp)
 
 :icon-milestone: You'll then have access to the various certification resources in the **"Access Lab Material "** section, which will redirect you to an onedrive link where you'll find diagrams, explanatory videos (CourseVideos correspond to bootcamp videos and WalktroughVideos to lab compromise paths), a **"LabManual_Covenant "** which covers the application of the course, but using a C2 (not up to date must be updated with sliver) and an archive containing all the tools needed to learn the certification (Tools. zip).  
 
@@ -50,7 +50,7 @@ All servers are running **Windows Server 2019** (Not yet updated to 2022 as of d
 
 When you successfully complete all the learning objectives, you'll be able to download a certificate :  
 
-![Lab completion certificate](images/crte_lab.png)
+![Lab interface](images/crte_lab.png)
 
 ---
 

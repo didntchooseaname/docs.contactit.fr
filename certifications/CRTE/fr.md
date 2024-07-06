@@ -54,7 +54,7 @@ Tous les serveurs sont sous **Windows Server 2019** (Pas encore mis à jour vers
 
 Quand vous compléterez l'ensemble des objectifs d'apprentissage avec succès, vous pourrez télécharger un certificat :
 
-![Certificat de complétion du Lab](images/crte_lab.png)
+![Interface du lab](images/crte_lab.png)
 
 ---
 
