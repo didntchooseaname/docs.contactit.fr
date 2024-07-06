@@ -10,7 +10,7 @@ description: Retour d'expérience concernant la CRTE, certification Red Team d'A
 
 # 🛡️ Certified Red Team Expert
 
-![Source : redteamdefense.org](images/crte_lab.png)
+![Source : redteamdefense.org](images/lab.webp)
 
 === :icon-report: 1er DRAFT
 !!! Warning Ce retex est en cours d'écriture :writing_hand:
@@ -54,7 +54,7 @@ Tous les serveurs sont sous **Windows Server 2019** (Pas encore mis à jour vers
 
 Quand vous compléterez l'ensemble des objectifs d'apprentissage avec succès, vous pourrez télécharger un certificat :
 
-![Certificat de complétion du Lab](images/)
+![Certificat de complétion du Lab](images/crte_lab.png)
 
 ---
 

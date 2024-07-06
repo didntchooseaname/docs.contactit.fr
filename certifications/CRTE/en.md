@@ -10,7 +10,7 @@ description: Experience feedback on CRTE, Altered Security's Red Team certificat
 
 # 🛡️ Certified Red Team Expert
 
-![Source : https://www.alteredsecurity.com/redteamlab](images/crte_lab.png)
+![Source : https://www.alteredsecurity.com/redteamlab](images/lab.webp)
 
 === :icon-report: First DRAFT
 !!! Warning This Experience feedback is actively written :writing_hand:
@@ -50,7 +50,7 @@ All servers are running **Windows Server 2019** (Not yet updated to 2022 as of d
 
 When you successfully complete all the learning objectives, you'll be able to download a certificate :  
 
-![Lab completion certificate](images/)
+![Lab completion certificate](images/crte_lab.png)
 
 ---
 
