@@ -23,13 +23,17 @@ Ils créent des annonces trompeuses pour des logiciels légitimes populaires tel
 
 ![Source : blog.osarmor.com](images/google_ads_threat/obs-studio-search-results.webp)
 
-La menace est particulièrement insidieuse car elle exploite la **légitimité perçue de Google** et par extension son module **"Ads"**. Les utilisateurs, habitués à faire confiance aux **résultats sponsorisés** de Google, peuvent être moins vigilants face à ces annonces malveillantes.  
+La menace est particulièrement insidieuse car elle exploite la **légitimité perçue de Google** et par extension son module **"Ads"**. Les utilisateurs, habitués à faire confiance aux **résultats sponsorisés** de Google, peuvent être moins vigilants face à ces annonces malveillantes. 
+
+Les fichiers téléchargés par ces sites malveillants sont très souvent des **archives au format zip avec un mot de passe**. Cela permet de **contourner les scans antivirus** des plates-formes sur lesquelles ils sont hébergés.  
 
 Comme toujours, pour s'em prémunir il est nécessaire de **télécharger les logiciels uniquement à partir de sources officielles** et de rester vigilant face aux instructions d'installation inhabituelles. Les utilisateurs doivent être conscients que même les annonces légitimes en apparance, peuvent potentiellement héberger du **contenu malveillant**. Bien que Google affirme prendre des mesures contre les annonceurs malveillants une fois informé, la responsabilité de l'identification et de la suppression de ces menaces incombe souvent aux **produits antivirus finaux** ou **solutions de sécurité diverses**. Cette situation souligne la nécessité d'une vigilance accrue de la part des utilisateurs et d'une amélioration des **mécanismes de détection** et de prévention de la part de Google. Rappelons que les revenus publicitaires pèsent énormement pour l'entreprise :  
 
 ![Source : https://the-media-leader.fr/les-revenus-publicitaires-de-google-ont-augmente-de-59-en-2023/](images/google_ads_threat/google-ads-evolution-graph.webp)
 
 Ce point laisse penser qu'au mieux la firme ferme les yeux pour avoir des **revenus plus importants** englobant également tous un package d'**acteurs malveillants**, ou au pire **néglige les contrôles de sécurité effectués**...  
+
+[!embed](https://youtu.be/c5fAiwVvr6s)
 
 - Sources :
 
