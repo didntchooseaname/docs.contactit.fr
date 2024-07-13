@@ -17,16 +17,15 @@ Ces publicités malveillantes imitaient **Arc**, un navigateur populaire sur mac
 
 ![Source : arstechnica.com](images/google_ads_threat/malicious-google-ad-for-fake-arc-browser.webp)
 
-Une fois téléchargé et installé, le logiciel malveillant transmettait des données sensibles à un infostealer appelé Poseidon.
-**Ce n'est pas un incident isolé**. Des attaquants utilisent régulièrement Google Ads pour diffuser divers types de logiciels malveillants.
-Ils créent des annonces trompeuses pour des logiciels légitimes populaires tels que **VLC**, **7-Zip** et **CCleaner** et paient **Google** pour être référencés au dessus des autres résultats (exemple pour Open Broadcaster Software) :  
+Une fois téléchargé et installé, le logiciel malveillant transmettait les données de l'utilisateur (un infostealer appelé Poseidon).
+**Ce n'est pas un incident isolé**, des attaquants utilisent régulièrement Google Ads pour diffuser divers types de logiciels malveillants à travers de sites trompeurs.Ceux-ci imitent des logiciels légitimes populaires tels que **VLC**, **7-Zip** et **CCleaner** et paient **Google** pour être référencés au dessus des autres résultats (exemple pour Open Broadcaster Software) :  
 
 ![Source : blog.osarmor.com](images/google_ads_threat/obs-studio-search-results.webp)
 
 La menace est particulièrement insidieuse car elle exploite la **légitimité perçue de Google** et par extension son module **"Ads"**. Les utilisateurs, habitués à faire confiance aux **résultats sponsorisés** de Google, peuvent être moins vigilants face à ces annonces malveillantes. 
 
 !!!primary Experience personnelle
-À titre personnel, une entreprise dans laquelle j'ai été interne à subit une **crise** (type ransomware) dûe à une **ransomnote** présente en plein écran sur le pc d'un collaborateur. J'ai recommandé à plusieurs reprises un **bloqueur de publicité** côté naviguateur, mais la hiérarchie pensait que les **firewalls** feraient le travail (sachant qu'il étaient neuf à ce moment et fraichement configurés, je ne vais pas rentrer dans les détails, les blocklists de domaines c'est clairement pas suffisant...). En plus de générer du stress et une cessation de l'activité temporaire du collaborateur, l'entreprise à fait appel à un **prestataire spécialisé en forensics** pour trouver l'origine de cette "attaque", qui s'avèrait être un **site imitant une ransomnote en plein écran**. Site atteint par l'utilisateur à cause des **liens sponsorisés** en haut de page sur Google (bloqués par défaut par des bloqueurs de pubs).
+À titre personnel, une entreprise dans laquelle j'ai été interne à subit une **crise** (type ransomware) dûe à une **ransomnote** présente en plein écran sur le pc d'un collaborateur. J'ai recommandé à plusieurs reprises un **bloqueur de publicités** côté naviguateur, mais la hiérarchie pensait que les **firewalls** feraient le travail (sachant qu'il étaient neufs à ce moment et fraichement configurés, je ne vais pas rentrer dans les détails, les blocklists de domaines c'est clairement pas suffisant...). En plus de générer du stress et une cessation de l'activité temporaire du collaborateur, l'entreprise à fait appel à un **prestataire spécialisé en forensics** pour trouver l'origine de cette "attaque", qui s'avèrait être un **site imitant une ransomnote en plein écran**. Site atteint par l'utilisateur à cause des **liens sponsorisés** en haut de page sur Google (bloqués par défaut par des bloqueurs de publicités).
 !!!
 
 Les fichiers téléchargés par ces sites malveillants sont très souvent des **archives au format zip avec un mot de passe**. Cela permet de **contourner les scans antivirus** des plates-formes sur lesquelles ils sont hébergés.  
