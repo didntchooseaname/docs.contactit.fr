@@ -56,30 +56,31 @@ When you successfully complete all the learning objectives, you'll be able to do
 
 ## 💻 Exam
 
-:icon-desktop-download: During the exam, the candidate will be asked to carry out a **command execution on the five machines in the lab** (at least 4 to pass the exam). Local administrator rights are not required on these machines, as no flags are to be collected. The candidate will have **48 hours**, including an extra hour to install the necessary tools, to compromise the entire lab and take screenshots attesting to the method of compromise employed, thus enriching the final report, which must be beyond reproach.  
+:icon-desktop-download: **I must remain somewhat vague to avoid spoiling the exam setup.** During the exam, the candidate's mission is to successfully execute commands on the machines within the lab scope (at least 4 to pass the exam, excluding the provided VM). It is not required to obtain local administrator rights on these machines, as no flags need to be collected. The candidate will have **48 hours**, including an additional hour for installing necessary tools, to compromise almost the entire lab and take screenshots that demonstrate the method used, thus enhancing the final report, which should be as flawless as possible.  
 
-icon-shield-check: **Microsoft Defender is active on all machines**. Defender can be disabled if you have local administrator privileges and should be bypassed on a specific machine.
+:icon-shield-check: **Microsoft Defender is active on all machines**. Defender can be disabled if you have local administrator privileges, but according to the course, you must bypass Defender at least once.
 
 !!! danger
-Following feedback from students, Nikhil has agreed to integrate a workaround for MDE. However, it is important to note that this approach could become ineffective at any time. In fact, MDE is continually being enriched with new data and could, at any moment, block this bypass technique.
+Following student feedback, Nikhil has agreed to include a method for bypassing MDE. However, it is important to note that this approach could become ineffective at any time. Indeed, MDE is continuously updated with new data and could block this bypass technique at any moment.
 !!!
 
-Techniques such as bruteforce, guessing, MDE bypass, certificate abuse or exploitation of known vulnerabilities (CVE) are not used during the examination.
+During the exam, techniques such as brute force, guessing, bypassing MDE, abusing certificates, or exploiting known vulnerabilities (CVE) are not useful.
+
+After starting the exam, the list of machines appeared on the interface within about ten minutes. It is now necessary to generate the credentials to connect to the first machine, as Altered Security certifications are based on an "Assumed Breach" scenario. Remember that Windows Defender is active, so you will need to perform privilege escalation and/or enumeration considering this element. I was able to escalate my privileges, disable protections on the machine for greater ease, dump lsass, and enumerate the current domain.
+
+The first and second movements require time, logic, specific enumeration, and research/documentation. I was able to complete them after a few hours, while drafting the report with screenshots.
+
+The third movement is easily identifiable after enumerating the forest we are now in. I was able to exploit it quickly and compromise it.
+
+For the fourth movement, I had to juggle between the enumeration elements of the two forests to find the next step. The path was then clear: the four machines were accessible, and for the last one, the attack vector was a formality.
+
+There are indeed five machines in the lab, but the difficulty and time required per movement can be significant. The initial movements are not necessarily straightforward and can include many steps, sometimes causing frustration, especially if blocked on the first machine to compromise. It is important not to forget to read the tool documentation, consult usual cheatsheets (hacktricks, thehacker.recipes), and above all, to test.
 
 ---
 
 ## 📖 Report
 
-:icon-project-roadmap: The report should be written entirely in **English**. Corrective measures should be suggested for any inappropriate configurations identified**, and references to **blog posts** should be added to reinforce the credibility of the document. It is also essential to explain how the tools used work and why they were chosen. My individual report was created using [sysreptor](https://github.com/Syslifters/sysreptor) and follows the following format:  
-
-- **Title**
-- **Summary**
-- Compromise scheme** **Detailed description of the steps involved**
-- **Detailed description of steps** **Remediations**
-- **Remediations**
-- Presentation of tools used**
-- **References to blog articles consulted**
-- **Conclusion**
+:icon-project-roadmap: The report must be written entirely in **English**. It should suggest **corrective measures for the identified misconfigurations** and include references to **blog articles** to enhance the credibility of the document. It is also essential to explain the functionality of the tools used and the reasons for their selection. My individual report was created using [sysreptor](https://github.com/Syslifters/sysreptor) and the [Altered-Security-Reporting](https://github.com/didntchooseaname/Altered-Security-Reporting) template, which I developed with the help of two contributors based on the calzone template. The project's goal is to save time on formatting, automate elements such as the structure of the Executive Summary and Table of Contents, and most importantly, focus on completing only the *functional* parts of the document, such as the *scope* and *attack vectors*.
 
 ---
 

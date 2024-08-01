@@ -60,30 +60,31 @@ Quand vous compléterez l'ensemble des objectifs d'apprentissage avec succès, v
 
 ## 💻 Examen
 
-:icon-desktop-download: Au cours de l'examen, le candidat aura pour mission de mener à bien une **exécution de commandes sur les cinq machines du lab** (au moins 4 pour réussir l'examen). Il n'est pas requis d'obtenir les droits d'administrateur local sur ces machines, d'autant plus qu'aucun flag n'est à collecter. Le candidat disposera de **48 heures**, incluant une heure supplémentaire allouée pour l'installation des outils nécessaires, afin de compromettre la totalité du lab et de réaliser des captures d'écran qui attestent de la méthode de compromission employée, enrichissant ainsi le rapport final qui doit être irréprochable.  
+:icon-desktop-download: **Je me dois de rester asser évasif pour ne pas spoil le set d'examen.** Au cours de l'examen, le candidat aura pour mission de mener à bien une **exécution de commandes sur les machines dans le scope du lab** (au moins 4 pour réussir l'examen, excepté la vm fournie). Il n'est pas requis d'obtenir les droits d'administrateur local sur ces machines, d'autant plus qu'aucun flag n'est à collecter. Le candidat disposera de **48 heures**, incluant une heure supplémentaire allouée pour l'installation des outils nécessaires, afin de compromettre la totalité du lab (ou presque) et de réaliser des captures d'écran qui attestent de la méthode de compromission employée, enrichissant ainsi le rapport final qui doit être le plus irréprochable possible.  
 
-:icon-shield-check: **Microsoft Defender est actif sur l'ensemble des machines**. Defender peut être désactivé si vous disposez des privilèges d'administrateur local, il faudra conformément au cours, bypass defender sur une machine.  
+:icon-shield-check: **Microsoft Defender est actif sur l'ensemble des machines**. Defender peut être désactivé si vous disposez des privilèges d'administrateur local, il faudra conformément au cours, bypass defender au moins lors d'une étape.  
 
 !!! danger
 Suite aux retours des étudiants, Nikhil a accepté d'intégrer une méthode de contournement de MDE. Cependant, il est important de noter que cette approche pourrait devenir inefficace à tout instant. En effet, MDE s'enrichit continuellement de nouvelles données et pourrait, à n'importe quel moment, bloquer cette technique de contournement.
 !!!
 
-Durant l'examen, les techniques telles que le bruteforce, le guessing, bypass MDE, l'abus de certificats ou l'exploitation de vulnérabilités connues (CVE) ne sont pas utiles.
+Durant l'examen, les techniques telles que le bruteforce, le guessing, bypass MDE, l'abus de certificats ou l'exploitation de vulnérabilités connues (CVE) ne sont pas utiles.  
+
+Après avoir lancé l'examen, la liste des machines est apparue sur l'interface en une dizaine de minutes. Il est désormais nécessaire de générer les identifiants pour se connecter à la première machine, étant donné que les certifications d'Altered Security sont basées sur un scénario "Assumed Breach". Rappelons que Windows Defender est actif, il faudra donc effectuer l'escalade de privilèges et/ou l'énumération en tenant compte de cet élément. J'ai réussi à augmenter mes privilèges, à désactiver les protections sur la machine pour plus de sérénité, à dumper lsass et à énumérer le domaine actuel.  
+
+Les premier et deuxième mouvements nécessitent du temps, de la logique, une énumération spécifique et de la recherche/documentation. J'ai pu les passer après quelques heures, tout en rédigeant un brouillon du rapport avec des captures d'écran. 
+
+Le troisième mouvement est facilement identifiable après une énumération de la forêt dans laquelle nous nous trouvons maintenant. J'ai pu l'exploiter rapidement et la compromettre.  
+
+Pour le quatrième mouvement, j'ai dû jongler entre les éléments d'énumération des deux forêts pour trouver la prochaine étape. La suite était alors toute tracée : les quatre machines étaient accessibles et pour la dernière, le vecteur d'attaque était une formalité.  
+
+Certes, il y a cinq machines dans le lab, mais la difficulté et le temps nécessaire par mouvement peuvent être importants. Les premiers mouvements ne sont pas forcément évidents et peuvent comprendre de nombreuses étapes, générant parfois une certaine frustration, notamment en cas de blocage sur la première machine à compromettre. Il est important de ne pas oublier de lire la documentation des outils, de consulter les cheatsheets habituelles (hacktricks, thehacker.recipes) et surtout, de tester.
 
 ---
 
 ## 📖 Rapport
 
-:icon-project-roadmap: Le rapport devra être rédigé intégralement en **anglais**. Il conviendra de suggérer des **mesures correctives pour les configurations inappropriées identifiées**, et d'ajouter des références à des **articles de blog** pour renforcer la crédibilité du document. Il est également essentiel d'expliquer le fonctionnement des outils utilisés et les raisons de leur choix. Mon rapport individuel a été créé à l'aide de [sysreptor](https://github.com/Syslifters/sysreptor) et suit le format suivant :
-
-- **Titre**
-- **Sommaire**
-- **Schéma de compromission**
-- **Description détaillée des étapes**
-- **Remédiations**
-- **Présentation des outils utilisés**
-- **Références aux articles de blog consultés**
-- **Conclusion**
+:icon-project-roadmap: Le rapport devra être rédigé intégralement en **anglais**. Il conviendra de suggérer des **mesures correctives pour les configurations inappropriées identifiées**, et d'ajouter des références à des **articles de blog** pour renforcer la crédibilité du document. Il est également essentiel d'expliquer le fonctionnement des outils utilisés et les raisons de leur choix. Mon rapport individuel a été créé à l'aide de [sysreptor](https://github.com/Syslifters/sysreptor) et le template [Altered-Security-Reporting](https://github.com/didntchooseaname/Altered-Security-Reporting), que j'ai pu créer avec l'aide de 2 contributeurs sur base du template calzone. L'objectif du projet est de gagner du temps sur la forme, automatiser les élements comme la strcture de l'Executive Summary et la Table des matières et surtout, de ne remplir que la partie *fonctionnelle* du document comme le *périmètre* et les *vecteurs d'attaques*.
 
 ---
 
