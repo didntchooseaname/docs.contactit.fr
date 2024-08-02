@@ -8,7 +8,7 @@ order: 100
 
 === :icon-chevron-right: Qui es-tu ?
 
-:icon-accessibility: Passionné d'informatique depuis 10 ans maintenant 🧐, je suis en première année de Master Of Science (M2) Expert cybersécurité avec Guardia Cybersecurity school en alternance. J'occupe un poste d'alternant RSSI, mes principales tâches sont liées au métier de SOC analyst, Digital Forensics et Reponse à incidents (DFIR).
+:icon-accessibility: Passionné d'informatique depuis 10 ans maintenant 🧐, je suis en deuxième année de Master Of Science (M2) Expert cybersécurité avec Guardia Cybersecurity school en alternance. J'occupe un poste d'alternant RSSI, mes principales tâches sont liées au métier de SOC analyst, Digital Forensics et Reponse à incidents (DFIR).
 
 :arrow_right: De par les rencontres et les nombreuses discussions que j'ai pu avoir avec de nombreux acteurs, venant d'un cursus systèmes et réseaux, j'ai décidé de me spécialisé en cybersécurité.
 
