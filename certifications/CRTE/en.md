@@ -8,7 +8,7 @@ order: 97
 description: Experience feedback on CRTE, Altered Security's Red Team certification in an Active Directory environment.
 ---
 
-# 🛡️ Certified Red Team Expert
+# 🛡️ Certified Red Team Expert review
 
 ![Source : https://www.alteredsecurity.com/redteamlab](images/lab.webp)
 

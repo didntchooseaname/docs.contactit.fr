@@ -8,7 +8,7 @@ order: 97
 description: Experience feedback on CRTP, Altered Security's Red Team certification in an Active Directory environment.
 ---
 
-# 🛡️ Certified Red Team Professional
+# 🛡️ Certified Red Team Professional review
 
 ![Source: redteamdefense.org](images/redteam.webp)
 

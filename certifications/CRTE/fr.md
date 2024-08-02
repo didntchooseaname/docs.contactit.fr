@@ -8,7 +8,7 @@ order: 98
 description: Retour d'expérience concernant la CRTE, certification Red Team d'Altered Security en environnement Active Directory.
 ---
 
-# 🛡️ Certified Red Team Expert
+# 🛡️ Certified Red Team Expert review
 
 ![Source : redteamdefense.org](images/lab.webp)
 
