@@ -16,7 +16,7 @@ Before naming the model, I would like to say first that I set some limits regard
 
 As an IT worker for few years now, I noticed that a lot of enterprises (including the ones I was in) **switched from various brands to Lenovo Thinkpads** for good reasons as look, feel, performance/price, keyboard, functionalities and most of all stability and good support. I had many Thinkpads in hands and feel great. I will take one personnally.
 
-The context is said, after few weeks of search I found one feets my needs in a perfect condition for $550. The storage was about **500GB**, so I commanded a new nvme of **1TB** at the same time for $100.
+The context is said, after few weeks of search I found one feets my needs in a perfect condition for $550. The storage was about **500GB**, so I commanded a new nvme of **1TB** at the same time for $100 and upgraded the flash memory to 32Gb for $60.
 
 Here is the precise model i have now : **Lenovo ThinkPad P14s Gen 1 - 14"**
 
@@ -28,7 +28,7 @@ Here is the precise model i have now : **Lenovo ThinkPad P14s Gen 1 - 14"**
 
 CPU | RAM | ROM
 --- | --- | ---
-Ryzen 7 PRO 4750U (8 physicals cores) | 16GB 3200Mhz | 1TB Nvme Samsung EVO 775 Pro
+Ryzen 7 PRO 4750U (8 physicals cores) | 32GB 3200Mhz | 1TB Nvme Samsung EVO 775 Pro
 
 All specifications could be found [here](https://www.officexpress.fr/10145925-20y1000qfr-lenovo-thinkpad-p14s-gen-20y1-amd-ryzen-pro-4750u-jusqu-ghz-win-pro-bits-radeon-graphics-ram-256-ssd-tcg-opal-encryption-ips-1920-1080-full-noir-clavier-fran-ais-3540260184357).
 
@@ -58,7 +58,7 @@ The **"Arch Users Repository"** is a huge repository of packages provided by the
 
 :icon-ruby: But wait, you said you're on Arch right now ! So yes, I switched few weeks later because of the **unsustainability of the SID realease of debian**, the fact that some **core packages aren't maintained** and Ja would like to **stop the support about his configurations on debian Trixie** for the moment. 
 
-:icon-pencil: **EDIT**: I switched to the [ML4W's dotfiles](https://gitlab.com/stephan-raabe/dotfiles), more updated, GUI to modify hyprland settings and better integrations.
+:icon-pencil: **EDIT**: I switched to the [ML4W's dotfiles](https://github.com/mylinuxforwork/dotfiles), more updated, GUI to modify hyprland settings and better integrations.
 
 ---
 
@@ -82,7 +82,7 @@ Where `test` is the container's name and `nightly` the docker image it's based o
 exegol install
 ```
 
-It will ask your for the name of the image you want to install as the table shows.
+It will ask you for the name of the image you want to install as the table shows.
 
 ![](Linux/images/my-configuration/exegolinstall.webp)
 
@@ -100,7 +100,7 @@ You can follow installation steps and get some tips here:
 
 #### 🔧 Important Notice
 
-**Note**: When Arch was installed i experienced issue about the keybloard layout into the cryptsetup prompt (which was set to US). It seems to be an old issue for a lots of Arch users, here is the solution (in chroot after installation or enter your passphrase and think about QWERTY layout):
+**Note**: When Arch was installed i experienced an issue about the keybloard layout into the cryptsetup prompt (which was set to US). It seems to be an old issue for a lots of Arch users, here is the solution (in chroot after installation or enter your passphrase and think about QWERTY layout):
 
 ```sh
 vim /etc/vconsole.conf
@@ -140,7 +140,7 @@ nvim
 
 ### 🗄️ And for Virtualization ?
 
-I use QEMU/KVM and a script to launch and RDP automatically a forensics Virtual Machine
+I use QEMU/KVM and a script to launch and RDP automatically in a forensics Virtual Machine.
 
 **QEMU imstall:** Make sure you update your system with a `sudo pacman -Syu` BEFORE you install the dependencies:
 
@@ -155,7 +155,7 @@ unix_sock_group = "libvirt"
 unix_sock_rw_perms = "0770"
 ```
 
-Then add your user and create group:
+Then add your user and create a group:
 
 ```sh
 sudo usermod -a -G libvirt $(whoami)
@@ -208,7 +208,7 @@ tmp=$(virsh --connect qemu:///system list | grep " $vmname " | awk '{ print $3}'
 
 if ([ "x$tmp" == "x" ] || [ "x$tmp" != "xrunning" ]); then
 	echo "Virtual Machine $vmname is starting now... Waiting 30s before starting xfreerdp."
-	notify-send "Virtual Machine $vmname 11 is starting now..." "Waiting 30s before starting xfreerdp."
+	notify-send "Virtual Machine $vmname is starting now..." "Waiting 30s before starting xfreerdp."
 	virsh --connect qemu:///system start $vmname
 	sleep 30
 else
@@ -229,7 +229,11 @@ fi
 
 ### 🗃️ How do you manage programs ?
 
-**Pacman** take care of core/extra packages, **yay** of **AUR**'s ones.  
+**Pacman** take care of core/extra packages, **yay** of **AUR**'s ones, on time per month i cleanup orphaned packages and cache:
+
+```sh
+sudo pacman -Rns $(pacman -Qtdq) && yay -Scc
+```
 
 ---
 
