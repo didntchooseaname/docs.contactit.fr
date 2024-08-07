@@ -39,11 +39,7 @@ When you purchase CRTE ($300), you'll be asked to enter an email address. It's b
 📍 The learning environment and the certification environment are similar, particularly in terms of security measures:
 All servers are running **Windows Server 2019** (Not yet updated to 2022 as of date, there are no practical differences between the 2 versions of Windows Server) with the **security updates applied as of date**, the **firewall Windows and Defender are active**, some servers are in **"core "** version, plus security mechanisms like **WDAC/gMSA/LAPS**. A big step forward in terms of security compared to the PTRC environment. **The presence of misconfigurations/ACLs allows machines to be compromised.  
 
-:icon-alert: As with CRTP, the bootcamp once again brings real added value to the course (LabManual.pdf). I'd even go so far as to say that this is what makes Altered Security so valuable: the feedback, the anecdotes, the detailed explanations of concepts; all of which can be heard in the bootcamp videos hosted by Nikhil (Founder of Altered Security).  
-
-When you successfully complete all the learning objectives, you'll be able to download a certificate :  
-
-![Lab interface](images/crte_lab.png)
+:icon-alert: As with CRTP, the bootcamp once again brings real added value to the course (LabManual.pdf). I'd even go so far as to say that this is what makes Altered Security so valuable: the feedback, the anecdotes, the detailed explanations of concepts; all of which can be heard in the bootcamp videos hosted by **Nikhil Mittal** (Founder of Altered Security) and **Munaf Sahriff** now.
 
 ---
 
