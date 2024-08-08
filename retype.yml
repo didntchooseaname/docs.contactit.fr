@@ -9,6 +9,12 @@ links:
 - text: Site Web
   link: https://contactit.fr
   icon: three-bars
+- text: HackTheBox
+  link: https://app.hackthebox.com/profile/1468045
+  icon: table
+- text: Root-Me
+  link: https://www.root-me.org/0rion_
+  icon: table
 - text: TryHackMe
   link: https://tryhackme.com/p/EnterUsername
   icon: table
