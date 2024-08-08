@@ -61,13 +61,13 @@ Durant l'examen, les techniques telles que le bruteforce, le guessing, bypass MD
 
 Après avoir lancé l'examen, la liste des machines est apparue sur l'interface en une dizaine de minutes. Il est désormais nécessaire de générer les identifiants pour se connecter à la première machine, étant donné que les certifications d'Altered Security sont basées sur un scénario "Assumed Breach". Rappelons que Windows Defender est actif, il faudra donc effectuer l'escalade de privilèges et/ou l'énumération en tenant compte de cet élément. J'ai réussi à augmenter mes privilèges, à désactiver les protections sur la machine pour plus de sérénité, à dumper lsass et à énumérer le domaine actuel.  
 
-Les premier et deuxième mouvements nécessitent du temps, de la logique, une énumération spécifique et de la recherche/documentation. J'ai pu les passer après quelques heures, tout en rédigeant un brouillon du rapport avec des captures d'écran. 
+:icon-arrow-right: Les premier et deuxième mouvements nécessitent du temps, de la logique, une énumération spécifique et de la recherche/documentation. J'ai pu les passer après quelques heures, tout en rédigeant un brouillon du rapport avec des captures d'écran. 
 
-Le troisième mouvement est facilement identifiable après une énumération de la forêt dans laquelle nous nous trouvons maintenant. J'ai pu l'exploiter rapidement et la compromettre.  
+:icon-arrow-right: Le troisième mouvement est facilement identifiable après une énumération de la forêt dans laquelle nous nous trouvons maintenant. J'ai pu l'exploiter rapidement et la compromettre.  
 
-Pour le quatrième mouvement, j'ai dû jongler entre les éléments d'énumération des deux forêts pour trouver la prochaine étape. La suite était alors toute tracée : les quatre machines étaient accessibles et pour la dernière, le vecteur d'attaque était une formalité.  
+:icon-arrow-right: Pour le quatrième mouvement, j'ai dû jongler entre les éléments d'énumération des deux forêts pour trouver la prochaine étape. La suite était alors toute tracée : les quatre machines étaient accessibles et pour la dernière, le vecteur d'attaque était une formalité.  
 
-Certes, il y a cinq machines dans le lab, mais la difficulté et le temps nécessaire par mouvement peuvent être importants. Les premiers mouvements ne sont pas forcément évidents et peuvent comprendre de nombreuses étapes, générant parfois une certaine frustration, notamment en cas de blocage sur la première machine à compromettre. Il est important de ne pas oublier de lire la documentation des outils, de consulter les cheatsheets habituelles (hacktricks, thehacker.recipes) et surtout, de tester.
+:icon-arrow-right: Certes, il y a cinq machines dans le lab, mais la difficulté et le temps nécessaire par mouvement peuvent être importants. Les premiers mouvements ne sont pas forcément évidents et peuvent comprendre de nombreuses étapes, générant parfois une certaine frustration, notamment en cas de blocage sur la première machine à compromettre. Il est important de ne pas oublier de lire la documentation des outils, de consulter les cheatsheets habituelles (hacktricks, thehacker.recipes) et surtout, de tester.
 
 ---
 
