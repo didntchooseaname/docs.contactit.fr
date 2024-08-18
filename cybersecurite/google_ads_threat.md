@@ -37,6 +37,8 @@ Comme toujours, pour s'en prémunir il est nécessaire de **télécharger les lo
 Ce point laisse penser qu'au mieux la firme ferme les yeux pour avoir des **revenus plus importants** englobant également tous un package d'**acteurs malveillants**, ou au pire **néglige les contrôles de sécurité effectués**...  
 
 [!embed](https://youtu.be/c5fAiwVvr6s)
+ 
+[!embed](https://youtu.be/kgckm2DGOOY)
 
 - Sources :
 
@@ -45,3 +47,5 @@ Ce point laisse penser qu'au mieux la firme ferme les yeux pour avoir des **reve
 [https://www.schneier.com/blog/archives/2023/02/malware-delivered-through-google-search.html](https://www.schneier.com/blog/archives/2023/02/malware-delivered-through-google-search.html)  
 [https://www.bleepingcomputer.com/news/security/ransomware-access-brokers-use-google-ads-to-breach-your-network/](https://www.bleepingcomputer.com/news/security/ransomware-access-brokers-use-google-ads-to-breach-your-network/)  
 [https://www.bleepingcomputer.com/news/security/hackers-push-malware-via-google-search-ads-for-vlc-7-zip-ccleaner/](https://www.bleepingcomputer.com/news/security/hackers-push-malware-via-google-search-ads-for-vlc-7-zip-ccleaner/)  
+[https://www.bleepingcomputer.com/news/security/google-ads-push-fake-google-authenticator-site-installing-malware/](https://www.bleepingcomputer.com/news/security/google-ads-push-fake-google-authenticator-site-installing-malware/)  
+[https://www.bleepingcomputer.com/tag/google-ads/](https://www.bleepingcomputer.com/tag/google-ads/)
