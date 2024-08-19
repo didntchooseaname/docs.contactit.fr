@@ -18,7 +18,8 @@ Ces publicités malveillantes imitaient **Arc**, un navigateur populaire sur mac
 ![Source : arstechnica.com](images/google_ads_threat/malicious-google-ad-for-fake-arc-browser.webp)
 
 Une fois téléchargé et installé, le logiciel malveillant transmettait les données de l'utilisateur (un infostealer appelé Poseidon).
-**Ce n'est pas un incident isolé**, des attaquants utilisent régulièrement Google Ads pour diffuser divers types de logiciels malveillants à travers de sites trompeurs.Ceux-ci imitent des logiciels légitimes populaires tels que **VLC**, **7-Zip** et **CCleaner** et paient **Google** pour être référencés au dessus des autres résultats (exemple pour Open Broadcaster Software) :  
+**Ce n'est pas un incident isolé**, des attaquants utilisent régulièrement Google Ads pour diffuser divers types de logiciels malveillants à travers de sites trompeurs.
+Ceux-ci imitent des logiciels légitimes populaires tels que **VLC**, **7-Zip** et **CCleaner** et paient **Google** pour être référencés au dessus des autres résultats (exemple pour Open Broadcaster Software) :  
 
 ![Source : blog.osarmor.com](images/google_ads_threat/obs-studio-search-results.webp)
 
@@ -40,12 +41,16 @@ Ce point laisse penser qu'au mieux la firme ferme les yeux pour avoir des **reve
  
 [!embed](https://youtu.be/kgckm2DGOOY)
 
-- Sources :
+**- Sources :**
 
 [https://arstechnica.com/security/2024/06/mac-info-stealer-malware-distributed-through-google-ads/](https://arstechnica.com/security/2024/06/mac-info-stealer-malware-distributed-through-google-ads/)  
 [https://latesthackingnews.com/2023/01/05/new-malware-campaign-spreads-by-exploiting-google-ads/](https://latesthackingnews.com/2023/01/05/new-malware-campaign-spreads-by-exploiting-google-ads/)  
 [https://www.schneier.com/blog/archives/2023/02/malware-delivered-through-google-search.html](https://www.schneier.com/blog/archives/2023/02/malware-delivered-through-google-search.html)  
 [https://www.bleepingcomputer.com/news/security/ransomware-access-brokers-use-google-ads-to-breach-your-network/](https://www.bleepingcomputer.com/news/security/ransomware-access-brokers-use-google-ads-to-breach-your-network/)  
 [https://www.bleepingcomputer.com/news/security/hackers-push-malware-via-google-search-ads-for-vlc-7-zip-ccleaner/](https://www.bleepingcomputer.com/news/security/hackers-push-malware-via-google-search-ads-for-vlc-7-zip-ccleaner/)  
+
+**- References :**
+
 [https://www.bleepingcomputer.com/news/security/google-ads-push-fake-google-authenticator-site-installing-malware/](https://www.bleepingcomputer.com/news/security/google-ads-push-fake-google-authenticator-site-installing-malware/)  
-[https://www.bleepingcomputer.com/tag/google-ads/](https://www.bleepingcomputer.com/tag/google-ads/)
+[https://www.bleepingcomputer.com/tag/google-ads/](https://www.bleepingcomputer.com/tag/google-ads/)  
+[https://www.malwarebytes.com/blog/scams/2024/08/dozens-of-google-products-targeted-by-scammers-via-malicious-search-ads](https://www.malwarebytes.com/blog/scams/2024/08/dozens-of-google-products-targeted-by-scammers-via-malicious-search-ads)
